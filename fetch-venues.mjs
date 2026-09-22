@@ -1,4 +1,4 @@
-// Builds public/venues.json from Playo's public endpoints. Run: node fetch-venues.mjs
+// Builds public/venues.geojson from Playo's public endpoints. Run: node fetch-venues.mjs
 const KEY = 'b4ee93df154de37b0e38aa6a5dfda071aa751bfa'; // public key embedded in playo.co's JS bundle
 const ORIGIN = { lat: 12.9433293, lng: 77.6511633 }; // Challaghatta, Bengaluru
 
@@ -32,7 +32,7 @@ for (let page = 0; page !== -1; ) {
 }
 
 const fs = await import('node:fs/promises');
-const previous = new Map(await fs.readFile('public/venues.json', 'utf8').then(t => JSON.parse(t).venues.map(v => [v.id, v])).catch(() => []));
+const previous = new Map(await fs.readFile('public/venues.geojson', 'utf8').then(t => JSON.parse(t).features.map(f => [f.properties.id, f.properties])).catch(() => []));
 const list = [...venues.values()];
 let priced = 0, failed = 0, kept = 0, next = 0;
 await Promise.all(Array.from({ length: 4 }, async () => {
@@ -55,5 +55,7 @@ await Promise.all(Array.from({ length: 4 }, async () => {
 
 const km = (a, b) => { const r = Math.PI / 180, x = Math.sin((b.lat - a.lat) * r / 2) ** 2 + Math.cos(a.lat * r) * Math.cos(b.lat * r) * Math.sin((b.lng - a.lng) * r / 2) ** 2; return 6371 * 2 * Math.atan2(Math.sqrt(x), Math.sqrt(1 - x)); };
 list.sort((a, b) => km(ORIGIN, a) - km(ORIGIN, b));
-await fs.writeFile('public/venues.json', JSON.stringify({ updatedAt: new Date().toISOString(), venues: list }));
-console.log(`public/venues.json: ${list.length} venues, ${priced} priced now, ${kept} kept from previous run, ${failed} without price`);
+const color = p => p == null ? '#8290a3' : p < 1000 ? '#438df4' : p < 1500 ? '#e7953a' : '#26a879'; // GitHub's map preview reads marker-color
+const features = list.map(({ lat, lng, ...p }) => ({ type: 'Feature', geometry: { type: 'Point', coordinates: [lng, lat] }, properties: { ...p, 'marker-color': color(p.minPrice) } }));
+await fs.writeFile('public/venues.geojson', JSON.stringify({ type: 'FeatureCollection', updatedAt: new Date().toISOString(), features }));
+console.log(`public/venues.geojson: ${list.length} venues, ${priced} priced now, ${kept} kept from previous run, ${failed} without price`);

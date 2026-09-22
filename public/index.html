@@ -126,8 +126,8 @@ map.addControl(geo, 'bottom-right');
 map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'bottom-right');
 geo.on('geolocate', p => { here = { lat: p.coords.latitude, lng: p.coords.longitude }; render(); }); // distances and "nearest first" follow the blue dot
 
-fetch('venues.json').then(r => r.json()).then(d => {
-  venues = d.venues;
+fetch('venues.geojson').then(r => r.json()).then(d => {
+  venues = d.features.map(f => ({ ...f.properties, lng: f.geometry.coordinates[0], lat: f.geometry.coordinates[1] }));
   $('catalog-age').textContent = `catalog ${new Date(d.updatedAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })}`;
   for (const v of venues) {
     const el = document.createElement('button');
@@ -137,7 +137,7 @@ fetch('venues.json').then(r => r.json()).then(d => {
     markers.set(v.id, new maplibregl.Marker({ element: el }).setLngLat([v.lng, v.lat]).addTo(map));
   }
   render();
-}).catch(() => { $('list').innerHTML = '<div class="note err">venues.json did not load. Run <code>node fetch-venues.mjs</code> and serve this folder over http.</div>'; });
+}).catch(() => { $('list').innerHTML = '<div class="note err">venues.geojson did not load. Run <code>node fetch-venues.mjs</code> and serve this folder over http.</div>'; });
 
 function shown() {
   const q = $('q').value.trim().toLowerCase(), b = $('budget').value;
