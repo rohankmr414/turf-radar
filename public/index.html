@@ -62,19 +62,33 @@
   details table { width:100%; font-size:12px; color:var(--muted); margin-top:6px; }
   details td:last-child { text-align:right; color:var(--ink); }
   .muted { font-size:12px; color:var(--muted); }
+  .sheet { display:contents; }
+  #map { order:2; } .detail { order:3; }
+  .grip, .back { display:none; }
   @media (max-width: 900px) {
-    .app { grid-template-columns:1fr; grid-template-rows:50dvh auto auto; height:auto; }
-    #map { grid-row:1; height:50dvh; }
-    aside { grid-row:2; border-right:0; border-bottom:1px solid var(--line); max-height:340px; }
-    .detail { grid-row:3; border-left:0; }
+    .app { position:relative; display:block; height:calc(100dvh - 56px); --sheet:45%; }
+    #map { position:absolute; inset:0; }
     header small { display:none; }
     .legend { top:10px; bottom:auto; left:10px; right:10px; justify-content:center; padding:6px 10px; font-size:11px; gap:4px 10px; box-shadow:0 2px 8px #0002; }
+    .maplibregl-ctrl-bottom-right, .maplibregl-ctrl-bottom-left { bottom:var(--sheet); }
+    .sheet { display:flex; flex-direction:column; position:absolute; left:0; right:0; bottom:0; height:var(--sheet); background:var(--panel); border-radius:16px 16px 0 0; box-shadow:0 -4px 20px #0002; transition:height .2s; z-index:6; }
+    .sheet.dragging { transition:none; }
+    .grip { display:flex; flex:none; height:24px; justify-content:center; align-items:center; cursor:grab; touch-action:none; }
+    .grip::before { content:''; width:40px; height:4px; border-radius:2px; background:#c8d0d8; }
+    aside, .detail { flex:1; min-height:0; overflow-y:auto; border:0; }
+    .controls { padding-top:4px; }
+    .back { display:block; flex:none; text-align:left; background:none; border:0; padding:4px 20px 8px; color:var(--accent); font-weight:600; }
+    .app.show-detail aside, .app:not(.show-detail) .detail, .app:not(.show-detail) .back { display:none; }
   }
 </style>
 </head>
 <body>
 <header><h1>Turf Radar</h1><small>Football turfs · Bengaluru · prices and live slots from Playo</small><span class="live" id="catalog-age"></span></header>
-<div class="app">
+<div class="app" id="app">
+  <div id="map">
+    <div class="legend"><b>Starting ₹/hr</b><span><i style="background:#438df4"></i>&lt;1,000</span><span><i style="background:#e7953a"></i>1,000–1,499</span><span><i style="background:#26a879"></i>1,500+</span><span><i style="background:#8290a3"></i>unknown</span></div>
+  </div>
+  <div class="sheet" id="sheet"><div class="grip" id="grip"></div>
   <aside>
     <div class="controls">
       <input id="q" type="search" placeholder="Search venue or area" aria-label="Search venue or area">
@@ -94,10 +108,9 @@
     </div>
     <div class="list" id="list"></div>
   </aside>
-  <div id="map">
-    <div class="legend"><b>Starting ₹/hr</b><span><i style="background:#438df4"></i>&lt;1,000</span><span><i style="background:#e7953a"></i>1,000–1,499</span><span><i style="background:#26a879"></i>1,500+</span><span><i style="background:#8290a3"></i>unknown</span></div>
-  </div>
+  <button class="back" id="back">‹ All venues</button>
   <div class="detail" id="detail"><div class="note">Pick a venue on the map or from the list.</div></div>
+  </div>
 </div>
 
 <script>
@@ -162,10 +175,30 @@ for (const id of ['q', 'budget', 'sort']) $(id).oninput = render;
 function select(v) {
   selected = v;
   Object.assign(state, { courtId: '', avail: null, error: '', checkedAt: null });
-  map.easeTo({ center: [v.lng, v.lat], zoom: Math.max(map.getZoom(), 13.5) });
+  if (mobile()) { app.classList.add('show-detail'); snapSheet(snaps()[1]); }
+  map.easeTo({ center: [v.lng, v.lat], zoom: Math.max(map.getZoom(), 13.5), offset: [0, mobile() ? -sheetPx / 2 : 0] }); // keep the pin in the strip above the sheet
   render(); renderDetail(); load();
-  if (matchMedia('(max-width: 900px)').matches) $('detail').scrollIntoView({ behavior: 'smooth' });
 }
+
+// Mobile bottom sheet: snaps to peek / half / full, dragged or tapped via the grip.
+const app = $('app'), sheet = $('sheet'), grip = $('grip');
+const mobile = () => matchMedia('(max-width: 900px)').matches;
+const snaps = () => { const h = app.clientHeight; return [120, h * 0.45, h - 12]; };
+let sheetPx = 0, drag = null;
+function setSheet(px) { sheetPx = Math.max(120, Math.min(app.clientHeight - 12, px)); app.style.setProperty('--sheet', sheetPx + 'px'); }
+function snapSheet(px) { setSheet(snaps().reduce((a, b) => Math.abs(b - px) < Math.abs(a - px) ? b : a)); }
+grip.onpointerdown = e => { drag = { y: e.clientY, h: sheetPx }; grip.setPointerCapture(e.pointerId); sheet.classList.add('dragging'); };
+grip.onpointermove = e => { if (drag) setSheet(drag.h + drag.y - e.clientY); };
+grip.onpointerup = grip.onpointercancel = e => {
+  if (!drag) return;
+  sheet.classList.remove('dragging');
+  const [, half, full] = snaps(), tap = Math.abs(e.clientY - drag.y) < 6;
+  snapSheet(tap ? (sheetPx < half - 1 ? half : sheetPx < full - 1 ? full : half) : sheetPx);
+  drag = null;
+};
+$('back').onclick = () => app.classList.remove('show-detail');
+matchMedia('(max-width: 900px)').addEventListener('change', () => { if (mobile()) snapSheet(snaps()[1]); });
+if (mobile()) snapSheet(snaps()[1]);
 
 async function load() {
   clearTimeout(state.timer); state.abort?.abort();
