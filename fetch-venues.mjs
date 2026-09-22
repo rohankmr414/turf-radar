@@ -25,7 +25,7 @@ for (let page = 0; page !== -1; ) {
   });
   for (const v of d.venueList) venues.set(v.id, {
     id: v.id, name: v.name.trim(), area: v.area ?? '', address: v.address ?? '', city: v.city ?? '',
-    slug: v.activeKey ?? '', lat: v.lat, lng: v.lng, rating: Math.round((v.avgRating ?? 0) * 10) / 10, // 1 decimal: the UI shows that much and full floats churn daily bookable: !!v.isBookable, minPrice: null, charts: [],
+    slug: v.activeKey ?? '', lat: v.lat, lng: v.lng, rating: Math.round((v.avgRating ?? 0) * 10) / 10, bookable: !!v.isBookable, minPrice: null, charts: [], // rating to 1 decimal: full floats churn daily
   });
   process.stderr.write(`page ${page}: ${venues.size} venues\n`);
   page = d.nextPage;
