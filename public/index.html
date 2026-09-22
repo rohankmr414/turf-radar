@@ -19,10 +19,13 @@
   header h1 { font-size:18px; margin:0; }
   header small { color:#9fb8a9; }
   header .live { margin-left:auto; font-size:12px; color:#8fd1a8; }
-  .app { display:grid; grid-template-columns:300px 1fr 380px; height:calc(100dvh - 56px); }
+  .app { display:grid; grid-template-columns:300px 1fr; height:calc(100dvh - 56px); }
+  .app.show-detail { grid-template-columns:300px 1fr 380px; }
+  .app:not(.show-detail) .detail { display:none; }
   aside, .detail { background:var(--panel); overflow-y:auto; }
   aside { border-right:1px solid var(--line); display:flex; flex-direction:column; }
-  .detail { border-left:1px solid var(--line); padding:20px; }
+  .detail { border-left:1px solid var(--line); padding:20px; position:relative; }
+  .close { position:absolute; top:10px; right:12px; width:32px; height:32px; border:0; border-radius:50%; background:#f0f3f6; font-size:18px; line-height:1; color:var(--muted); }
   .controls { padding:14px 14px 10px; display:grid; gap:8px; border-bottom:1px solid var(--line); }
   .controls input, .controls select, .detail select, .detail input { width:100%; height:38px; padding:0 10px; border:1px solid var(--line); border-radius:8px; background:#fff; }
   .row { display:flex; gap:8px; }
@@ -40,7 +43,7 @@
   .pin.selected { background:var(--pin); color:#fff; z-index:5; box-shadow:0 0 0 3px #fff,0 3px 10px #0004; }
   .legend { position:absolute; z-index:5; left:12px; bottom:28px; background:#fff; padding:10px 12px; border-radius:8px; font-size:12px; display:flex; gap:12px; flex-wrap:wrap; box-shadow:0 3px 14px #0002; }
   .legend i { display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:5px; }
-  .detail h2 { font-size:20px; margin:0 0 6px; }
+  .detail h2 { font-size:20px; margin:0 0 6px; padding-right:36px; }
   .detail .addr, .detail .links { font-size:13px; color:var(--muted); }
   .detail .links { display:flex; gap:14px; margin:10px 0 18px; }
   .detail h3 { font-size:15px; margin:22px 0 10px; }
@@ -77,8 +80,9 @@
     .grip::before { content:''; width:40px; height:4px; border-radius:2px; background:#c8d0d8; }
     aside, .detail { flex:1; min-height:0; overflow-y:auto; border:0; }
     .controls { padding-top:4px; }
+    .close { display:none; }
     .back { display:block; flex:none; text-align:left; background:none; border:0; padding:4px 20px 8px; color:var(--accent); font-weight:600; }
-    .app.show-detail aside, .app:not(.show-detail) .detail, .app:not(.show-detail) .back { display:none; }
+    .app.show-detail aside, .app:not(.show-detail) .back { display:none; }
   }
 </style>
 </head>
@@ -109,7 +113,7 @@
     <div class="list" id="list"></div>
   </aside>
   <button class="back" id="back">‹ All venues</button>
-  <div class="detail" id="detail"><div class="note">Pick a venue on the map or from the list.</div></div>
+  <div class="detail" id="detail"></div>
   </div>
 </div>
 
@@ -175,7 +179,8 @@ for (const id of ['q', 'budget', 'sort']) $(id).oninput = render;
 function select(v) {
   selected = v;
   Object.assign(state, { courtId: '', avail: null, error: '', checkedAt: null });
-  if (mobile()) { app.classList.add('show-detail'); snapSheet(snaps()[1]); }
+  app.classList.add('show-detail');
+  if (mobile()) snapSheet(snaps()[1]);
   map.easeTo({ center: [v.lng, v.lat], zoom: Math.max(map.getZoom(), 13.5), offset: [0, mobile() ? -sheetPx / 2 : 0] }); // keep the pin in the strip above the sheet
   render(); renderDetail(); load();
 }
@@ -197,6 +202,7 @@ grip.onpointerup = grip.onpointercancel = e => {
   drag = null;
 };
 $('back').onclick = () => app.classList.remove('show-detail');
+function deselect() { selected = null; clearTimeout(state.timer); state.abort?.abort(); app.classList.remove('show-detail'); render(); }
 matchMedia('(max-width: 900px)').addEventListener('change', () => { if (mobile()) snapSheet(snaps()[1]); });
 if (mobile()) snapSheet(snaps()[1]);
 
@@ -261,7 +267,7 @@ function renderDetail() {
   }
   const rates = v.charts.map(c => `<details><summary><span>${esc(c.name)}</span><b>from ${rupees(Math.min(...c.days.flatMap(x => x.times.map(t => t.price))))}</b></summary>
     ${c.days.map(x => `<table><tr><th colspan="2" style="text-align:left">${esc(x.day)}</th></tr>${x.times.map(t => `<tr><td>${esc(t.time)}</td><td>${rupees(t.price)} / hr</td></tr>`).join('')}</table>`).join('')}</details>`).join('');
-  d.innerHTML = `<h2>${esc(v.name)}</h2><div class="addr">${esc(v.address || v.area)}</div>
+  d.innerHTML = `<button class="close" id="close" aria-label="Close">×</button><h2>${esc(v.name)}</h2><div class="addr">${esc(v.address || v.area)}</div>
     <div class="links"><a target="_blank" rel="noreferrer" href="https://www.google.com/maps/search/?api=1&query=${v.lat},${v.lng}">Directions</a><a target="_blank" rel="noreferrer" href="${playo}">Playo page</a></div>
     <h3>Live availability</h3>${cal}
     <h3>Published rates</h3>${rates || '<p class="muted">No published rate.</p>'}`;
@@ -272,6 +278,7 @@ function renderDetail() {
   $('court')?.addEventListener('change', e => { state.courtId = e.target.value; renderDetail(); });
   $('dur')?.addEventListener('change', e => { state.duration = Number(e.target.value); renderDetail(); });
   $('retry')?.addEventListener('click', () => { state.error = ''; renderDetail(); load(); });
+  $('close').onclick = deselect;
 }
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && selected) load(); else clearTimeout(state.timer); });
 </script>
