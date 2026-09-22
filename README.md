@@ -12,7 +12,9 @@ python3 -m http.server 8080 -d public  # any static file server works
 
 Open http://localhost:8080. Opening `index.html` directly from disk does not work because browsers block `fetch` of `venues.geojson` over `file://`.
 
-Deploy: `npx wrangler deploy` (config in `wrangler.jsonc`, uploads `public/` as static assets to Cloudflare). Live at https://turf-radar.rohankmr414.workers.dev. Re-run `fetch-venues.mjs` and deploy again whenever you want a fresher catalog.
+A GitHub Action (`.github/workflows/refresh-venues.yml`) re-runs the fetch daily at 06:30 IST, or on demand from the Actions tab, and commits `public/venues.geojson` when the data changed. If the repo has a `CLOUDFLARE_API_TOKEN` secret it also deploys.
+
+Deploy by hand: `npx wrangler deploy` (config in `wrangler.jsonc`, uploads `public/` as static assets to Cloudflare). Live at https://turf-radar.rohankmr414.workers.dev. Re-run `fetch-venues.mjs` and deploy again whenever you want a fresher catalog.
 
 ## Files
 

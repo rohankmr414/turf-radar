@@ -25,14 +25,15 @@ for (let page = 0; page !== -1; ) {
   });
   for (const v of d.venueList) venues.set(v.id, {
     id: v.id, name: v.name.trim(), area: v.area ?? '', address: v.address ?? '', city: v.city ?? '',
-    slug: v.activeKey ?? '', lat: v.lat, lng: v.lng, rating: v.avgRating ?? 0, bookable: !!v.isBookable, minPrice: null, charts: [],
+    slug: v.activeKey ?? '', lat: v.lat, lng: v.lng, rating: Math.round((v.avgRating ?? 0) * 10) / 10, // 1 decimal: the UI shows that much and full floats churn daily bookable: !!v.isBookable, minPrice: null, charts: [],
   });
   process.stderr.write(`page ${page}: ${venues.size} venues\n`);
   page = d.nextPage;
 }
 
 const fs = await import('node:fs/promises');
-const previous = new Map(await fs.readFile('public/venues.geojson', 'utf8').then(t => JSON.parse(t).features.map(f => [f.properties.id, f.properties])).catch(() => []));
+const prev = await fs.readFile('public/venues.geojson', 'utf8').then(JSON.parse).catch(() => null);
+const previous = new Map(prev?.features.map(f => [f.properties.id, f.properties]));
 const list = [...venues.values()];
 let priced = 0, failed = 0, kept = 0, next = 0;
 await Promise.all(Array.from({ length: 4 }, async () => {
@@ -57,5 +58,6 @@ const km = (a, b) => { const r = Math.PI / 180, x = Math.sin((b.lat - a.lat) * r
 list.sort((a, b) => km(ORIGIN, a) - km(ORIGIN, b));
 const color = p => p == null ? '#8290a3' : p < 1000 ? '#438df4' : p < 1500 ? '#e7953a' : '#26a879'; // GitHub's map preview reads marker-color
 const features = list.map(({ lat, lng, ...p }) => ({ type: 'Feature', geometry: { type: 'Point', coordinates: [lng, lat] }, properties: { ...p, 'marker-color': color(p.minPrice) } }));
-await fs.writeFile('public/venues.geojson', JSON.stringify({ type: 'FeatureCollection', updatedAt: new Date().toISOString(), features }));
+const unchanged = prev && JSON.stringify(prev.features) === JSON.stringify(features); // keep updatedAt stable so a no-op refresh produces no diff
+await fs.writeFile('public/venues.geojson', JSON.stringify({ type: 'FeatureCollection', updatedAt: unchanged ? prev.updatedAt : new Date().toISOString(), features }));
 console.log(`public/venues.geojson: ${list.length} venues, ${priced} priced now, ${kept} kept from previous run, ${failed} without price`);
