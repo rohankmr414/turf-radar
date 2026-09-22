@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-09-22T11:08:35.742Z",
+  "updatedAt": "2026-09-22T13:26:45.192Z",
   "features": [
     {
       "type": "Feature",
@@ -29112,20 +29112,11 @@
             "name": "Football 7 a side",
             "days": [
               {
-                "day": "Monday - Saturday",
+                "day": "Monday - Sunday",
                 "times": [
                   {
                     "time": "06:00 AM - 12:00 AM",
-                    "price": 1000
-                  }
-                ]
-              },
-              {
-                "day": "Sunday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 12:00 AM",
-                    "price": 2000
+                    "price": 750
                   }
                 ]
               },
@@ -29134,15 +29125,15 @@
                 "times": [
                   {
                     "time": "06:00 AM - 12:00 AM",
-                    "price": 2000
+                    "price": 750
                   }
                 ]
               }
             ]
           }
         ],
-        "minPrice": 1000,
-        "marker-color": "#e7953a"
+        "minPrice": 750,
+        "marker-color": "#438df4"
       }
     },
     {
