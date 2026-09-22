@@ -59,5 +59,5 @@ list.sort((a, b) => km(ORIGIN, a) - km(ORIGIN, b));
 const color = p => p == null ? '#8290a3' : p < 1000 ? '#438df4' : p < 1500 ? '#e7953a' : '#26a879'; // GitHub's map preview reads marker-color
 const features = list.map(({ lat, lng, ...p }) => ({ type: 'Feature', geometry: { type: 'Point', coordinates: [lng, lat] }, properties: { ...p, 'marker-color': color(p.minPrice) } }));
 const unchanged = prev && JSON.stringify(prev.features) === JSON.stringify(features); // keep updatedAt stable so a no-op refresh produces no diff
-await fs.writeFile('public/venues.geojson', JSON.stringify({ type: 'FeatureCollection', updatedAt: unchanged ? prev.updatedAt : new Date().toISOString(), features }));
+await fs.writeFile('public/venues.geojson', JSON.stringify({ type: 'FeatureCollection', updatedAt: unchanged ? prev.updatedAt : new Date().toISOString(), features }, null, 2));
 console.log(`public/venues.geojson: ${list.length} venues, ${priced} priced now, ${kept} kept from previous run, ${failed} without price`);
