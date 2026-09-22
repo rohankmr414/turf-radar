@@ -22,8 +22,6 @@ Deploy by hand if needed: `npx wrangler deploy` (config in `wrangler.jsonc`, upl
 - `fetch-venues.mjs`: paginates Playo's venue list for football (`SP2`) around Challaghatta, fetches each venue's price chart, writes `public/venues.geojson`.
 - `wrangler.jsonc`: Cloudflare deploy config, static assets only.
 - `public/venues.geojson`: generated catalog as a GeoJSON FeatureCollection, sorted by distance from Challaghatta. GitHub renders it as a map, with pins coloured by price via `marker-color`.
-- `old/`: the previous Next.js/vinext attempt, kept only for reference. Delete when you no longer need it.
-- `research/`: raw API samples and scripts from the original investigation.
 
 ## Playo endpoints used
 
