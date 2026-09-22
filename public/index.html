@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Turf Radar</title>
+<meta name="description" content="Football turfs around Bengaluru with Playo prices and live slot availability.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@5/dist/maplibre-gl.css">
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@5/dist/maplibre-gl.js"></script>
+<style>
+  :root { --bg:#f5f7fa; --panel:#fff; --ink:#1c2d41; --muted:#7a8999; --line:#e3e9f0; --accent:#1f9d55; --ok:#26a879; --warn:#d49a38; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+  button, input, select { font:inherit; color:inherit; }
+  button { cursor:pointer; }
+  a { color:#1b7f47; }
+  header { height:56px; background:#0f1c15; color:#fff; display:flex; align-items:center; gap:14px; padding:0 18px; }
+  header h1 { font-size:18px; margin:0; }
+  header small { color:#9fb8a9; }
+  header .live { margin-left:auto; font-size:12px; color:#8fd1a8; }
+  .app { display:grid; grid-template-columns:300px 1fr 380px; height:calc(100dvh - 56px); }
+  aside, .detail { background:var(--panel); overflow-y:auto; }
+  aside { border-right:1px solid var(--line); display:flex; flex-direction:column; }
+  .detail { border-left:1px solid var(--line); padding:20px; }
+  .controls { padding:14px 14px 10px; display:grid; gap:8px; border-bottom:1px solid var(--line); }
+  .controls input, .controls select, .detail select, .detail input { width:100%; height:38px; padding:0 10px; border:1px solid var(--line); border-radius:8px; background:#fff; }
+  .row { display:flex; gap:8px; }
+  .row > * { flex:1; min-width:0; }
+  .count { font-size:12px; color:var(--muted); }
+  .list { flex:1; overflow-y:auto; }
+  .venue { display:block; width:100%; text-align:left; padding:12px 14px; background:none; border:0; border-bottom:1px solid #eef1f5; border-left:3px solid transparent; }
+  .venue:hover { background:#f4faf6; }
+  .venue.active { background:#e9f6ee; border-left-color:var(--accent); }
+  .venue b { display:block; font-size:14px; }
+  .venue span { font-size:12px; color:var(--muted); }
+  .venue .price { float:right; font-weight:700; font-size:14px; }
+  #map { position:relative; }
+  .pin { border:1.5px solid var(--pin); background:#fff; color:var(--pin); border-radius:7px; padding:3px 7px; font:700 12px system-ui; box-shadow:0 2px 6px #0003; white-space:nowrap; }
+  .pin.selected { background:var(--pin); color:#fff; z-index:5; box-shadow:0 0 0 3px #fff,0 3px 10px #0004; }
+  .legend { position:absolute; z-index:5; left:12px; bottom:28px; background:#fff; padding:10px 12px; border-radius:8px; font-size:12px; display:flex; gap:12px; flex-wrap:wrap; box-shadow:0 3px 14px #0002; }
+  .legend i { display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:5px; }
+  .detail h2 { font-size:20px; margin:0 0 6px; }
+  .detail .addr, .detail .links { font-size:13px; color:var(--muted); }
+  .detail .links { display:flex; gap:14px; margin:10px 0 18px; }
+  .detail h3 { font-size:15px; margin:22px 0 10px; }
+  .datebar { display:flex; gap:6px; }
+  .datebar button { width:38px; border:1px solid var(--line); background:#fff; border-radius:8px; }
+  .fields { display:flex; gap:8px; margin-top:8px; }
+  .fields label { flex:1; font-size:12px; color:var(--muted); }
+  .slots { display:grid; grid-template-columns:repeat(3,1fr); gap:6px; margin-top:12px; }
+  .slot { border:1px solid #cde5db; border-radius:7px; background:#fff; padding:8px 2px; text-align:center; font-size:12px; }
+  .slot b { display:block; color:#237b5d; }
+  .slot span { color:#709b8c; font-size:11px; }
+  .slot.past, .slot:disabled { opacity:.45; }
+  .note { font-size:13px; color:var(--muted); background:#f5f8fb; border-radius:8px; padding:14px; text-align:center; margin-top:12px; }
+  .note.err { color:#91652e; background:#fff8e9; }
+  .status { display:flex; justify-content:space-between; font-size:11px; color:var(--muted); margin-top:10px; }
+  .book { display:block; margin-top:16px; text-align:center; background:var(--accent); color:#fff; text-decoration:none; padding:11px; border-radius:8px; font-weight:600; }
+  details { border-bottom:1px solid #edf1f5; padding:8px 0; font-size:13px; }
+  summary { cursor:pointer; display:flex; justify-content:space-between; }
+  details table { width:100%; font-size:12px; color:var(--muted); margin-top:6px; }
+  details td:last-child { text-align:right; color:var(--ink); }
+  .muted { font-size:12px; color:var(--muted); }
+  @media (max-width: 900px) {
+    .app { grid-template-columns:1fr; grid-template-rows:50dvh auto auto; height:auto; }
+    #map { grid-row:1; height:50dvh; }
+    aside { grid-row:2; border-right:0; border-bottom:1px solid var(--line); max-height:340px; }
+    .detail { grid-row:3; border-left:0; }
+    header small { display:none; }
+    .legend { top:10px; bottom:auto; left:10px; right:10px; justify-content:center; padding:6px 10px; font-size:11px; gap:4px 10px; box-shadow:0 2px 8px #0002; }
+  }
+</style>
+</head>
+<body>
+<header><h1>Turf Radar</h1><small>Football turfs · Bengaluru · prices and live slots from Playo</small><span class="live" id="catalog-age"></span></header>
+<div class="app">
+  <aside>
+    <div class="controls">
+      <input id="q" type="search" placeholder="Search venue or area" aria-label="Search venue or area">
+      <div class="row">
+        <select id="budget" aria-label="Price filter">
+          <option value="all">Any price</option>
+          <option value="low">Under ₹1,000 / hr</option>
+          <option value="mid">₹1,000–1,499 / hr</option>
+          <option value="high">₹1,500+ / hr</option>
+        </select>
+        <select id="sort" aria-label="Sort">
+          <option value="distance">Nearest first</option>
+          <option value="price">Cheapest first</option>
+        </select>
+      </div>
+      <div class="count" id="count"></div>
+    </div>
+    <div class="list" id="list"></div>
+  </aside>
+  <div id="map">
+    <div class="legend"><b>Starting ₹/hr</b><span><i style="background:#438df4"></i>&lt;1,000</span><span><i style="background:#e7953a"></i>1,000–1,499</span><span><i style="background:#26a879"></i>1,500+</span><span><i style="background:#8290a3"></i>unknown</span></div>
+  </div>
+  <div class="detail" id="detail"><div class="note">Pick a venue on the map or from the list.</div></div>
+</div>
+
+<script>
+const KEY = 'b4ee93df154de37b0e38aa6a5dfda071aa751bfa'; // public key from playo.co's own JS bundle
+const ORIGIN = { lat: 12.9433293, lng: 77.6511633 };
+const REFRESH_MS = 30000;
+const $ = id => document.getElementById(id);
+const rupees = n => '₹' + Math.round(n).toLocaleString('en-IN');
+const color = p => p == null ? '#8290a3' : p < 1000 ? '#438df4' : p < 1500 ? '#e7953a' : '#26a879';
+const km = (a, b) => { const r = Math.PI / 180, x = Math.sin((b.lat - a.lat) * r / 2) ** 2 + Math.cos(a.lat * r) * Math.cos(b.lat * r) * Math.sin((b.lng - a.lng) * r / 2) ** 2; return 6371 * 2 * Math.atan2(Math.sqrt(x), Math.sqrt(1 - x)); };
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const hms = t => { const [h, m] = t.split(':').map(Number); return h * 60 + m; };
+const clock = m => { const h = Math.floor(m / 60) % 24; return `${h % 12 || 12}:${String(m % 60).padStart(2, '0')} ${h < 12 ? 'AM' : 'PM'}`; };
+const addDays = (d, n) => new Date(Date.parse(d + 'T12:00:00Z') + n * 864e5).toISOString().slice(0, 10);
+function ist() { // Playo venues here run on IST regardless of the viewer's timezone
+  const p = Object.fromEntries(new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Kolkata', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).formatToParts(new Date()).map(x => [x.type, x.value]));
+  return { date: `${p.year}-${p.month}-${p.day}`, minutes: Number(p.hour) * 60 + Number(p.minute) };
+}
+
+let venues = [], here = ORIGIN, selected = null, markers = new Map();
+const state = { date: ist().date, courtId: '', duration: 60, avail: null, error: '', checkedAt: null, timer: 0, abort: null };
+
+const map = new maplibregl.Map({ container: 'map', style: 'https://tiles.openfreemap.org/styles/positron', center: [ORIGIN.lng, ORIGIN.lat], zoom: 12, attributionControl: { compact: true } });
+const geo = new maplibregl.GeolocateControl({ positionOptions: { enableHighAccuracy: true }, trackUserLocation: true, showAccuracyCircle: true, fitBoundsOptions: { maxZoom: 13.5 } }); // stay zoomed out enough to keep nearby pins on screen
+map.addControl(geo, 'bottom-right');
+map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'bottom-right');
+geo.on('geolocate', p => { here = { lat: p.coords.latitude, lng: p.coords.longitude }; render(); }); // distances and "nearest first" follow the blue dot
+
+fetch('venues.json').then(r => r.json()).then(d => {
+  venues = d.venues;
+  $('catalog-age').textContent = `catalog ${new Date(d.updatedAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })}`;
+  for (const v of venues) {
+    const el = document.createElement('button');
+    el.className = 'pin'; el.style.setProperty('--pin', color(v.minPrice));
+    el.textContent = v.minPrice == null ? '—' : rupees(v.minPrice);
+    el.title = v.name; el.onclick = () => select(v);
+    markers.set(v.id, new maplibregl.Marker({ element: el }).setLngLat([v.lng, v.lat]).addTo(map));
+  }
+  render();
+}).catch(() => { $('list').innerHTML = '<div class="note err">venues.json did not load. Run <code>node fetch-venues.mjs</code> and serve this folder over http.</div>'; });
+
+function shown() {
+  const q = $('q').value.trim().toLowerCase(), b = $('budget').value;
+  return venues
+    .map(v => ({ ...v, km: km(here, v) }))
+    .filter(v => (v.name + ' ' + v.area).toLowerCase().includes(q))
+    .filter(v => b === 'all' || (v.minPrice != null && (b === 'low' ? v.minPrice < 1000 : b === 'mid' ? v.minPrice >= 1000 && v.minPrice < 1500 : v.minPrice >= 1500)))
+    .sort((a, c) => $('sort').value === 'price' ? (a.minPrice ?? 1e9) - (c.minPrice ?? 1e9) || a.km - c.km : a.km - c.km);
+}
+
+function render() {
+  const rows = shown(), ids = new Set(rows.map(v => v.id));
+  for (const [id, m] of markers) { m.getElement().style.display = ids.has(id) ? '' : 'none'; m.getElement().classList.toggle('selected', id === selected?.id); }
+  $('count').textContent = `${rows.length} venues`;
+  $('list').innerHTML = rows.map(v => `<button class="venue ${v.id === selected?.id ? 'active' : ''}" data-id="${v.id}">
+    <span class="price" style="color:${color(v.minPrice)}">${v.minPrice == null ? '—' : rupees(v.minPrice) + '/hr'}</span>
+    <b>${esc(v.name)}</b><span>${esc(v.area)} · ${v.km.toFixed(1)} km${v.rating ? ' · ★ ' + v.rating.toFixed(1) : ''}</span></button>`).join('');
+}
+$('list').onclick = e => { const id = e.target.closest('.venue')?.dataset.id; if (id) select(venues.find(v => v.id === id)); };
+for (const id of ['q', 'budget', 'sort']) $(id).oninput = render;
+
+function select(v) {
+  selected = v;
+  Object.assign(state, { courtId: '', avail: null, error: '', checkedAt: null });
+  map.easeTo({ center: [v.lng, v.lat], zoom: Math.max(map.getZoom(), 13.5) });
+  render(); renderDetail(); load();
+  if (matchMedia('(max-width: 900px)').matches) $('detail').scrollIntoView({ behavior: 'smooth' });
+}
+
+async function load() {
+  clearTimeout(state.timer); state.abort?.abort();
+  if (!selected?.bookable) return;
+  const v = selected, date = state.date, ctl = state.abort = new AbortController();
+  try {
+    const r = await fetch(`https://playo.club/book-api/v5/availability/${v.id}/SP2/${date}/?deviceType=99`, { headers: { Authorization: KEY }, signal: ctl.signal });
+    if (ctl.signal.aborted) return;
+    if (r.status === 403) throw new Error('Playo is rate-limiting this network. Wait a few minutes.'); // WAF trips after ~40 requests/min
+    if (!r.ok) throw new Error(`Playo returned ${r.status}`);
+    const j = await r.json();
+    if (j.requestStatus !== 1 || !j.data) throw new Error(j.message || 'No availability');
+    state.avail = j.data; state.error = ''; state.checkedAt = new Date();
+  } catch (e) {
+    if (ctl.signal.aborted) return;
+    state.error = e instanceof TypeError ? 'Could not reach Playo (offline, or its rate limit kicked in). Retrying every 30s.' : e.message;
+  }
+  renderDetail();
+  state.timer = setTimeout(load, REFRESH_MS);
+}
+
+function sessions(court, date, duration) {
+  const step = hms(court.slotDuration), count = duration / step, now = ist();
+  if (!Number.isInteger(count) || count < court.minSlots || count > court.maxSlots) return [];
+  const slots = court.slotInfo.map(s => ({ min: hms(s.time), status: s.status, price: parseFloat(s.price) })).sort((a, b) => a.min - b.min);
+  const out = [];
+  for (let i = 0; i + count <= slots.length; i++) {
+    const g = slots.slice(i, i + count), start = g[0].min;
+    if (date === now.date && start <= now.minutes) continue;
+    if (g.every((s, j) => s.status > 0 && s.min === start + j * step)) out.push({ start, end: start + duration, total: g.reduce((a, s) => a + s.price, 0) });
+  }
+  return out;
+}
+
+function renderDetail() {
+  const v = selected, d = $('detail');
+  if (!v) return;
+  const today = ist().date, maxDate = addDays(today, 89);
+  const playo = v.slug ? `https://playo.co/venues/${v.city.toLowerCase().replace(/\s+/g, '-')}/${v.slug}` : `https://playo.co/venue?venueId=${v.id}`;
+  let cal;
+  if (!v.bookable) cal = `<div class="note">Playo does not offer online booking here.</div>`;
+  else {
+    const a = state.avail, courts = a?.courtList ?? [];
+    const court = courts.find(c => String(c.courtId) === state.courtId) ?? courts[0];
+    let body = '';
+    if (court) {
+      const step = hms(court.slotDuration), choices = [...new Set([step * court.minSlots, 60, 90, 120, 180])].filter(m => m >= step * court.minSlots && m <= step * court.maxSlots && m % step === 0).sort((x, y) => x - y);
+      const dur = choices.includes(state.duration) ? state.duration : choices[0];
+      const list = sessions(court, state.date, dur);
+      body = `<div class="fields">
+        <label>Pitch<select id="court">${courts.map(c => `<option value="${c.courtId}" ${c === court ? 'selected' : ''}>${esc(c.courtName)}</option>`).join('')}</select></label>
+        <label>Duration<select id="dur">${choices.map(m => `<option value="${m}" ${m === dur ? 'selected' : ''}>${m} min</option>`).join('')}</select></label></div>
+        ${list.length ? `<div class="slots">${list.map(s => `<div class="slot"><b>${clock(s.start)}</b><span>${rupees(s.total)}</span></div>`).join('')}</div>` : `<div class="note">No ${dur}-minute sessions left on this day.</div>`}`;
+    } else if (a) body = `<div class="note">No pitches listed for this date.</div>`;
+    else if (!state.error) body = `<div class="note">Checking Playo…</div>`;
+    cal = `<div class="datebar"><button id="prev" ${state.date <= today ? 'disabled' : ''}>‹</button><input type="date" id="date" value="${state.date}" min="${today}" max="${maxDate}"><button id="next" ${state.date >= maxDate ? 'disabled' : ''}>›</button></div>
+      ${body}${state.error ? `<div class="note err">${esc(state.error)} <button id="retry">Retry</button></div>` : ''}
+      <div class="status"><span>${state.checkedAt ? `Checked ${state.checkedAt.toLocaleTimeString('en-IN', { timeZone: 'Asia/Kolkata' })} IST · auto-refresh ${REFRESH_MS / 1000}s` : ''}</span><span>Times in IST</span></div>
+      <a class="book" target="_blank" rel="noreferrer" href="https://playo.co/booking?venueId=${v.id}">Book on Playo ↗</a>`;
+  }
+  const rates = v.charts.map(c => `<details><summary><span>${esc(c.name)}</span><b>from ${rupees(Math.min(...c.days.flatMap(x => x.times.map(t => t.price))))}</b></summary>
+    ${c.days.map(x => `<table><tr><th colspan="2" style="text-align:left">${esc(x.day)}</th></tr>${x.times.map(t => `<tr><td>${esc(t.time)}</td><td>${rupees(t.price)} / hr</td></tr>`).join('')}</table>`).join('')}</details>`).join('');
+  d.innerHTML = `<h2>${esc(v.name)}</h2><div class="addr">${esc(v.address || v.area)}</div>
+    <div class="links"><a target="_blank" rel="noreferrer" href="https://www.google.com/maps/search/?api=1&query=${v.lat},${v.lng}">Directions</a><a target="_blank" rel="noreferrer" href="${playo}">Playo page</a></div>
+    <h3>Live availability</h3>${cal}
+    <h3>Published rates</h3>${rates || '<p class="muted">No published rate.</p>'}`;
+  const setDate = x => { state.date = x; state.avail = null; state.error = ''; renderDetail(); load(); };
+  $('prev')?.addEventListener('click', () => setDate(addDays(state.date, -1)));
+  $('next')?.addEventListener('click', () => setDate(addDays(state.date, 1)));
+  $('date')?.addEventListener('change', e => { if (e.target.value >= today && e.target.value <= maxDate) setDate(e.target.value); });
+  $('court')?.addEventListener('change', e => { state.courtId = e.target.value; renderDetail(); });
+  $('dur')?.addEventListener('change', e => { state.duration = Number(e.target.value); renderDetail(); });
+  $('retry')?.addEventListener('click', () => { state.error = ''; renderDetail(); load(); });
+}
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && selected) load(); else clearTimeout(state.timer); });
+</script>
+</body>
+</html>
