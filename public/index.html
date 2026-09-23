@@ -8,6 +8,7 @@
 <link rel="icon" href="data:,">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@5/dist/maplibre-gl.css">
 <script src="https://cdn.jsdelivr.net/npm/maplibre-gl@5/dist/maplibre-gl.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/cupertino-pane@1.5.4/dist/cupertino-pane.min.js"></script>
 <style>
   :root { --bg:#f5f7fa; --panel:#fff; --ink:#1c2d41; --muted:#7a8999; --line:#e3e9f0; --accent:#1f9d55; --ok:#26a879; --warn:#d49a38; }
   * { box-sizing:border-box; }
@@ -20,8 +21,8 @@
   header small { color:#9fb8a9; }
   header .live { margin-left:auto; font-size:12px; color:#8fd1a8; }
   .app { display:grid; grid-template-columns:300px 1fr; height:calc(100dvh - 56px); }
-  .app.show-detail { grid-template-columns:300px 1fr 380px; }
-  .app:not(.show-detail) .detail { display:none; }
+  body.show-detail .app { grid-template-columns:300px 1fr 380px; }
+  body:not(.show-detail) .detail { display:none; }
   aside, .detail { background:var(--panel); overflow-y:auto; }
   aside { border-right:1px solid var(--line); display:flex; flex-direction:column; }
   .detail { border-left:1px solid var(--line); padding:20px; position:relative; }
@@ -67,22 +68,19 @@
   .muted { font-size:12px; color:var(--muted); }
   .sheet { display:contents; }
   #map { order:2; } .detail { order:3; }
-  .grip, .back { display:none; }
+  .back { display:none; }
   @media (max-width: 900px) {
-    .app { position:relative; display:block; height:calc(100dvh - 56px); --sheet:45%; }
+    .app { position:relative; display:block; height:calc(100dvh - 56px); }
     #map { position:absolute; inset:0; }
     header small { display:none; }
     .legend { top:10px; bottom:auto; left:10px; right:10px; justify-content:center; padding:6px 10px; font-size:11px; gap:4px 10px; box-shadow:0 2px 8px #0002; }
-    .maplibregl-ctrl-bottom-right, .maplibregl-ctrl-bottom-left { bottom:var(--sheet); }
-    .sheet { display:flex; flex-direction:column; position:absolute; left:0; right:0; bottom:0; height:var(--sheet); background:var(--panel); border-radius:16px 16px 0 0; box-shadow:0 -4px 20px #0002; transition:height .2s; z-index:6; }
-    .sheet.dragging { transition:none; }
-    .grip { display:flex; flex:none; height:24px; justify-content:center; align-items:center; cursor:grab; touch-action:none; }
-    .grip::before { content:''; width:40px; height:4px; border-radius:2px; background:#c8d0d8; }
-    aside, .detail { flex:1; min-height:0; overflow-y:auto; border:0; }
-    .controls { padding-top:4px; }
+    .maplibregl-ctrl-bottom-right { top:52px; bottom:auto; }
+    .cupertino-pane-wrapper .pane { --cupertino-pane-border-radius:16px; box-shadow:0 -4px 20px #0002; }
+    aside, .detail { overflow:visible; border:0; }
+    .controls { padding-top:0; }
     .close { display:none; }
-    .back { display:block; flex:none; text-align:left; background:none; border:0; padding:4px 20px 8px; color:var(--accent); font-weight:600; }
-    .app.show-detail aside, .app:not(.show-detail) .back { display:none; }
+    .back { display:block; text-align:left; background:none; border:0; padding:4px 20px 8px; color:var(--accent); font-weight:600; }
+    body.show-detail aside, body:not(.show-detail) .back { display:none; }
   }
 </style>
 </head>
@@ -92,7 +90,7 @@
   <div id="map">
     <div class="legend"><b>Starting ₹/hr</b><span><i style="background:#438df4"></i>&lt;1,000</span><span><i style="background:#e7953a"></i>1,000–1,499</span><span><i style="background:#26a879"></i>1,500+</span><span><i style="background:#8290a3"></i>unknown</span></div>
   </div>
-  <div class="sheet" id="sheet"><div class="grip" id="grip"></div>
+  <div class="sheet" id="sheet">
   <aside>
     <div class="controls">
       <input id="q" type="search" placeholder="Search venue or area" aria-label="Search venue or area">
@@ -141,6 +139,7 @@ const map = new maplibregl.Map({ container: 'map', style: 'https://tiles.openfre
 const geo = new maplibregl.GeolocateControl({ positionOptions: { enableHighAccuracy: true }, trackUserLocation: true, showAccuracyCircle: true, fitBoundsOptions: { maxZoom: 13.5 } }); // stay zoomed out enough to keep nearby pins on screen
 map.addControl(geo, 'bottom-right');
 map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'bottom-right');
+map.on('load', () => { if (mobile()) document.querySelector('.maplibregl-ctrl-attrib')?.classList.remove('maplibregl-compact-show'); }); // start collapsed to the (i) on phones
 geo.on('geolocate', p => { here = { lat: p.coords.latitude, lng: p.coords.longitude }; render(); }); // distances and "nearest first" follow the blue dot
 
 fetch('venues.geojson').then(r => r.json()).then(d => {
@@ -179,32 +178,31 @@ for (const id of ['q', 'budget', 'sort']) $(id).oninput = render;
 function select(v) {
   selected = v;
   Object.assign(state, { courtId: '', avail: null, error: '', checkedAt: null });
-  app.classList.add('show-detail');
-  if (mobile()) snapSheet(snaps()[1]);
-  map.easeTo({ center: [v.lng, v.lat], zoom: Math.max(map.getZoom(), 13.5), offset: [0, mobile() ? -sheetPx / 2 : 0] }); // keep the pin in the strip above the sheet
+  document.body.classList.add('show-detail');
+  if (mobile()) pane?.moveToBreak('middle');
+  map.easeTo({ center: [v.lng, v.lat], zoom: Math.max(map.getZoom(), 13.5), offset: [0, mobile() ? -middlePx() / 2 : 0] }); // keep the pin in the strip above the sheet
   render(); renderDetail(); load();
 }
 
-// Mobile bottom sheet: snaps to peek / half / full, dragged or tapped via the grip.
-const app = $('app'), sheet = $('sheet'), grip = $('grip');
+// Mobile: the list/detail panel lives in a Cupertino Pane bottom sheet (drag anywhere, fling, three stops).
+const app = $('app'), sheet = $('sheet');
 const mobile = () => matchMedia('(max-width: 900px)').matches;
-const snaps = () => { const h = app.clientHeight; return [120, h * 0.45, h - 12]; };
-let sheetPx = 0, drag = null;
-function setSheet(px) { sheetPx = Math.max(120, Math.min(app.clientHeight - 12, px)); app.style.setProperty('--sheet', sheetPx + 'px'); }
-function snapSheet(px) { setSheet(snaps().reduce((a, b) => Math.abs(b - px) < Math.abs(a - px) ? b : a)); }
-grip.onpointerdown = e => { drag = { y: e.clientY, h: sheetPx }; grip.setPointerCapture(e.pointerId); sheet.classList.add('dragging'); };
-grip.onpointermove = e => { if (drag) setSheet(drag.h + drag.y - e.clientY); };
-grip.onpointerup = grip.onpointercancel = e => {
-  if (!drag) return;
-  sheet.classList.remove('dragging');
-  const [, half, full] = snaps(), tap = Math.abs(e.clientY - drag.y) < 6;
-  snapSheet(tap ? (sheetPx < half - 1 ? half : sheetPx < full - 1 ? full : half) : sheetPx);
-  drag = null;
-};
-$('back').onclick = () => app.classList.remove('show-detail');
-function deselect() { selected = null; clearTimeout(state.timer); state.abort?.abort(); app.classList.remove('show-detail'); render(); }
-matchMedia('(max-width: 900px)').addEventListener('change', () => { if (mobile()) snapSheet(snaps()[1]); });
-if (mobile()) snapSheet(snaps()[1]);
+const middlePx = () => app.clientHeight * 0.45;
+let pane = null;
+function syncSheet() {
+  if (mobile() && !pane) {
+    pane = new CupertinoPane(sheet, { parentElement: document.body, buttonDestroy: false, initialBreak: 'middle', breaks: breaks() }); // body: the pane measures from the viewport
+    pane.present({ animate: true });
+  } else if (!mobile() && pane) {
+    pane.destroy(); pane = null; app.appendChild(sheet); sheet.style.display = ''; // destroy() leaves the panel hidden under body
+  }
+}
+const breaks = () => ({ top: { enabled: true, height: app.clientHeight - 12 }, middle: { enabled: true, height: middlePx() }, bottom: { enabled: true, height: 120 } });
+syncSheet();
+matchMedia('(max-width: 900px)').addEventListener('change', syncSheet);
+addEventListener('resize', () => pane?.setBreakpoints(breaks()));
+$('back').onclick = () => document.body.classList.remove('show-detail');
+function deselect() { selected = null; clearTimeout(state.timer); state.abort?.abort(); document.body.classList.remove('show-detail'); render(); }
 
 async function load() {
   clearTimeout(state.timer); state.abort?.abort();
