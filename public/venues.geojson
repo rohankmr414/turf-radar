@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-09-22T13:32:19.924Z",
+  "updatedAt": "2026-09-23T05:27:44.234Z",
   "features": [
     {
       "type": "Feature",
@@ -33618,6 +33618,53 @@
                   {
                     "time": "06:00 PM - 11:00 PM",
                     "price": 1300
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#438df4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.77578335056151,
+          12.788900928726159
+        ]
+      },
+      "properties": {
+        "id": "a1b4eff5-dc9c-4356-abe6-825accaf537c",
+        "name": "Defence Cricket Academy Attibele",
+        "area": "Indabele",
+        "address": "Vmaks Laurel, beside Vmaks Laurel Tower-2, INDALABELE, Attibele, Karnataka 562107",
+        "city": "Bengaluru",
+        "slug": "defence-cricket-academy-attibele-indabele-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 700,
+        "charts": [
+          {
+            "name": "Football 6 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 700
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 700
                   }
                 ]
               }
