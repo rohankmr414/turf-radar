@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-09-23T05:27:44.234Z",
+  "updatedAt": "2026-09-24T05:47:26.455Z",
   "features": [
     {
       "type": "Feature",
@@ -1830,7 +1830,7 @@
         "address": "Blitzarena, First Main Road, L. N Reddy Colony, Vignannagar, Bangalore, Karnataka - 560037",
         "city": "Bengaluru",
         "slug": "blitzarena-vignannagar-bengaluru",
-        "rating": 4.5,
+        "rating": 4.6,
         "bookable": true,
         "minPrice": 999,
         "charts": [
@@ -2020,7 +2020,7 @@
         "address": "Opposite to Garuda Mall , Commissariat Rd, Shanthala Nagar",
         "city": "Bengaluru",
         "slug": "bangalore-football-stadium-impetus-sports-ashok-nagar-bengaluru",
-        "rating": 4.6,
+        "rating": 4.7,
         "bookable": true,
         "minPrice": 2500,
         "charts": [
@@ -15754,7 +15754,7 @@
         "address": "Whitefield Main Road, Pattandur Agrahara, Bangalore – 560066",
         "city": "Bengaluru",
         "slug": "st-josephs-sports-arena-pattandur-agrahara-bengaluru",
-        "rating": 4,
+        "rating": 3.9,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
@@ -15871,7 +15871,7 @@
         "slug": "subhash-school-turf-hebbal-bengaluru",
         "rating": 2.6,
         "bookable": true,
-        "minPrice": 1200,
+        "minPrice": 800,
         "charts": [
           {
             "name": "Football 6 a side",
@@ -15881,11 +15881,11 @@
                 "times": [
                   {
                     "time": "06:00 AM - 08:00 AM",
-                    "price": 1200
+                    "price": 800
                   },
                   {
                     "time": "04:00 PM - 11:00 PM",
-                    "price": 1200
+                    "price": 800
                   }
                 ]
               },
@@ -15894,11 +15894,11 @@
                 "times": [
                   {
                     "time": "06:00 AM - 08:00 AM",
-                    "price": 1200
+                    "price": 850
                   },
                   {
                     "time": "12:00 PM - 11:00 PM",
-                    "price": 1200
+                    "price": 850
                   }
                 ]
               },
@@ -15907,7 +15907,7 @@
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 PM",
-                    "price": 1200
+                    "price": 850
                   }
                 ]
               },
@@ -15923,7 +15923,7 @@
             ]
           }
         ],
-        "marker-color": "#e7953a"
+        "marker-color": "#438df4"
       }
     },
     {
@@ -17428,6 +17428,62 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          77.74354653846213,
+          12.886370420873334
+        ]
+      },
+      "properties": {
+        "id": "c016c2f0-5210-4338-8929-a0c78781401a",
+        "name": "Revnord Play",
+        "area": "Domsandra",
+        "address": "Revnord play,Sy No. 185/4 ,Ambalipura- Sarjapur Rd ,Dommasandra Village,Domsandra,Near One World International School Bengaluru -562125",
+        "city": "Bengaluru",
+        "slug": "revnord-play-domsandra-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 1800,
+        "charts": [
+          {
+            "name": "Football 7 a SIde",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 1800
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 2500
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 4000
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#26a879"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           77.61232971779134,
           12.843652967032579
         ]
@@ -18153,7 +18209,7 @@
         "address": "16/17, Dattatreya Nagar, Banashankari 3rd Stage, Hosakerehalli, Bengaluru, Karnataka - 560085",
         "city": "Bengaluru",
         "slug": "sprintplay-sports-arena-hosakerehalli-bengaluru",
-        "rating": 4.4,
+        "rating": 4.6,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
