@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-09-24T05:47:26.455Z",
+  "updatedAt": "2026-09-25T05:43:41.716Z",
   "features": [
     {
       "type": "Feature",
@@ -1211,7 +1211,7 @@
         "address": "No 76/134, Muniramaya Ground, Near Global City International School, Malleshpalya, Kaggadasapura, Bengaluru, Karnataka",
         "city": "Bengaluru",
         "slug": "sai-football-cricket-academy-near-global-city-international-school-bengaluru",
-        "rating": 3.5,
+        "rating": 3.6,
         "bookable": true,
         "minPrice": 1200,
         "charts": [
@@ -2385,7 +2385,7 @@
                 "times": [
                   {
                     "time": "12:00 AM - 02:00 AM",
-                    "price": 1250
+                    "price": 1000
                   },
                   {
                     "time": "05:00 AM - 10:00 AM",
@@ -2397,7 +2397,7 @@
                   },
                   {
                     "time": "04:00 PM - 12:00 AM",
-                    "price": 1250
+                    "price": 1000
                   }
                 ]
               },
@@ -2406,11 +2406,11 @@
                 "times": [
                   {
                     "time": "12:00 AM - 02:00 AM",
-                    "price": 1800
+                    "price": 1500
                   },
                   {
                     "time": "05:00 AM - 10:00 AM",
-                    "price": 1250
+                    "price": 1000
                   },
                   {
                     "time": "10:00 AM - 04:00 PM",
@@ -2418,7 +2418,7 @@
                   },
                   {
                     "time": "04:00 PM - 12:00 AM",
-                    "price": 1800
+                    "price": 1500
                   }
                 ]
               },
@@ -2653,99 +2653,6 @@
         ]
       },
       "properties": {
-        "id": "7339d09a-aeb6-4b98-989e-6fdca17d7f61",
-        "name": "Tiger 5 Dairy Circle - Facility A (Elevator 29)",
-        "area": "Bannerghatta Road",
-        "address": "4/1, Bannerghatta Main Road, Bhavani Nagar, S.G. Palya, Bengaluru, Karnataka 560029",
-        "city": "Bengaluru",
-        "slug": "tiger-5-dairy-circle-facility-a-elevator-29-bannerghatta-road-bengaluru",
-        "rating": 3.9,
-        "bookable": true,
-        "minPrice": 1200,
-        "charts": [
-          {
-            "name": "Football 4 a side",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1200
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1200
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Football 6 a side",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1600
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1600
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Football 7 a side",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 2800
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 2800
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "marker-color": "#e7953a"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.60344483320864,
-          12.932795170805665
-        ]
-      },
-      "properties": {
         "id": "2371080a-f009-401b-9f03-98b2d36914d7",
         "name": "Tiger 5 Dairy Circle - Facility B (Elevator 30/31)",
         "area": "Bannerghatta Road",
@@ -2836,6 +2743,99 @@
           }
         ],
         "marker-color": "#26a879"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.60344483320864,
+          12.932795170805665
+        ]
+      },
+      "properties": {
+        "id": "7339d09a-aeb6-4b98-989e-6fdca17d7f61",
+        "name": "Tiger 5 Dairy Circle - Facility A (Elevator 29)",
+        "area": "Bannerghatta Road",
+        "address": "4/1, Bannerghatta Main Road, Bhavani Nagar, S.G. Palya, Bengaluru, Karnataka 560029",
+        "city": "Bengaluru",
+        "slug": "tiger-5-dairy-circle-facility-a-elevator-29-bannerghatta-road-bengaluru",
+        "rating": 3.9,
+        "bookable": true,
+        "minPrice": 1200,
+        "charts": [
+          {
+            "name": "Football 4 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 6 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1600
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1600
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 7 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 2800
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 2800
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#e7953a"
       }
     },
     {
@@ -7988,7 +7988,7 @@
         "address": "Seetharampalya - Hoodi Rd, Hoodi, Seetharampalya, Whitefield, Bengaluru, Karnataka 560048",
         "city": "Bengaluru",
         "slug": "power-play-seetharampalya-whitefield-bengaluru",
-        "rating": 4.2,
+        "rating": 4.3,
         "bookable": true,
         "minPrice": 1400,
         "charts": [
@@ -14353,6 +14353,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          77.72467675248967,
+          12.87725072162289
+        ]
+      },
+      "properties": {
+        "id": "919a7628-ff80-48fd-bd77-8745da40b315",
+        "name": "Hamsah Organic Football Club",
+        "area": "Huskur Road",
+        "address": "Hamsah Organic Farm,  Behind DPS East, Off Sarjapur Road  Opposite Maruthi Layout, Huskur Road, Bengaluru - 560099",
+        "city": "Bengaluru",
+        "slug": "hamsah-organic-football-club-huskur-road-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 1500,
+        "charts": [
+          {
+            "name": "Football 6 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "04:00 PM - 11:00 PM",
+                    "price": 1500
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "04:00 PM - 11:00 PM",
+                    "price": 1500
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#26a879"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           77.65215513010526,
           12.845723106547561
         ]
@@ -16289,7 +16336,7 @@
         "address": "50/1, Hebron Enclave Road, Kithaganur Main Road, Margondanahalli, Bengaluru, Karnataka - 560036",
         "city": "Bengaluru",
         "slug": "aura-sports-arena-margondanahalli-bengaluru",
-        "rating": 4.1,
+        "rating": 4,
         "bookable": true,
         "minPrice": 1200,
         "charts": [
@@ -31828,7 +31875,7 @@
         "address": "Near lumbini international public school, Kattigenahalli 52/1 anjaneya temple street kattigenahalli, Yelahanka, Bengaluru, Karnataka 560064",
         "city": "Bengaluru",
         "slug": "lumbini-sports-club-kattigenahalli-bengaluru",
-        "rating": 4.3,
+        "rating": 4.1,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
