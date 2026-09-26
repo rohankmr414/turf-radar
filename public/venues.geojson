@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-09-25T05:43:41.716Z",
+  "updatedAt": "2026-09-26T05:46:35.023Z",
   "features": [
     {
       "type": "Feature",
@@ -5979,7 +5979,7 @@
         "address": "Loop Sportsplex, 273, 2nd Cross Road, Maheswari Nagar, Mahadevapura, Bengaluru, Karnataka- 560048",
         "city": "Bengaluru",
         "slug": "loop-sportsplex-mahadevapura-bengaluru",
-        "rating": 3.8,
+        "rating": 3.7,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
@@ -8230,7 +8230,7 @@
         "address": "3rd Floor 7A, 12th Cross, 1st Cross Road, next to Siddhartha PU College, Lingarajapuram, Bengaluru, Karnataka - 560084",
         "city": "Bengaluru",
         "slug": "oxygen-powerplay-arena-lingarajapuram-bengaluru",
-        "rating": 5,
+        "rating": 4.5,
         "bookable": true,
         "minPrice": 499,
         "charts": [
@@ -11119,7 +11119,7 @@
         "address": "HNRKR Complex, Behind New Naidu Hotel, Ayyappa Nagar, Bangalore - 36",
         "city": "Bengaluru",
         "slug": "leo-pride-academy-of-cricket-excellence-krishnarajapuram-bengaluru",
-        "rating": 5,
+        "rating": 4.8,
         "bookable": true,
         "minPrice": 1800,
         "charts": [
@@ -14413,7 +14413,7 @@
         "slug": "the-sportz-hub-electronic-city-phase-bengaluru",
         "rating": 4.9,
         "bookable": true,
-        "minPrice": 800,
+        "minPrice": 700,
         "charts": [
           {
             "name": "Football 7 a side",
@@ -14423,11 +14423,11 @@
                 "times": [
                   {
                     "time": "06:00 AM - 05:00 PM",
-                    "price": 1600
+                    "price": 1400
                   },
                   {
                     "time": "05:00 PM - 11:00 PM",
-                    "price": 1800
+                    "price": 1600
                   }
                 ]
               },
@@ -14436,15 +14436,15 @@
                 "times": [
                   {
                     "time": "06:00 AM - 10:00 AM",
-                    "price": 1600
+                    "price": 1400
                   },
                   {
                     "time": "10:00 AM - 03:00 PM",
-                    "price": 1800
+                    "price": 1600
                   },
                   {
                     "time": "03:00 PM - 11:00 PM",
-                    "price": 1800
+                    "price": 1600
                   }
                 ]
               },
@@ -14471,11 +14471,11 @@
                 "times": [
                   {
                     "time": "06:00 AM - 04:00 PM",
-                    "price": 800
+                    "price": 700
                   },
                   {
                     "time": "04:00 PM - 11:00 PM",
-                    "price": 900
+                    "price": 700
                   }
                 ]
               },
@@ -14484,15 +14484,15 @@
                 "times": [
                   {
                     "time": "06:00 AM - 10:00 AM",
-                    "price": 800
+                    "price": 700
                   },
                   {
                     "time": "10:00 AM - 03:00 PM",
-                    "price": 900
+                    "price": 700
                   },
                   {
                     "time": "03:00 PM - 11:00 PM",
-                    "price": 900
+                    "price": 700
                   }
                 ]
               },
@@ -26453,6 +26453,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          77.668393,
+          13.082947
+        ]
+      },
+      "properties": {
+        "id": "1ef9df82-9296-4ae8-8833-ef128c0a7ad5",
+        "name": "Goal Verse",
+        "area": "Chikkagubbi Village",
+        "address": "56, Maple Meadows Main Road, Chikkagubbi Village, Bengaluru, J.I.Nadagowda Gollahalli, Karnataka - 560077",
+        "city": "Bengaluru",
+        "slug": "goal-verse-chikkagubbi-village-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 800,
+        "charts": [
+          {
+            "name": "Football 5 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 10:00 PM",
+                    "price": 800
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 10:00 PM",
+                    "price": 800
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#438df4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           77.64195054034302,
           13.084678957490134
         ]
@@ -28656,7 +28703,7 @@
         "address": "Nagarbhavi, Vidya Vahini School, RHCS Layout, Bangalore 560091",
         "city": "Bengaluru",
         "slug": "siuuu-7-sports-arena-nagarabhavi-rhcs-layout-bengaluru",
-        "rating": 4.2,
+        "rating": 4.3,
         "bookable": true,
         "minPrice": 1200,
         "charts": [
@@ -33603,29 +33650,6 @@
           }
         ],
         "marker-color": "#438df4"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.6646455730151,
-          13.136465509746914
-        ]
-      },
-      "properties": {
-        "id": "2cff848e-4f53-46df-959e-1781a7d2f628",
-        "name": "Neon Sports Academy",
-        "area": "Bagaluru",
-        "address": "Govt School Road, Near Bus Stop, Razack Palya, Bagaluru, Bengaluru, Karnataka - 562149",
-        "city": "Bengaluru",
-        "slug": "neon-sports-academy-bagaluru-bengaluru",
-        "rating": 0,
-        "bookable": false,
-        "minPrice": null,
-        "charts": [],
-        "marker-color": "#8290a3"
       }
     },
     {
