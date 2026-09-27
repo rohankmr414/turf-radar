@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-09-26T05:46:35.023Z",
+  "updatedAt": "2026-09-27T06:06:10.064Z",
   "features": [
     {
       "type": "Feature",
@@ -1710,7 +1710,7 @@
         "address": "New Horizon College Road, Devarabisanahalli, Bellandur, Bengaluru, Karnataka 560103",
         "city": "Bengaluru",
         "slug": "klutch-bellandur-bellandur-bengaluru",
-        "rating": 4.2,
+        "rating": 4.1,
         "bookable": true,
         "minPrice": 1700,
         "charts": [
@@ -6287,7 +6287,7 @@
         "address": "XMRV+RHJ, Maheswari Nagar, Mahadevapura, Bengaluru, Karnataka - 560048",
         "city": "Bengaluru",
         "slug": "phoenix-sports-arena-mahadevapura-off-itpl-main-road-bengaluru",
-        "rating": 5,
+        "rating": 4.9,
         "bookable": true,
         "minPrice": 1099,
         "charts": [
@@ -10330,6 +10330,24 @@
                 "times": [
                   {
                     "time": "08:00 AM - 06:00 PM",
+                    "price": 1300
+                  },
+                  {
+                    "time": "06:00 PM - 12:00 AM",
+                    "price": 1500
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 6 a side \n(Applicable: 10th Oct - 20th Oct)",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 06:00 PM",
                     "price": 1300
                   },
                   {
@@ -21939,7 +21957,7 @@
         "slug": "bengaluru-grasshoppers-fc-electronic-city-phase-ii-bengaluru",
         "rating": 4.9,
         "bookable": true,
-        "minPrice": 900,
+        "minPrice": 1000,
         "charts": [
           {
             "name": "Football 6 a side",
@@ -21949,11 +21967,11 @@
                 "times": [
                   {
                     "time": "06:00 AM - 06:00 PM",
-                    "price": 900
+                    "price": 1000
                   },
                   {
                     "time": "06:00 PM - 12:00 AM",
-                    "price": 1000
+                    "price": 1100
                   }
                 ]
               },
@@ -21969,7 +21987,7 @@
             ]
           }
         ],
-        "marker-color": "#438df4"
+        "marker-color": "#e7953a"
       }
     },
     {
@@ -25052,7 +25070,7 @@
         "address": "102/1, Kenchena Halli Rd, Durga Parameshwari Layout, Pattanagere, Rajarajeshwari Nagar, Bengaluru, Karnataka 560098",
         "city": "Bengaluru",
         "slug": "hometurf-rajarajeshwari-nagar-bengaluru",
-        "rating": 4.2,
+        "rating": 3.4,
         "bookable": true,
         "minPrice": 600,
         "charts": [
@@ -27286,7 +27304,7 @@
         "address": "Soukya Road, Thirumalashettyhally, Koralur, Karnataka 560117",
         "city": "Bengaluru",
         "slug": "bgr-sportzz-thirumalashettyhally-bengaluru",
-        "rating": 3,
+        "rating": 2.9,
         "bookable": true,
         "minPrice": 900,
         "charts": [
@@ -27735,7 +27753,7 @@
         "address": "Survey No. 99, Green Garden Layout, Phase 2, Jakkur, Chokkanahalli, Bengaluru, Thirumenahalli, Karnataka 560064",
         "city": "Bengaluru",
         "slug": "gamelink-jakkur-jakkur-bengaluru",
-        "rating": 5,
+        "rating": 4.9,
         "bookable": true,
         "minPrice": 1600,
         "charts": [
