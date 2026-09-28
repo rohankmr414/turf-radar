@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-09-27T06:06:10.064Z",
+  "updatedAt": "2026-09-28T06:16:25.131Z",
   "features": [
     {
       "type": "Feature",
@@ -4189,7 +4189,7 @@
         "address": "Unorthodox Sports Arena, Halanayakanhalli, Off Sarjapur road, Bangalore",
         "city": "Bengaluru",
         "slug": "unorthodox-sports-arena-halanayakanhalli-bengaluru",
-        "rating": 4.4,
+        "rating": 4.2,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
@@ -7270,7 +7270,7 @@
         "address": "23/2, Sonnenahalli, Whitefield, Bengaluru, Karnataka 560048",
         "city": "Bengaluru",
         "slug": "v-play-sports-kundalahalli-whitefield-bengaluru",
-        "rating": 3.7,
+        "rating": 3.8,
         "bookable": true,
         "minPrice": 1300,
         "charts": [
@@ -7820,7 +7820,7 @@
         "address": "Ground Floor, ITPL Main Rd, near Phoenix Market City, KEB Colony, Industrial Area, Krishnarajapuram, Bengaluru, Karnataka - 560048",
         "city": "Bengaluru",
         "slug": "decathlon-whitefield-itpl-main-road-bengaluru",
-        "rating": 3.8,
+        "rating": 3.9,
         "bookable": true,
         "minPrice": 1299,
         "charts": [
@@ -20337,7 +20337,7 @@
         "address": "Pase Academy, Sy.no 71/4,72, Uttharahalli Hobli, Hoskerehalli village, Bangalore, Karnataka-560039",
         "city": "Bengaluru",
         "slug": "pase-sports-arena-near-pes-university-bengaluru",
-        "rating": 3.3,
+        "rating": 3.4,
         "bookable": true,
         "minPrice": 1500,
         "charts": [
@@ -20853,7 +20853,7 @@
         "address": "#97/2, Krishnarajpuram Hobli, Thanisandra Village, Bangalore 560077.",
         "city": "Bengaluru",
         "slug": "gametime-thanisandra-bengaluru",
-        "rating": 3.2,
+        "rating": 3.3,
         "bookable": true,
         "minPrice": 1120,
         "charts": [
@@ -33668,6 +33668,76 @@
           }
         ],
         "marker-color": "#438df4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.6646455730151,
+          13.136465509746914
+        ]
+      },
+      "properties": {
+        "id": "2cff848e-4f53-46df-959e-1781a7d2f628",
+        "name": "Neon Sports Academy",
+        "area": "Bagaluru",
+        "address": "Govt School Road, Near Bus Stop, Razack Palya, Bagaluru, Bengaluru, Karnataka - 562149",
+        "city": "Bengaluru",
+        "slug": "neon-sports-academy-bagaluru-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 1500,
+        "charts": [
+          {
+            "name": "Football 7 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 3000
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 3000
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 5 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 1500
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 1500
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#26a879"
       }
     },
     {
