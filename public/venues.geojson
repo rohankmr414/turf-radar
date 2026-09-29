@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-09-28T06:16:25.131Z",
+  "updatedAt": "2026-09-29T06:32:46.134Z",
   "features": [
     {
       "type": "Feature",
@@ -4040,7 +4040,7 @@
         "address": "104/1, 4th Main, Devarachikkanahalli Main Road, Kaveri Nagar, Hongasandra, Bengaluru, Karnataka 560068",
         "city": "Bengaluru",
         "slug": "dee-sports-bommanahalli-bengaluru",
-        "rating": 3.5,
+        "rating": 3.4,
         "bookable": true,
         "minPrice": 1300,
         "charts": [
@@ -8911,20 +8911,7 @@
             "name": "Football Clay 7 a side",
             "days": [
               {
-                "day": "Monday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 06:00 PM",
-                    "price": 1300
-                  },
-                  {
-                    "time": "06:00 PM - 10:00 PM",
-                    "price": 1400
-                  }
-                ]
-              },
-              {
-                "day": "Tuesday - Friday",
+                "day": "Monday - Friday",
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 AM",
@@ -8976,20 +8963,7 @@
             "name": "Football AstroTurf 5 a side",
             "days": [
               {
-                "day": "Monday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 06:00 PM",
-                    "price": 1300
-                  },
-                  {
-                    "time": "06:00 PM - 10:00 PM",
-                    "price": 1400
-                  }
-                ]
-              },
-              {
-                "day": "Tuesday - Friday",
+                "day": "Monday - Friday",
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 AM",
@@ -14462,7 +14436,7 @@
                   },
                   {
                     "time": "03:00 PM - 11:00 PM",
-                    "price": 1600
+                    "price": 1800
                   }
                 ]
               },
@@ -14493,7 +14467,7 @@
                   },
                   {
                     "time": "04:00 PM - 11:00 PM",
-                    "price": 700
+                    "price": 800
                   }
                 ]
               },
@@ -14506,11 +14480,11 @@
                   },
                   {
                     "time": "10:00 AM - 03:00 PM",
-                    "price": 700
+                    "price": 800
                   },
                   {
                     "time": "03:00 PM - 11:00 PM",
-                    "price": 700
+                    "price": 900
                   }
                 ]
               },
@@ -21117,6 +21091,74 @@
                   {
                     "time": "12:00 AM - 12:00 AM",
                     "price": 2600
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#e7953a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.69443153161896,
+          12.831040322213896
+        ]
+      },
+      "properties": {
+        "id": "cc5c2a13-3049-4157-8a4e-bdad0163fa88",
+        "name": "Olympus Sports",
+        "area": "Nandi layout",
+        "address": "Olympus Sports, Nandi layout, kammasandra Road, ananth Nagar , electronic city Phase 2. PIN 560100",
+        "city": "Bengaluru",
+        "slug": "olympus-sports-nandi-layout-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 1000,
+        "charts": [
+          {
+            "name": "Football Natural Grass",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 04:00 PM",
+                    "price": 1000
+                  },
+                  {
+                    "time": "07:00 PM - 09:00 PM",
+                    "price": 1250
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "10:00 AM - 03:00 PM",
+                    "price": 1000
+                  },
+                  {
+                    "time": "07:00 PM - 09:00 PM",
+                    "price": 1250
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 04:00 PM",
+                    "price": 1000
+                  },
+                  {
+                    "time": "07:00 PM - 09:00 PM",
+                    "price": 1250
                   }
                 ]
               }
