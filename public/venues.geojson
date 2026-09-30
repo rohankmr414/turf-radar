@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-09-29T06:32:46.134Z",
+  "updatedAt": "2026-09-30T06:16:04.555Z",
   "features": [
     {
       "type": "Feature",
@@ -2248,11 +2248,11 @@
       },
       "properties": {
         "id": "3623a048-fe83-43e3-af4f-1cfbfe8da89f",
-        "name": "Sporthood Active Arena",
+        "name": "Active Arena",
         "area": "Marathahalli",
         "address": "Opposite Prestige Tech Park (Behind Croma) Outer Ring Road, Marathahalli, Kadubeesanahalli, Panathur",
         "city": "Bengaluru",
-        "slug": "sporthood-active-arena-marathahalli-bengaluru",
+        "slug": "active-arena-marathahalli-bengaluru",
         "rating": 3.4,
         "bookable": true,
         "minPrice": 1100,
@@ -2373,7 +2373,7 @@
         "address": "Innovative Multiplex, No.90/1A (135), Outer Ring Road, Marathahalli, Bangalore - 560037",
         "city": "Bengaluru",
         "slug": "i-sports-marathahalli-bengaluru",
-        "rating": 3.7,
+        "rating": 3.6,
         "bookable": true,
         "minPrice": 500,
         "charts": [
@@ -15325,7 +15325,7 @@
         "address": "Gunjur - Nerige Road, Halasahalli, Bengaluru, Karnataka - 560087",
         "city": "Bengaluru",
         "slug": "playnet-sports-turf-gunjur-bengaluru",
-        "rating": 4.9,
+        "rating": 4.7,
         "bookable": true,
         "minPrice": 600,
         "charts": [
@@ -24445,7 +24445,7 @@
                 "times": [
                   {
                     "time": "06:00 AM - 06:00 PM",
-                    "price": 1000
+                    "price": 1100
                   }
                 ]
               },
@@ -24480,8 +24480,8 @@
                 "day": "Saturday - Sunday",
                 "times": [
                   {
-                    "time": "06:00 AM - 07:00 PM",
-                    "price": 1500
+                    "time": "06:00 AM - 06:00 PM",
+                    "price": 1700
                   }
                 ]
               },
@@ -26416,6 +26416,61 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          77.66814122666563,
+          13.081848446389301
+        ]
+      },
+      "properties": {
+        "id": "207e6675-6f07-4262-b333-d0f99e2bd7cb",
+        "name": "Hennur Indoor Sports Centre",
+        "area": "Chikkagubbi",
+        "address": "87, Chikkagubbi Main Rd, Doddagubbi, Chikkagubbi Village, Bidarahalli, Chikkagubbi, Karnataka 560077",
+        "city": "Bengaluru",
+        "slug": "hennur-indoor-sports-centre-chikkagubbi-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 600,
+        "charts": [
+          {
+            "name": "Football 6 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 05:00 PM",
+                    "price": 600
+                  },
+                  {
+                    "time": "05:00 PM - 10:00 PM",
+                    "price": 800
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 05:00 PM",
+                    "price": 600
+                  },
+                  {
+                    "time": "05:00 PM - 10:00 PM",
+                    "price": 800
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#438df4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           77.52236928650755,
           13.004870987757235
         ]
@@ -26892,7 +26947,7 @@
         "address": "Sprintz Arena, Sattva Global City, Mysore Rd, RV Vidyaniketan, Rajarajeshwari Nagar, Bengaluru, Karnataka - 560059",
         "city": "Bengaluru",
         "slug": "sprintz-arena-at-sattva-global-city-rajarajeshwari-nagar-bengaluru",
-        "rating": 4,
+        "rating": 4.1,
         "bookable": true,
         "minPrice": 1250,
         "charts": [
