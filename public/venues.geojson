@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-09-30T06:16:04.555Z",
+  "updatedAt": "2026-10-01T06:46:48.979Z",
   "features": [
     {
       "type": "Feature",
@@ -14624,42 +14624,6 @@
         "minPrice": 600,
         "charts": [
           {
-            "name": "Football Medium \n(Applicable: 11th Sep - 30th Sep)",
-            "days": [
-              {
-                "day": "Monday - Thursday",
-                "times": [
-                  {
-                    "time": "05:00 AM - 06:00 PM",
-                    "price": 600
-                  },
-                  {
-                    "time": "06:00 PM - 10:00 PM",
-                    "price": 800
-                  }
-                ]
-              },
-              {
-                "day": "Friday - Sunday",
-                "times": [
-                  {
-                    "time": "05:00 AM - 10:00 PM",
-                    "price": 1000
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "05:00 AM - 10:00 PM",
-                    "price": 1000
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Football Medium",
             "days": [
               {
@@ -14944,20 +14908,7 @@
                 ]
               },
               {
-                "day": "Friday",
-                "times": [
-                  {
-                    "time": "05:00 AM - 04:00 PM",
-                    "price": 3600
-                  },
-                  {
-                    "time": "04:00 PM - 10:30 PM",
-                    "price": 4500
-                  }
-                ]
-              },
-              {
-                "day": "Saturday - Sunday",
+                "day": "Friday - Sunday",
                 "times": [
                   {
                     "time": "05:00 AM - 10:30 PM",
@@ -14989,23 +14940,10 @@
                 ]
               },
               {
-                "day": "Friday",
+                "day": "Friday - Sunday",
                 "times": [
                   {
-                    "time": "05:00 AM - 04:00 PM",
-                    "price": 3000
-                  },
-                  {
-                    "time": "04:00 PM - 10:30 PM",
-                    "price": 3500
-                  }
-                ]
-              },
-              {
-                "day": "Saturday - Sunday",
-                "times": [
-                  {
-                    "time": "05:00 AM - 11:00 PM",
+                    "time": "05:00 AM - 10:30 PM",
                     "price": 3500
                   }
                 ]
@@ -15034,20 +14972,7 @@
                 ]
               },
               {
-                "day": "Friday",
-                "times": [
-                  {
-                    "time": "05:00 AM - 04:00 PM",
-                    "price": 1200
-                  },
-                  {
-                    "time": "04:00 PM - 10:30 PM",
-                    "price": 1500
-                  }
-                ]
-              },
-              {
-                "day": "Saturday - Sunday",
+                "day": "Friday - Sunday",
                 "times": [
                   {
                     "time": "05:00 AM - 10:30 PM",
@@ -20827,7 +20752,7 @@
         "address": "#97/2, Krishnarajpuram Hobli, Thanisandra Village, Bangalore 560077.",
         "city": "Bengaluru",
         "slug": "gametime-thanisandra-bengaluru",
-        "rating": 3.3,
+        "rating": 3.4,
         "bookable": true,
         "minPrice": 1120,
         "charts": [
@@ -21704,6 +21629,20 @@
             ]
           },
           {
+            "name": "Football 6 a side \n(Applicable: 10th Oct - 21st Oct)",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "05:00 AM - 11:00 PM",
+                    "price": 1199
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Football 9 a side",
             "days": [
               {
@@ -21720,6 +21659,20 @@
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 PM",
+                    "price": 3599
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 9 a side \n(Applicable: 10th Oct - 21st Oct)",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "05:00 AM - 11:00 PM",
                     "price": 3599
                   }
                 ]
@@ -32037,7 +31990,7 @@
         "address": "Near lumbini international public school, Kattigenahalli 52/1 anjaneya temple street kattigenahalli, Yelahanka, Bengaluru, Karnataka 560064",
         "city": "Bengaluru",
         "slug": "lumbini-sports-club-kattigenahalli-bengaluru",
-        "rating": 4.1,
+        "rating": 3.3,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
@@ -32619,11 +32572,11 @@
       },
       "properties": {
         "id": "dcaa4b4f-c5d2-41a0-9e71-31ae137f965e",
-        "name": "Spark7 Sports Arena",
+        "name": "Machaxi Spark7 Sports, Health & Fitness Club",
         "area": "Kattigenahalli",
         "address": "Sy No 194/3, Swami Muneshwara Complex Bagalur Main Rd, Kattigenahalli, Bengaluru, Karnataka - 560063",
         "city": "Bengaluru",
-        "slug": "spark7-sports-arena-kattigenahalli-bengaluru",
+        "slug": "machaxi-spark7-sports-health-fitness-club-kattigenahalli-bengaluru",
         "rating": 4.5,
         "bookable": true,
         "minPrice": 900,
