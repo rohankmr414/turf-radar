@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-01T06:46:48.979Z",
+  "updatedAt": "2026-10-02T06:36:11.075Z",
   "features": [
     {
       "type": "Feature",
@@ -1479,7 +1479,7 @@
         "address": "ETV Sports Garden New Sports Zone, Parcel 5, Embassy Tech Village Rd, Devarabisanahalli, Bellandur, Bengaluru, Karnataka 560103",
         "city": "Bengaluru",
         "slug": "etv-sports-garden-bellandur-bengaluru",
-        "rating": 3.4,
+        "rating": 3.5,
         "bookable": true,
         "minPrice": 2200,
         "charts": [
@@ -5288,7 +5288,7 @@
         "address": "#13, Chikkanayakanahalli Road, Doddakanahalli, Sarjapur road, Bangalore-560035",
         "city": "Bengaluru",
         "slug": "elite-sports-lake-view-public-school-doddakanahalli-bengaluru",
-        "rating": 4,
+        "rating": 3.4,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
@@ -8911,7 +8911,7 @@
             "name": "Football Clay 7 a side",
             "days": [
               {
-                "day": "Monday - Friday",
+                "day": "Monday - Thursday",
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 AM",
@@ -8932,7 +8932,7 @@
                 ]
               },
               {
-                "day": "Saturday - Sunday",
+                "day": "Friday - Sunday",
                 "times": [
                   {
                     "time": "06:00 AM - 06:00 PM",
@@ -8963,7 +8963,7 @@
             "name": "Football AstroTurf 5 a side",
             "days": [
               {
-                "day": "Monday - Friday",
+                "day": "Monday - Thursday",
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 AM",
@@ -8984,7 +8984,7 @@
                 ]
               },
               {
-                "day": "Saturday - Sunday",
+                "day": "Friday - Sunday",
                 "times": [
                   {
                     "time": "06:00 AM - 06:00 PM",
@@ -15118,7 +15118,7 @@
         "address": "Hebron Enclave Rd, Green Woods Layout, Margondanahalli, Halehalli, Karnataka 560036",
         "city": "Bengaluru",
         "slug": "bengaluru-shooterz-sports-arena-ramamurthy-nagar-bengaluru",
-        "rating": 4.4,
+        "rating": 4.1,
         "bookable": true,
         "minPrice": 1200,
         "charts": [
@@ -19159,11 +19159,7 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "06:00 AM - 08:00 AM",
-                    "price": 2100
-                  },
-                  {
-                    "time": "04:00 PM - 11:00 PM",
+                    "time": "06:00 AM - 11:00 PM",
                     "price": 2100
                   }
                 ]
@@ -19225,11 +19221,7 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "06:00 AM - 08:00 AM",
-                    "price": 1050
-                  },
-                  {
-                    "time": "04:00 PM - 11:00 PM",
+                    "time": "06:00 AM - 11:00 PM",
                     "price": 1050
                   }
                 ]
@@ -22395,7 +22387,7 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "12:00 AM - 12:00 AM",
+                    "time": "05:30 AM - 11:00 PM",
                     "price": 900
                   }
                 ]
@@ -26380,7 +26372,7 @@
         "address": "87, Chikkagubbi Main Rd, Doddagubbi, Chikkagubbi Village, Bidarahalli, Chikkagubbi, Karnataka 560077",
         "city": "Bengaluru",
         "slug": "hennur-indoor-sports-centre-chikkagubbi-bengaluru",
-        "rating": 5,
+        "rating": 4.8,
         "bookable": true,
         "minPrice": 600,
         "charts": [
