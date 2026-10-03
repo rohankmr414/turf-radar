@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-02T06:36:11.075Z",
+  "updatedAt": "2026-10-03T05:59:28.274Z",
   "features": [
     {
       "type": "Feature",
@@ -15385,7 +15385,7 @@
         "address": "224/5 Muthanalur Cross, Dommasandra village, Varthur - Sarjapur Rd, Rd, Kachamaranahalli, Bengaluru, Karnataka 562125",
         "city": "Bengaluru",
         "slug": "stoik-multisports-arena-off-sarjapur-road-bengaluru",
-        "rating": 4.6,
+        "rating": 5,
         "bookable": true,
         "minPrice": 900,
         "charts": [
@@ -24557,7 +24557,7 @@
         "slug": "manaa-sports-club-sompura-bengaluru",
         "rating": 5,
         "bookable": true,
-        "minPrice": 870,
+        "minPrice": 1560,
         "charts": [
           {
             "name": "Football 7 a side",
@@ -24602,53 +24602,9 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Football 5 a side",
-            "days": [
-              {
-                "day": "Monday - Thursday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 05:00 PM",
-                    "price": 870
-                  },
-                  {
-                    "time": "05:00 PM - 11:00 PM",
-                    "price": 1020
-                  }
-                ]
-              },
-              {
-                "day": "Friday - Sunday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 05:00 PM",
-                    "price": 1000
-                  },
-                  {
-                    "time": "05:00 PM - 11:00 PM",
-                    "price": 1150
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "06:00 AM - 05:00 PM",
-                    "price": 1000
-                  },
-                  {
-                    "time": "05:00 PM - 11:00 PM",
-                    "price": 1150
-                  }
-                ]
-              }
-            ]
           }
         ],
-        "marker-color": "#438df4"
+        "marker-color": "#26a879"
       }
     },
     {
@@ -31982,7 +31938,7 @@
         "address": "Near lumbini international public school, Kattigenahalli 52/1 anjaneya temple street kattigenahalli, Yelahanka, Bengaluru, Karnataka 560064",
         "city": "Bengaluru",
         "slug": "lumbini-sports-club-kattigenahalli-bengaluru",
-        "rating": 3.3,
+        "rating": 3.4,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
