@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-03T05:59:28.274Z",
+  "updatedAt": "2026-10-04T06:36:35.215Z",
   "features": [
     {
       "type": "Feature",
@@ -2588,7 +2588,20 @@
                 ]
               },
               {
-                "day": "Saturday - Sunday",
+                "day": "Saturday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 08:00 AM",
+                    "price": 1800
+                  },
+                  {
+                    "time": "03:30 PM - 11:00 PM",
+                    "price": 1800
+                  }
+                ]
+              },
+              {
+                "day": "Sunday",
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 PM",
@@ -2616,11 +2629,28 @@
                   {
                     "time": "04:00 PM - 11:00 PM",
                     "price": 2000
+                  },
+                  {
+                    "time": "06:00 AM - 08:00 AM",
+                    "price": 2000
                   }
                 ]
               },
               {
-                "day": "Saturday - Sunday",
+                "day": "Saturday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 08:00 AM",
+                    "price": 2500
+                  },
+                  {
+                    "time": "03:30 PM - 11:00 PM",
+                    "price": 2500
+                  }
+                ]
+              },
+              {
+                "day": "Sunday",
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 PM",
@@ -6630,7 +6660,20 @@
             "name": "Football 7 a side",
             "days": [
               {
-                "day": "Monday - Sunday",
+                "day": "Monday - Thursday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 05:00 PM",
+                    "price": 1500
+                  },
+                  {
+                    "time": "05:00 PM - 11:00 PM",
+                    "price": 1600
+                  }
+                ]
+              },
+              {
+                "day": "Friday - Sunday",
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 PM",
@@ -9180,6 +9223,126 @@
           }
         ],
         "marker-color": "#438df4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.62139336660701,
+          12.868773193390636
+        ]
+      },
+      "properties": {
+        "id": "d1d0c7e4-8f2d-42ab-8a3f-81e9e0aee30c",
+        "name": "Dribble Den",
+        "area": "Begur",
+        "address": "Hobli, Near Janhavi Meadows, Apartment, Yelenahalli, Begur, Bengaluru, Karnataka - 560114",
+        "city": "Bengaluru",
+        "slug": "dribble-den-begur-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 1000,
+        "charts": [
+          {
+            "name": "Football 5 a side",
+            "days": [
+              {
+                "day": "Monday - Thursday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 AM",
+                    "price": 1300
+                  },
+                  {
+                    "time": "11:00 AM - 03:00 PM",
+                    "price": 1000
+                  },
+                  {
+                    "time": "03:00 PM - 11:00 PM",
+                    "price": 1300
+                  }
+                ]
+              },
+              {
+                "day": "Friday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 AM",
+                    "price": 1400
+                  },
+                  {
+                    "time": "11:00 AM - 03:00 PM",
+                    "price": 1000
+                  },
+                  {
+                    "time": "03:00 PM - 11:00 PM",
+                    "price": 1400
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 1300
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 7 a side",
+            "days": [
+              {
+                "day": "Monday - Thursday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 10:00 AM",
+                    "price": 2400
+                  },
+                  {
+                    "time": "10:00 AM - 04:00 PM",
+                    "price": 2100
+                  },
+                  {
+                    "time": "04:00 PM - 11:00 PM",
+                    "price": 2400
+                  }
+                ]
+              },
+              {
+                "day": "Friday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 AM",
+                    "price": 2500
+                  },
+                  {
+                    "time": "11:00 AM - 03:00 PM",
+                    "price": 2100
+                  },
+                  {
+                    "time": "03:00 PM - 11:00 PM",
+                    "price": 2500
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 2300
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#e7953a"
       }
     },
     {
@@ -20744,7 +20907,7 @@
         "address": "#97/2, Krishnarajpuram Hobli, Thanisandra Village, Bangalore 560077.",
         "city": "Bengaluru",
         "slug": "gametime-thanisandra-bengaluru",
-        "rating": 3.4,
+        "rating": 3.3,
         "bookable": true,
         "minPrice": 1120,
         "charts": [
@@ -26673,7 +26836,7 @@
             "name": "Football 7 a side",
             "days": [
               {
-                "day": "Monday - Sunday",
+                "day": "Monday - Friday",
                 "times": [
                   {
                     "time": "06:00 AM - 09:30 PM",
@@ -26682,11 +26845,20 @@
                 ]
               },
               {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 09:30 PM",
+                    "price": 1500
+                  }
+                ]
+              },
+              {
                 "day": "Holiday(s)",
                 "times": [
                   {
                     "time": "06:00 AM - 09:30 PM",
-                    "price": 1200
+                    "price": 1500
                   }
                 ]
               }
@@ -31043,7 +31215,7 @@
         "slug": "rally-sports-budigere-cross-bengaluru",
         "rating": 4.8,
         "bookable": true,
-        "minPrice": 500,
+        "minPrice": 750,
         "charts": [
           {
             "name": "Football 9 a side",
@@ -31102,37 +31274,6 @@
                   {
                     "time": "05:00 AM - 09:00 PM",
                     "price": 1000
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Football 5 a side",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "05:00 AM - 10:00 AM",
-                    "price": 750
-                  },
-                  {
-                    "time": "10:00 AM - 04:00 PM",
-                    "price": 500
-                  },
-                  {
-                    "time": "04:00 PM - 09:00 PM",
-                    "price": 750
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "05:00 AM - 09:00 PM",
-                    "price": 750
                   }
                 ]
               }
