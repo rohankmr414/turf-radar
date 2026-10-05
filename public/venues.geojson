@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-04T06:36:35.215Z",
+  "updatedAt": "2026-10-05T06:31:01.549Z",
   "features": [
     {
       "type": "Feature",
@@ -2571,7 +2571,7 @@
         "address": "Backdoor of Geetanjali Olympiad School, Kaverappa Layout, Kadubeesanahalli, Bengaluru, Karnataka - 560103",
         "city": "Bengaluru",
         "slug": "geetanjali-olympiad-sports-arena-kadubeesanahalli-bengaluru",
-        "rating": 4.1,
+        "rating": 3.9,
         "bookable": true,
         "minPrice": 1500,
         "charts": [
@@ -11276,7 +11276,7 @@
         "slug": "leo-pride-academy-of-cricket-excellence-krishnarajapuram-bengaluru",
         "rating": 4.8,
         "bookable": true,
-        "minPrice": 1800,
+        "minPrice": 1400,
         "charts": [
           {
             "name": "Football 7 a side",
@@ -11285,20 +11285,12 @@
                 "day": "Monday - Friday",
                 "times": [
                   {
-                    "time": "06:00 AM - 10:00 AM",
-                    "price": 3000
-                  },
-                  {
-                    "time": "10:00 AM - 04:00 PM",
-                    "price": 2500
-                  },
-                  {
-                    "time": "04:00 PM - 06:00 PM",
-                    "price": 3000
+                    "time": "06:00 AM - 06:00 PM",
+                    "price": 2100
                   },
                   {
                     "time": "06:00 PM - 11:00 PM",
-                    "price": 3500
+                    "price": 2400
                   }
                 ]
               },
@@ -11306,16 +11298,12 @@
                 "day": "Saturday - Sunday",
                 "times": [
                   {
-                    "time": "06:00 AM - 10:00 AM",
-                    "price": 3800
+                    "time": "06:00 AM - 06:00 PM",
+                    "price": 2200
                   },
                   {
-                    "time": "10:00 AM - 05:00 PM",
-                    "price": 3500
-                  },
-                  {
-                    "time": "05:00 PM - 11:00 PM",
-                    "price": 4000
+                    "time": "06:00 PM - 11:00 PM",
+                    "price": 2500
                   }
                 ]
               },
@@ -11323,16 +11311,12 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "06:00 AM - 10:00 AM",
-                    "price": 3800
+                    "time": "12:00 AM - 06:00 PM",
+                    "price": 2200
                   },
                   {
-                    "time": "10:00 AM - 05:00 PM",
-                    "price": 3500
-                  },
-                  {
-                    "time": "05:00 PM - 11:00 PM",
-                    "price": 4000
+                    "time": "06:00 PM - 12:00 AM",
+                    "price": 2500
                   }
                 ]
               }
@@ -11345,20 +11329,12 @@
                 "day": "Monday - Friday",
                 "times": [
                   {
-                    "time": "06:00 AM - 10:00 AM",
-                    "price": 2000
-                  },
-                  {
-                    "time": "10:00 AM - 04:00 PM",
-                    "price": 1800
-                  },
-                  {
-                    "time": "04:00 PM - 06:00 PM",
-                    "price": 2000
+                    "time": "06:00 AM - 06:00 PM",
+                    "price": 1400
                   },
                   {
                     "time": "06:00 PM - 11:00 PM",
-                    "price": 2500
+                    "price": 1600
                   }
                 ]
               },
@@ -11366,16 +11342,12 @@
                 "day": "Saturday - Sunday",
                 "times": [
                   {
-                    "time": "06:00 AM - 10:00 AM",
-                    "price": 2600
+                    "time": "06:00 AM - 06:00 PM",
+                    "price": 1500
                   },
                   {
-                    "time": "10:00 AM - 05:00 PM",
-                    "price": 2500
-                  },
-                  {
-                    "time": "05:00 PM - 11:00 PM",
-                    "price": 3000
+                    "time": "06:00 PM - 11:00 PM",
+                    "price": 1700
                   }
                 ]
               },
@@ -11383,23 +11355,19 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "06:00 AM - 10:00 AM",
-                    "price": 2600
+                    "time": "12:00 AM - 05:00 PM",
+                    "price": 1600
                   },
                   {
-                    "time": "10:00 AM - 05:00 PM",
-                    "price": 2500
-                  },
-                  {
-                    "time": "05:00 PM - 11:00 PM",
-                    "price": 3000
+                    "time": "05:00 PM - 12:00 AM",
+                    "price": 1800
                   }
                 ]
               }
             ]
           }
         ],
-        "marker-color": "#26a879"
+        "marker-color": "#e7953a"
       }
     },
     {
@@ -13950,7 +13918,7 @@
         "address": "Nobel Residency,  Phase #2, Next to Nandi Woods Apartment, Tejaswini Nagar, Bengaluru, Karnataka - 560076",
         "city": "Bengaluru",
         "slug": "coliseo-atletico-next-to-nandi-woods-bengaluru",
-        "rating": 4.3,
+        "rating": 4.4,
         "bookable": true,
         "minPrice": 600,
         "charts": [
@@ -19075,7 +19043,7 @@
         "address": "#66, Near Shanimahatma Temple, Bileshivale Main Rd, Hanumanthappa Layout, Narayanapura, Byrathi, Bengaluru, Karnataka - 560077",
         "city": "Bengaluru",
         "slug": "strikers-sports-arena-byrathi-narayanapura-bengaluru",
-        "rating": 5,
+        "rating": 4.7,
         "bookable": true,
         "minPrice": 1200,
         "charts": [
