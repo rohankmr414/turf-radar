@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-05T06:31:01.549Z",
+  "updatedAt": "2026-10-06T07:07:11.583Z",
   "features": [
     {
       "type": "Feature",
@@ -14755,6 +14755,54 @@
         "minPrice": 600,
         "charts": [
           {
+            "name": "Football Medium \n(Applicable: 5th Oct - 31st Oct)",
+            "days": [
+              {
+                "day": "Monday - Thursday",
+                "times": [
+                  {
+                    "time": "05:00 AM - 05:00 PM",
+                    "price": 600
+                  },
+                  {
+                    "time": "05:00 PM - 06:00 PM",
+                    "price": 1000
+                  },
+                  {
+                    "time": "06:00 PM - 10:00 PM",
+                    "price": 800
+                  }
+                ]
+              },
+              {
+                "day": "Friday - Sunday",
+                "times": [
+                  {
+                    "time": "05:00 AM - 04:30 PM",
+                    "price": 1100
+                  },
+                  {
+                    "time": "04:30 PM - 06:00 PM",
+                    "price": 1600
+                  },
+                  {
+                    "time": "06:00 PM - 10:00 PM",
+                    "price": 1100
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "05:00 AM - 10:00 PM",
+                    "price": 1100
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Football Medium",
             "days": [
               {
@@ -26461,7 +26509,7 @@
         "slug": "hennur-indoor-sports-centre-chikkagubbi-bengaluru",
         "rating": 4.8,
         "bookable": true,
-        "minPrice": 600,
+        "minPrice": 500,
         "charts": [
           {
             "name": "Football 6 a side",
@@ -26471,11 +26519,11 @@
                 "times": [
                   {
                     "time": "06:00 AM - 05:00 PM",
-                    "price": 600
+                    "price": 500
                   },
                   {
                     "time": "05:00 PM - 10:00 PM",
-                    "price": 800
+                    "price": 600
                   }
                 ]
               },
@@ -26484,11 +26532,11 @@
                 "times": [
                   {
                     "time": "06:00 AM - 05:00 PM",
-                    "price": 600
+                    "price": 500
                   },
                   {
                     "time": "05:00 PM - 10:00 PM",
-                    "price": 800
+                    "price": 600
                   }
                 ]
               }
@@ -31193,15 +31241,15 @@
                 "times": [
                   {
                     "time": "05:00 AM - 10:00 AM",
-                    "price": 1500
+                    "price": 1800
                   },
                   {
                     "time": "10:00 AM - 04:00 PM",
-                    "price": 1250
+                    "price": 1600
                   },
                   {
                     "time": "04:00 PM - 09:00 PM",
-                    "price": 1500
+                    "price": 1800
                   }
                 ]
               },
@@ -31209,8 +31257,16 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "05:00 AM - 09:00 PM",
-                    "price": 1500
+                    "time": "05:00 AM - 10:00 AM",
+                    "price": 1800
+                  },
+                  {
+                    "time": "10:00 AM - 04:00 PM",
+                    "price": 1600
+                  },
+                  {
+                    "time": "04:00 PM - 09:00 PM",
+                    "price": 1800
                   }
                 ]
               }
@@ -35970,53 +36026,6 @@
                   {
                     "time": "04:00 PM - 10:00 PM",
                     "price": 500
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "marker-color": "#438df4"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.645676,
-          13.20496
-        ]
-      },
-      "properties": {
-        "id": "4343be50-031c-4e33-9e3c-192aa87b5300",
-        "name": "Chairman's Jade Club",
-        "area": "Bangalore International Airport Road",
-        "address": "Sada Halli Village, Off Bangalore International Airport Road, Devanahalli Taluk, Bangalore North",
-        "city": "Bengaluru",
-        "slug": "chairmans-jade-club-bangalore-international-airport-road-bengaluru",
-        "rating": 4.6,
-        "bookable": true,
-        "minPrice": 950,
-        "charts": [
-          {
-            "name": "Football 5 a Side",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "09:00 AM - 05:00 PM",
-                    "price": 950
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "09:00 AM - 05:00 PM",
-                    "price": 950
                   }
                 ]
               }
