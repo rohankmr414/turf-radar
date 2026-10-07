@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-06T07:07:11.583Z",
+  "updatedAt": "2026-10-07T06:48:44.481Z",
   "features": [
     {
       "type": "Feature",
@@ -7518,29 +7518,6 @@
           }
         ],
         "marker-color": "#e7953a"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.64070514991458,
-          12.874173920037235
-        ]
-      },
-      "properties": {
-        "id": "e67563b0-582d-493b-99bf-3f3d29b6782c",
-        "name": "MEMCO Skyline",
-        "area": "Singasandra",
-        "address": "Sy. No. 115/2, Manipal County Rd, Aishwarya Crystal Layout, Singasandra, Bengaluru, Karnataka 560114",
-        "city": "Bengaluru",
-        "slug": "memco-skyline-singasandra-bengaluru",
-        "rating": 5,
-        "bookable": false,
-        "minPrice": null,
-        "charts": [],
-        "marker-color": "#8290a3"
       }
     },
     {
@@ -17612,7 +17589,7 @@
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 PM",
-                    "price": 4000
+                    "price": 2500
                   }
                 ]
               }
@@ -36670,7 +36647,7 @@
         "slug": "mvm-sports-academy-doddaballapura-duddanahalli-bengaluru",
         "rating": 5,
         "bookable": true,
-        "minPrice": 800,
+        "minPrice": 500,
         "charts": [
           {
             "name": "Football 6 a side",
@@ -36680,7 +36657,7 @@
                 "times": [
                   {
                     "time": "06:00 PM - 09:00 PM",
-                    "price": 800
+                    "price": 500
                   }
                 ]
               },
@@ -36689,7 +36666,7 @@
                 "times": [
                   {
                     "time": "12:00 PM - 09:00 PM",
-                    "price": 800
+                    "price": 500
                   }
                 ]
               },
