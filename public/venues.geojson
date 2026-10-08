@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-07T06:48:44.481Z",
+  "updatedAt": "2026-10-08T06:57:49.254Z",
   "features": [
     {
       "type": "Feature",
@@ -1920,21 +1920,42 @@
         "slug": "urban-vibes-gangothri-circle-bengaluru",
         "rating": 2.4,
         "bookable": true,
-        "minPrice": 2000,
+        "minPrice": 1200,
         "charts": [
           {
             "name": "Football 6 a side",
             "days": [
               {
-                "day": "Monday - Sunday",
+                "day": "Monday - Thursday",
                 "times": [
                   {
-                    "time": "12:00 AM - 04:00 AM",
-                    "price": 2000
+                    "time": "12:00 AM - 02:00 AM",
+                    "price": 1600
                   },
                   {
-                    "time": "07:00 AM - 12:00 AM",
-                    "price": 2000
+                    "time": "06:00 AM - 04:00 PM",
+                    "price": 1200
+                  },
+                  {
+                    "time": "04:00 PM - 12:00 AM",
+                    "price": 1600
+                  }
+                ]
+              },
+              {
+                "day": "Friday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 02:00 AM",
+                    "price": 1600
+                  },
+                  {
+                    "time": "06:00 AM - 04:00 PM",
+                    "price": 1600
+                  },
+                  {
+                    "time": "04:00 PM - 12:00 AM",
+                    "price": 1600
                   }
                 ]
               },
@@ -1954,7 +1975,7 @@
             ]
           }
         ],
-        "marker-color": "#26a879"
+        "marker-color": "#e7953a"
       }
     },
     {
@@ -5318,7 +5339,7 @@
         "address": "#13, Chikkanayakanahalli Road, Doddakanahalli, Sarjapur road, Bangalore-560035",
         "city": "Bengaluru",
         "slug": "elite-sports-lake-view-public-school-doddakanahalli-bengaluru",
-        "rating": 3.4,
+        "rating": 3.7,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
@@ -9545,11 +9566,11 @@
       },
       "properties": {
         "id": "e532e74a-6a28-4827-8750-3fbbdc9a59d0",
-        "name": "Offside Trap",
+        "name": "Proplay - Offside Trap",
         "area": "Horamavu",
         "address": "3rd St, CNR Layout, Babusapalya, Bank Avenue Colony, Horamavu, Bengaluru, Karnataka",
         "city": "Bengaluru",
-        "slug": "offside-trap-horamavu-bengaluru",
+        "slug": "proplay-offside-trap-horamavu-bengaluru",
         "rating": 4.4,
         "bookable": true,
         "minPrice": 1300,
@@ -20902,25 +20923,25 @@
         "slug": "gametime-thanisandra-bengaluru",
         "rating": 3.3,
         "bookable": true,
-        "minPrice": 1120,
+        "minPrice": 1200,
         "charts": [
           {
-            "name": "Football 6 a side",
+            "name": "Football 6 a side Half Court 120x40 ft",
             "days": [
               {
                 "day": "Monday - Thursday",
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 AM",
-                    "price": 1280
+                    "price": 1200
                   },
                   {
                     "time": "11:00 AM - 04:00 PM",
-                    "price": 1120
+                    "price": 1200
                   },
                   {
                     "time": "04:00 PM - 12:00 AM",
-                    "price": 1280
+                    "price": 1200
                   }
                 ]
               },
@@ -20929,19 +20950,19 @@
                 "times": [
                   {
                     "time": "12:00 AM - 02:00 AM",
-                    "price": 1620
+                    "price": 1500
                   },
                   {
                     "time": "06:00 AM - 11:00 AM",
-                    "price": 1620
+                    "price": 1500
                   },
                   {
                     "time": "11:00 AM - 04:00 PM",
-                    "price": 1440
+                    "price": 1500
                   },
                   {
                     "time": "04:00 PM - 12:00 AM",
-                    "price": 1620
+                    "price": 1500
                   }
                 ]
               },
@@ -20957,22 +20978,22 @@
             ]
           },
           {
-            "name": "Football 10 a side",
+            "name": "Football 8 a side Full Court 120x80 ft",
             "days": [
               {
                 "day": "Monday - Thursday",
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 AM",
-                    "price": 2160
+                    "price": 1800
                   },
                   {
                     "time": "11:00 AM - 04:00 PM",
-                    "price": 2000
+                    "price": 1800
                   },
                   {
                     "time": "04:00 PM - 12:00 AM",
-                    "price": 2160
+                    "price": 1800
                   }
                 ]
               },
@@ -20981,19 +21002,19 @@
                 "times": [
                   {
                     "time": "12:00 AM - 02:00 AM",
-                    "price": 2700
+                    "price": 2500
                   },
                   {
                     "time": "06:00 AM - 11:00 AM",
-                    "price": 2700
+                    "price": 2500
                   },
                   {
                     "time": "11:00 AM - 04:00 PM",
-                    "price": 2520
+                    "price": 2500
                   },
                   {
                     "time": "04:00 PM - 12:00 AM",
-                    "price": 2700
+                    "price": 2500
                   }
                 ]
               },
@@ -21002,7 +21023,7 @@
                 "times": [
                   {
                     "time": "06:00 AM - 12:00 AM",
-                    "price": 4000
+                    "price": 2500
                   }
                 ]
               }
@@ -21428,7 +21449,7 @@
         "address": "KV Sky Turf, Kothanur, Bengaluru, Karnataka 560077",
         "city": "Bengaluru",
         "slug": "kv-sky-turf-kothanur-bengaluru",
-        "rating": 0,
+        "rating": 5,
         "bookable": true,
         "minPrice": 1200,
         "charts": [
@@ -26877,7 +26898,7 @@
         "address": "Chokkanahalli Main Rd, inside Yenepoya university, Chokkanahalli, Bengaluru, Thirumenahalli, Karnataka 560064",
         "city": "Bengaluru",
         "slug": "yen-sports-chokkanahalli-bengaluru",
-        "rating": 5,
+        "rating": 4.6,
         "bookable": true,
         "minPrice": 800,
         "charts": [
@@ -32859,7 +32880,7 @@
         "address": "QP92+38F, Chandapura - Anekal Road, Marsur, Naganaikanahalli, Karnataka - 562107",
         "city": "Bengaluru",
         "slug": "sportsarc-sports-arena-chandapura-bengaluru",
-        "rating": 4.6,
+        "rating": 4.5,
         "bookable": true,
         "minPrice": 800,
         "charts": [
@@ -35380,11 +35401,11 @@
       },
       "properties": {
         "id": "a9d29af3-f27f-4aa5-b2d2-73511faba6f9",
-        "name": "Phoenix Sports Zone",
+        "name": "Proplay - Phoenix Sports Zone",
         "area": "Rajanukunte",
         "address": "Rajanukunte Doddaballapur Main, Opposite Sattva Lumina Behind Abhit Interio Bangalore North 560064",
         "city": "Bengaluru",
-        "slug": "phoenix-sports-zone-rajanukunte-bengaluru",
+        "slug": "proplay-phoenix-sports-zone-rajanukunte-bengaluru",
         "rating": 5,
         "bookable": true,
         "minPrice": 850,
