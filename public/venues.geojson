@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-08T06:57:49.254Z",
+  "updatedAt": "2026-10-09T07:06:52.062Z",
   "features": [
     {
       "type": "Feature",
@@ -8952,7 +8952,7 @@
             "name": "Football Clay 7 a side",
             "days": [
               {
-                "day": "Monday - Thursday",
+                "day": "Monday - Friday",
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 AM",
@@ -8973,7 +8973,7 @@
                 ]
               },
               {
-                "day": "Friday - Sunday",
+                "day": "Saturday - Sunday",
                 "times": [
                   {
                     "time": "06:00 AM - 06:00 PM",
@@ -9004,7 +9004,7 @@
             "name": "Football AstroTurf 5 a side",
             "days": [
               {
-                "day": "Monday - Thursday",
+                "day": "Monday - Friday",
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 AM",
@@ -9025,7 +9025,7 @@
                 ]
               },
               {
-                "day": "Friday - Sunday",
+                "day": "Saturday - Sunday",
                 "times": [
                   {
                     "time": "06:00 AM - 06:00 PM",
@@ -11228,7 +11228,7 @@
                 "times": [
                   {
                     "time": "12:00 AM - 12:00 AM",
-                    "price": 2600
+                    "price": 2800
                   }
                 ]
               },
@@ -11237,7 +11237,7 @@
                 "times": [
                   {
                     "time": "12:00 AM - 12:00 AM",
-                    "price": 3000
+                    "price": 3200
                   }
                 ]
               },
@@ -11246,7 +11246,7 @@
                 "times": [
                   {
                     "time": "12:00 AM - 12:00 AM",
-                    "price": 3000
+                    "price": 3200
                   }
                 ]
               }
@@ -17970,7 +17970,7 @@
         "address": "T. John Campus, Gottigere, Bannerghatta Road, NICE Road Junction, Basavanapura, Doddakammanahalli, Bangalore-560083",
         "city": "Bengaluru",
         "slug": "national-public-school-gottigere-t-john-campus-bengaluru",
-        "rating": 4.5,
+        "rating": 4.2,
         "bookable": true,
         "minPrice": 1500,
         "charts": [
@@ -28125,7 +28125,7 @@
         "slug": "arjun-sports-arena-yelahanka-yeshodhangar-bengaluru",
         "rating": 5,
         "bookable": true,
-        "minPrice": 1500,
+        "minPrice": 1498,
         "charts": [
           {
             "name": "Football 6 a side",
@@ -28135,7 +28135,7 @@
                 "times": [
                   {
                     "time": "05:00 AM - 12:00 AM",
-                    "price": 1500
+                    "price": 1498
                   }
                 ]
               },
@@ -28151,7 +28151,7 @@
             ]
           }
         ],
-        "marker-color": "#26a879"
+        "marker-color": "#e7953a"
       }
     },
     {
@@ -31229,7 +31229,7 @@
         "slug": "rally-sports-budigere-cross-bengaluru",
         "rating": 4.8,
         "bookable": true,
-        "minPrice": 750,
+        "minPrice": 1000,
         "charts": [
           {
             "name": "Football 9 a side",
@@ -31278,15 +31278,15 @@
                 "times": [
                   {
                     "time": "05:00 AM - 10:00 AM",
-                    "price": 1000
+                    "price": 1200
                   },
                   {
                     "time": "10:00 AM - 04:00 PM",
-                    "price": 750
+                    "price": 1000
                   },
                   {
                     "time": "04:00 PM - 09:00 PM",
-                    "price": 1000
+                    "price": 1200
                   }
                 ]
               },
@@ -31294,15 +31294,23 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "05:00 AM - 09:00 PM",
+                    "time": "05:00 AM - 10:00 AM",
+                    "price": 1200
+                  },
+                  {
+                    "time": "10:00 AM - 04:00 PM",
                     "price": 1000
+                  },
+                  {
+                    "time": "04:00 PM - 09:00 PM",
+                    "price": 1200
                   }
                 ]
               }
             ]
           }
         ],
-        "marker-color": "#438df4"
+        "marker-color": "#e7953a"
       }
     },
     {
@@ -31448,7 +31456,7 @@
         "slug": "sportzone-plus-academy-thindlu-bengaluru",
         "rating": 5,
         "bookable": true,
-        "minPrice": 999,
+        "minPrice": 600,
         "charts": [
           {
             "name": "Football 6 a side",
@@ -31457,7 +31465,15 @@
                 "day": "Monday - Sunday",
                 "times": [
                   {
-                    "time": "05:00 AM - 11:00 PM",
+                    "time": "05:00 AM - 09:00 AM",
+                    "price": 999
+                  },
+                  {
+                    "time": "09:00 AM - 04:00 PM",
+                    "price": 600
+                  },
+                  {
+                    "time": "07:00 PM - 12:00 AM",
                     "price": 999
                   }
                 ]
@@ -31466,8 +31482,16 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "05:00 AM - 11:00 PM",
-                    "price": 1800
+                    "time": "05:00 AM - 09:00 AM",
+                    "price": 999
+                  },
+                  {
+                    "time": "09:00 AM - 04:00 PM",
+                    "price": 600
+                  },
+                  {
+                    "time": "07:00 PM - 12:00 AM",
+                    "price": 999
                   }
                 ]
               }
@@ -35569,8 +35593,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.8228975576717,
-          12.768461825850567
+          77.82286746734742,
+          12.768369377101736
         ]
       },
       "properties": {
