@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-10T06:38:37.242Z",
+  "updatedAt": "2026-10-11T06:46:09.506Z",
   "features": [
     {
       "type": "Feature",
@@ -7739,7 +7739,7 @@
         "address": "Balagere, Bengaluru, Karnataka 560087",
         "city": "Bengaluru",
         "slug": "spartan-sports-balagere-bengaluru",
-        "rating": 5,
+        "rating": 4.9,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
@@ -32252,7 +32252,7 @@
         "address": "Near lumbini international public school, Kattigenahalli 52/1 anjaneya temple street kattigenahalli, Yelahanka, Bengaluru, Karnataka 560064",
         "city": "Bengaluru",
         "slug": "lumbini-sports-club-kattigenahalli-bengaluru",
-        "rating": 3.4,
+        "rating": 3.3,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
@@ -33951,7 +33951,7 @@
         "address": "#78/14, Thippenahlli Park, Ward number 40, Nagasandra Post, Doddabidarakullu, Bengaluru, Karnataka 560073",
         "city": "Bengaluru",
         "slug": "blue-tang-sports-club-nagasandra-bengaluru",
-        "rating": 4.9,
+        "rating": 4.8,
         "bookable": true,
         "minPrice": 800,
         "charts": [
