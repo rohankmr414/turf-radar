@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-11T06:46:09.506Z",
+  "updatedAt": "2026-10-12T06:53:17.355Z",
   "features": [
     {
       "type": "Feature",
@@ -17365,7 +17365,7 @@
         "address": "No.3, Raghavana Palya Main Road, JP Nagar 9th Phase, Bengaluru 560108",
         "city": "Bengaluru",
         "slug": "fettle-fitness-sports-jp-nagar-bengaluru",
-        "rating": 4.3,
+        "rating": 4.4,
         "bookable": true,
         "minPrice": 600,
         "charts": [
@@ -17810,7 +17810,7 @@
         "address": "22, 6th Cross Road, kakathiya Nagar, Banashankari 3rd Stage, Chikkalasandra, Bengaluru, Karnataka - 560085",
         "city": "Bengaluru",
         "slug": "top-game-chikkalasandra-bengaluru",
-        "rating": 3.7,
+        "rating": 3.5,
         "bookable": true,
         "minPrice": 700,
         "charts": [
@@ -27093,7 +27093,7 @@
         "address": "Konadasapura, Budigere Cross, Bengaluru, Karnataka - 562129",
         "city": "Bengaluru",
         "slug": "apple-city-budigere-cross-bengaluru",
-        "rating": 4.7,
+        "rating": 4.1,
         "bookable": true,
         "minPrice": 650,
         "charts": [
@@ -30288,7 +30288,7 @@
         "address": "8th Main Road Allalasandra,Yelahanka ,Bengaluru Karnataka - 560064",
         "city": "Bengaluru",
         "slug": "one8-sports-arena-yelahanka-new-town-allalasandra-bengaluru",
-        "rating": 4.5,
+        "rating": 4.6,
         "bookable": true,
         "minPrice": 800,
         "charts": [
