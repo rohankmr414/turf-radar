@@ -1,69 +1,14 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-12T06:53:17.355Z",
+  "updatedAt": "2026-10-13T07:19:11.592Z",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.64353722061846,
-          12.950319647726268
-        ]
-      },
-      "properties": {
-        "id": "3a4f149f-6daa-434f-87bb-252a04cfbbc3",
-        "name": "Swysh Turf at Embassy Golf Links",
-        "area": "Domlur",
-        "address": "Embassy Golf Links Business Park, Domlur, Bangalore",
-        "city": "Bengaluru",
-        "slug": "swysh-turf-at-embassy-golf-links-domlur-bengaluru",
-        "rating": 5,
-        "bookable": true,
-        "minPrice": 2100,
-        "charts": [
-          {
-            "name": "Football 5 a side",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 01:00 AM",
-                    "price": 2100
-                  },
-                  {
-                    "time": "06:00 AM - 12:00 AM",
-                    "price": 2100
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "12:00 AM - 01:00 AM",
-                    "price": 2100
-                  },
-                  {
-                    "time": "06:00 AM - 12:00 AM",
-                    "price": 2100
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "marker-color": "#26a879"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.64022073646008,
-          12.927722670139714
+          null,
+          null
         ]
       },
       "properties": {
@@ -189,6 +134,61 @@
                   {
                     "time": "06:00 PM - 12:00 AM",
                     "price": 6450
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#26a879"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.64353722061846,
+          12.950319647726268
+        ]
+      },
+      "properties": {
+        "id": "3a4f149f-6daa-434f-87bb-252a04cfbbc3",
+        "name": "Swysh Turf at Embassy Golf Links",
+        "area": "Domlur",
+        "address": "Embassy Golf Links Business Park, Domlur, Bangalore",
+        "city": "Bengaluru",
+        "slug": "swysh-turf-at-embassy-golf-links-domlur-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 2100,
+        "charts": [
+          {
+            "name": "Football 5 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 01:00 AM",
+                    "price": 2100
+                  },
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 2100
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "12:00 AM - 01:00 AM",
+                    "price": 2100
+                  },
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 2100
                   }
                 ]
               }
@@ -8412,79 +8412,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.72344607299802,
-          12.964824196726504
-        ]
-      },
-      "properties": {
-        "id": "a47298ac-80b0-4275-8950-6e42220af839",
-        "name": "TSG Sports Arena Brookefield",
-        "area": "Ryan International School",
-        "address": "Ryan International School, Behind Hindustan Lever Ltd, M.h.colony, Kundalahalli, Brookefield, Bengaluru, Karnataka - 560037",
-        "city": "Bengaluru",
-        "slug": "tsg-sports-arena-brookefield-ryan-international-school-bengaluru",
-        "rating": 5,
-        "bookable": true,
-        "minPrice": 1500,
-        "charts": [
-          {
-            "name": "Football 6 a side",
-            "days": [
-              {
-                "day": "Monday - Friday",
-                "times": [
-                  {
-                    "time": "06:00 PM - 10:00 PM",
-                    "price": 2000
-                  }
-                ]
-              },
-              {
-                "day": "Saturday",
-                "times": [
-                  {
-                    "time": "02:00 PM - 04:00 PM",
-                    "price": 1500
-                  },
-                  {
-                    "time": "06:00 PM - 10:00 PM",
-                    "price": 2000
-                  }
-                ]
-              },
-              {
-                "day": "Sunday",
-                "times": [
-                  {
-                    "time": "09:00 AM - 04:00 PM",
-                    "price": 1500
-                  },
-                  {
-                    "time": "06:00 PM - 10:00 PM",
-                    "price": 2000
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "06:00 PM - 10:00 PM",
-                    "price": 2000
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "marker-color": "#26a879"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           77.57403420503336,
           12.940276696325572
         ]
@@ -14732,7 +14659,7 @@
         "address": "Ryan International Academy, Site No 32/2, 32/3 Sulikunte Village, Post, Dommasandra, Bengaluru, Karnataka",
         "city": "Bengaluru",
         "slug": "kreeda-arenaz-by-sportz-village-ryan-international-academy-bengaluru",
-        "rating": 3.9,
+        "rating": 4,
         "bookable": true,
         "minPrice": 1200,
         "charts": [
@@ -15761,6 +15688,29 @@
         "bookable": true,
         "minPrice": 800,
         "charts": [
+          {
+            "name": "Football 5 a side \n(Applicable: 12th Oct - 21st Oct)",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "08:30 AM - 10:30 PM",
+                    "price": 800
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "08:30 AM - 10:30 PM",
+                    "price": 1000
+                  }
+                ]
+              }
+            ]
+          },
           {
             "name": "Football 5 a side",
             "days": [
@@ -22658,7 +22608,7 @@
         "address": "Hennur Bagalur Road, No. 75/2, Doddagubbi Main Road, Bengaluru, Karnataka - 560077",
         "city": "Bengaluru",
         "slug": "gamelink-byrathi-ekya-school-bengaluru",
-        "rating": 5,
+        "rating": 4,
         "bookable": true,
         "minPrice": 900,
         "charts": [
@@ -24929,7 +24879,7 @@
         "slug": "the-sports-villa-wave-zone-rajarajeshwari-nagar-bengaluru",
         "rating": 4.3,
         "bookable": true,
-        "minPrice": 699,
+        "minPrice": 759,
         "charts": [
           {
             "name": "Football 5 a side",
@@ -24939,11 +24889,11 @@
                 "times": [
                   {
                     "time": "06:00 AM - 04:00 PM",
-                    "price": 699
+                    "price": 759
                   },
                   {
                     "time": "04:00 PM - 10:00 PM",
-                    "price": 749
+                    "price": 799
                   }
                 ]
               },
