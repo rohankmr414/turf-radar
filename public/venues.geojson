@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-13T07:19:11.592Z",
+  "updatedAt": "2026-10-14T05:44:38.725Z",
   "features": [
     {
       "type": "Feature",
@@ -2764,7 +2764,7 @@
                 "times": [
                   {
                     "time": "12:00 AM - 12:00 AM",
-                    "price": 2500
+                    "price": 2000
                   }
                 ]
               }
@@ -25267,7 +25267,7 @@
         "address": "102/1, Kenchena Halli Rd, Durga Parameshwari Layout, Pattanagere, Rajarajeshwari Nagar, Bengaluru, Karnataka 560098",
         "city": "Bengaluru",
         "slug": "hometurf-rajarajeshwari-nagar-bengaluru",
-        "rating": 3.4,
+        "rating": 3,
         "bookable": true,
         "minPrice": 600,
         "charts": [
@@ -36482,7 +36482,7 @@
         "address": "Symphony Springs, 30, Ramamurthy Layout, Kasaba Hobli, Lingapura, Malur, Karnataka 563160",
         "city": "Kolar",
         "slug": "knet-sports-arena-malur-kolar",
-        "rating": 4.6,
+        "rating": 4.7,
         "bookable": true,
         "minPrice": 900,
         "charts": [
