@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-14T05:44:38.725Z",
+  "updatedAt": "2026-10-15T05:30:29.510Z",
   "features": [
     {
       "type": "Feature",
@@ -6860,7 +6860,7 @@
         "address": "Ward No. 85, No. 58/2, Near Vibgyor school, Thurbara Halli, Varthur Main road, Bangalore - 560066",
         "city": "Bengaluru",
         "slug": "fitso-mkr-sports-arena-whitefield-bengaluru",
-        "rating": 4,
+        "rating": 3.9,
         "bookable": true,
         "minPrice": 1100,
         "charts": [
@@ -11291,11 +11291,11 @@
                 "times": [
                   {
                     "time": "06:00 AM - 06:00 PM",
-                    "price": 2100
+                    "price": 2300
                   },
                   {
                     "time": "06:00 PM - 11:00 PM",
-                    "price": 2400
+                    "price": 2500
                   }
                 ]
               },
@@ -11304,11 +11304,11 @@
                 "times": [
                   {
                     "time": "06:00 AM - 06:00 PM",
-                    "price": 2200
+                    "price": 2600
                   },
                   {
                     "time": "06:00 PM - 11:00 PM",
-                    "price": 2500
+                    "price": 2800
                   }
                 ]
               },
@@ -11317,11 +11317,11 @@
                 "times": [
                   {
                     "time": "12:00 AM - 06:00 PM",
-                    "price": 2200
+                    "price": 2600
                   },
                   {
                     "time": "06:00 PM - 12:00 AM",
-                    "price": 2500
+                    "price": 2800
                   }
                 ]
               }
@@ -13438,7 +13438,7 @@
         "address": "Beside Apollo National Public School, 7 Block, Kathreguppe, Banashankari 3rd Stage, Banashankari, Bengaluru, Karnataka 560085",
         "city": "Bengaluru",
         "slug": "auk-sports-zone-banagiri-nagara-bengaluru",
-        "rating": 3.3,
+        "rating": 3.2,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
@@ -25121,94 +25121,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.55530342376397,
-          13.041929545758016
-        ]
-      },
-      "properties": {
-        "id": "f2346a18-9ec6-499c-bfb3-d8d5dd1378e4",
-        "name": "TSG Sports Arena @ Navkis Education Center - Mathikere",
-        "area": "MS Ramaiah Road",
-        "address": "Behind MS Ramanth Memorial Hall, MS Ramaiah Road, HMR Layout, Gokula Extension, Mathikere, Bengaluru, Karnataka - 560054",
-        "city": "Bengaluru",
-        "slug": "tsg-sports-arena-@-navkis-education-center-mathikere-ms-ramaiah-road-bengaluru",
-        "rating": 2.4,
-        "bookable": true,
-        "minPrice": 900,
-        "charts": [
-          {
-            "name": "Football 7 a side",
-            "days": [
-              {
-                "day": "Monday - Friday",
-                "times": [
-                  {
-                    "time": "05:00 PM - 12:00 AM",
-                    "price": 1400
-                  }
-                ]
-              },
-              {
-                "day": "Saturday - Sunday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 12:00 AM",
-                    "price": 1400
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "04:00 PM - 12:00 AM",
-                    "price": 1400
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Football 5 a side",
-            "days": [
-              {
-                "day": "Monday - Friday",
-                "times": [
-                  {
-                    "time": "05:00 PM - 12:00 AM",
-                    "price": 900
-                  }
-                ]
-              },
-              {
-                "day": "Saturday - Sunday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 12:00 AM",
-                    "price": 900
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "04:00 PM - 12:00 AM",
-                    "price": 900
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "marker-color": "#438df4"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           77.63356019573845,
           13.078239734086965
         ]
@@ -27657,6 +27569,20 @@
         "bookable": true,
         "minPrice": 1000,
         "charts": [
+          {
+            "name": "Football 6 a side \n(Applicable: 15th Oct - 21st Oct)",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "05:00 AM - 10:00 PM",
+                    "price": 1000
+                  }
+                ]
+              }
+            ]
+          },
           {
             "name": "Football 6 a side",
             "days": [
@@ -30238,7 +30164,7 @@
         "address": "8th Main Road Allalasandra,Yelahanka ,Bengaluru Karnataka - 560064",
         "city": "Bengaluru",
         "slug": "one8-sports-arena-yelahanka-new-town-allalasandra-bengaluru",
-        "rating": 4.6,
+        "rating": 4.3,
         "bookable": true,
         "minPrice": 800,
         "charts": [
@@ -32202,7 +32128,7 @@
         "address": "Near lumbini international public school, Kattigenahalli 52/1 anjaneya temple street kattigenahalli, Yelahanka, Bengaluru, Karnataka 560064",
         "city": "Bengaluru",
         "slug": "lumbini-sports-club-kattigenahalli-bengaluru",
-        "rating": 3.3,
+        "rating": 3.2,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
@@ -36350,6 +36276,70 @@
         "minPrice": null,
         "charts": [],
         "marker-color": "#8290a3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.86201572027728,
+          12.740182871686992
+        ]
+      },
+      "properties": {
+        "id": "c77b4def-32d2-4775-a52d-8e8b6b94b84f",
+        "name": "Goal & Googly Turf",
+        "area": "Punugandoddi",
+        "address": "Goal and Googly, Royal City, Near mutthumariyaman Temple, Jyanagar, Alasanatham Road, Hosur, 635109",
+        "city": "Hosur",
+        "slug": "goal-googly-turf-punugandoddi-hosur",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 500,
+        "charts": [
+          {
+            "name": "Football 6 a side",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 09:00 AM",
+                    "price": 700
+                  },
+                  {
+                    "time": "09:00 AM - 04:00 PM",
+                    "price": 500
+                  },
+                  {
+                    "time": "04:00 PM - 12:00 AM",
+                    "price": 700
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1100
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1100
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#438df4"
       }
     },
     {
