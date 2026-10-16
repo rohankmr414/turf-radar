@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-15T05:30:29.510Z",
+  "updatedAt": "2026-10-16T05:22:31.403Z",
   "features": [
     {
       "type": "Feature",
@@ -6110,7 +6110,7 @@
         "address": "Loop Sportsplex, 273, 2nd Cross Road, Maheswari Nagar, Mahadevapura, Bengaluru, Karnataka- 560048",
         "city": "Bengaluru",
         "slug": "loop-sportsplex-mahadevapura-bengaluru",
-        "rating": 3.7,
+        "rating": 3.6,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
@@ -9008,6 +9008,24 @@
             ]
           },
           {
+            "name": "Football Clay 7 a side \n(Applicable: 20th Oct - 21st Oct)",
+            "days": [
+              {
+                "day": "Tuesday - Wednesday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 06:00 PM",
+                    "price": 1300
+                  },
+                  {
+                    "time": "06:00 PM - 10:00 PM",
+                    "price": 1400
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Football AstroTurf 5 a side",
             "days": [
               {
@@ -9054,6 +9072,24 @@
                   {
                     "time": "06:00 PM - 10:00 PM",
                     "price": 1500
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football AstroTurf 5 a side \n(Applicable: 20th Oct - 21st Oct)",
+            "days": [
+              {
+                "day": "Tuesday - Wednesday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 06:00 PM",
+                    "price": 1300
+                  },
+                  {
+                    "time": "06:00 PM - 10:00 PM",
+                    "price": 1400
                   }
                 ]
               }
@@ -31073,14 +31109,48 @@
             "name": "Football 5 a side",
             "days": [
               {
-                "day": "Monday - Sunday",
+                "day": "Monday - Friday",
                 "times": [
+                  {
+                    "time": "12:00 AM - 01:00 AM",
+                    "price": 800
+                  },
                   {
                     "time": "06:00 AM - 08:00 AM",
                     "price": 800
                   },
                   {
-                    "time": "04:00 PM - 11:00 PM",
+                    "time": "04:00 PM - 12:00 AM",
+                    "price": 800
+                  }
+                ]
+              },
+              {
+                "day": "Saturday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 01:00 AM",
+                    "price": 800
+                  },
+                  {
+                    "time": "06:00 AM - 08:00 AM",
+                    "price": 800
+                  },
+                  {
+                    "time": "01:00 PM - 12:00 AM",
+                    "price": 800
+                  }
+                ]
+              },
+              {
+                "day": "Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 01:00 AM",
+                    "price": 800
+                  },
+                  {
+                    "time": "06:00 AM - 12:00 AM",
                     "price": 800
                   }
                 ]
@@ -31089,11 +31159,11 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "06:00 AM - 08:00 AM",
+                    "time": "12:00 AM - 01:00 AM",
                     "price": 800
                   },
                   {
-                    "time": "04:00 PM - 11:00 PM",
+                    "time": "06:00 AM - 12:00 AM",
                     "price": 800
                   }
                 ]
@@ -31104,14 +31174,48 @@
             "name": "Football 9 a side",
             "days": [
               {
-                "day": "Monday - Sunday",
+                "day": "Monday - Friday",
                 "times": [
+                  {
+                    "time": "12:00 AM - 01:00 AM",
+                    "price": 2000
+                  },
                   {
                     "time": "06:00 AM - 08:00 AM",
                     "price": 2000
                   },
                   {
-                    "time": "04:00 PM - 11:00 PM",
+                    "time": "04:00 PM - 12:00 AM",
+                    "price": 2000
+                  }
+                ]
+              },
+              {
+                "day": "Saturday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 01:00 AM",
+                    "price": 2000
+                  },
+                  {
+                    "time": "06:00 AM - 08:00 AM",
+                    "price": 2000
+                  },
+                  {
+                    "time": "01:00 PM - 12:00 AM",
+                    "price": 2000
+                  }
+                ]
+              },
+              {
+                "day": "Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 01:00 AM",
+                    "price": 2000
+                  },
+                  {
+                    "time": "06:00 AM - 12:00 AM",
                     "price": 2000
                   }
                 ]
@@ -31120,11 +31224,11 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "06:00 AM - 08:00 AM",
+                    "time": "12:00 AM - 01:00 AM",
                     "price": 2000
                   },
                   {
-                    "time": "04:00 PM - 11:00 PM",
+                    "time": "06:00 AM - 12:00 AM",
                     "price": 2000
                   }
                 ]
