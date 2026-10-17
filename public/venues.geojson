@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-16T05:22:31.403Z",
+  "updatedAt": "2026-10-17T05:16:52.027Z",
   "features": [
     {
       "type": "Feature",
@@ -967,6 +967,29 @@
           }
         ],
         "marker-color": "#e7953a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.67612133676752,
+          12.966686417147642
+        ]
+      },
+      "properties": {
+        "id": "2953c195-ca36-4f6e-ad49-eabbc4908668",
+        "name": "LLAB TURF",
+        "area": "Vimanapura",
+        "address": "4th Cross Road, LBS Nagar, Vimanapura, Bengaluru, Karnataka - 560037",
+        "city": "Bengaluru",
+        "slug": "llab-turf-vimanapura-bengaluru",
+        "rating": 0,
+        "bookable": false,
+        "minPrice": null,
+        "charts": [],
+        "marker-color": "#8290a3"
       }
     },
     {
@@ -2784,99 +2807,6 @@
         ]
       },
       "properties": {
-        "id": "7339d09a-aeb6-4b98-989e-6fdca17d7f61",
-        "name": "Tiger 5 Dairy Circle - Facility A (Elevator 29)",
-        "area": "Bannerghatta Road",
-        "address": "4/1, Bannerghatta Main Road, Bhavani Nagar, S.G. Palya, Bengaluru, Karnataka 560029",
-        "city": "Bengaluru",
-        "slug": "tiger-5-dairy-circle-facility-a-elevator-29-bannerghatta-road-bengaluru",
-        "rating": 3.9,
-        "bookable": true,
-        "minPrice": 1200,
-        "charts": [
-          {
-            "name": "Football 4 a side",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1200
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1200
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Football 6 a side",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1600
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1600
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Football 7 a side",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 2800
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 2800
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "marker-color": "#e7953a"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.60344483320864,
-          12.932795170805665
-        ]
-      },
-      "properties": {
         "id": "2371080a-f009-401b-9f03-98b2d36914d7",
         "name": "Tiger 5 Dairy Circle - Facility B (Elevator 30/31)",
         "area": "Bannerghatta Road",
@@ -2967,6 +2897,99 @@
           }
         ],
         "marker-color": "#26a879"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.60344483320864,
+          12.932795170805665
+        ]
+      },
+      "properties": {
+        "id": "7339d09a-aeb6-4b98-989e-6fdca17d7f61",
+        "name": "Tiger 5 Dairy Circle - Facility A (Elevator 29)",
+        "area": "Bannerghatta Road",
+        "address": "4/1, Bannerghatta Main Road, Bhavani Nagar, S.G. Palya, Bengaluru, Karnataka 560029",
+        "city": "Bengaluru",
+        "slug": "tiger-5-dairy-circle-facility-a-elevator-29-bannerghatta-road-bengaluru",
+        "rating": 3.9,
+        "bookable": true,
+        "minPrice": 1200,
+        "charts": [
+          {
+            "name": "Football 4 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 6 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1600
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1600
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 7 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 2800
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 2800
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#e7953a"
       }
     },
     {
@@ -12366,7 +12389,7 @@
         "address": "HBR Road narendra talkies GMR complex Bangalore - 560045",
         "city": "Bengaluru",
         "slug": "play-bold-hbr-layout-bengaluru",
-        "rating": 4,
+        "rating": 4.1,
         "bookable": true,
         "minPrice": 800,
         "charts": [
