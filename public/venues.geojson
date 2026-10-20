@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-19T05:37:30.793Z",
+  "updatedAt": "2026-10-20T05:38:53.863Z",
   "features": [
     {
       "type": "Feature",
@@ -9053,58 +9053,6 @@
         "minPrice": 720,
         "charts": [
           {
-            "name": "Football Clay 7 a side",
-            "days": [
-              {
-                "day": "Monday - Friday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 11:00 AM",
-                    "price": 1020
-                  },
-                  {
-                    "time": "11:00 AM - 04:00 PM",
-                    "price": 720
-                  },
-                  {
-                    "time": "04:00 PM - 06:00 PM",
-                    "price": 1200
-                  },
-                  {
-                    "time": "06:00 PM - 10:00 PM",
-                    "price": 1300
-                  }
-                ]
-              },
-              {
-                "day": "Saturday - Sunday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 06:00 PM",
-                    "price": 1300
-                  },
-                  {
-                    "time": "06:00 PM - 10:00 PM",
-                    "price": 1400
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "06:00 AM - 06:00 PM",
-                    "price": 1300
-                  },
-                  {
-                    "time": "06:00 PM - 10:00 PM",
-                    "price": 1500
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Football Clay 7 a side \n(Applicable: 20th Oct - 21st Oct)",
             "days": [
               {
@@ -9123,7 +9071,7 @@
             ]
           },
           {
-            "name": "Football AstroTurf 5 a side",
+            "name": "Football Clay 7 a side",
             "days": [
               {
                 "day": "Monday - Friday",
@@ -9187,6 +9135,58 @@
                   {
                     "time": "06:00 PM - 10:00 PM",
                     "price": 1400
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football AstroTurf 5 a side",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 AM",
+                    "price": 1020
+                  },
+                  {
+                    "time": "11:00 AM - 04:00 PM",
+                    "price": 720
+                  },
+                  {
+                    "time": "04:00 PM - 06:00 PM",
+                    "price": 1200
+                  },
+                  {
+                    "time": "06:00 PM - 10:00 PM",
+                    "price": 1300
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 06:00 PM",
+                    "price": 1300
+                  },
+                  {
+                    "time": "06:00 PM - 10:00 PM",
+                    "price": 1400
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 06:00 PM",
+                    "price": 1300
+                  },
+                  {
+                    "time": "06:00 PM - 10:00 PM",
+                    "price": 1500
                   }
                 ]
               }
@@ -26391,7 +26391,7 @@
         "address": "No 116/3, Kodigehalli, Doddabommasandra, Bengaluru, 560097",
         "city": "Bengaluru",
         "slug": "one-arena-kodigehalli-bengaluru",
-        "rating": 4.3,
+        "rating": 4.2,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
