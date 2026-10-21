@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-20T05:38:53.863Z",
+  "updatedAt": "2026-10-21T05:40:51.034Z",
   "features": [
     {
       "type": "Feature",
@@ -846,29 +846,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.67620968695064,
-          12.96624571808661
-        ]
-      },
-      "properties": {
-        "id": "3303ac91-872d-44b4-b34d-b1883eb4df48",
-        "name": "LLAB Turf",
-        "area": "Vimanapura",
-        "address": "4th Cross Rd, LBS Nagar, Vimanapura, Bengaluru, Karnataka 560037",
-        "city": "Bengaluru",
-        "slug": "llab-turf-vimanapura-bengaluru",
-        "rating": 5,
-        "bookable": false,
-        "minPrice": null,
-        "charts": [],
-        "marker-color": "#8290a3"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           77.674555595727,
           12.918730047422327
         ]
@@ -967,6 +944,94 @@
           }
         ],
         "marker-color": "#e7953a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.67612133676752,
+          12.966686417147642
+        ]
+      },
+      "properties": {
+        "id": "2953c195-ca36-4f6e-ad49-eabbc4908668",
+        "name": "LLAB Football Turf",
+        "area": "Vimanapura",
+        "address": "4th Cross Road, LBS Nagar, Vimanapura, Bengaluru, Karnataka - 560037",
+        "city": "Bengaluru",
+        "slug": "llab-football-turf-vimanapura-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 1800,
+        "charts": [
+          {
+            "name": "Football 7 a side",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 3400
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "08:00 AM - 12:00 AM",
+                    "price": 3400
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 3400
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 5 a side",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 1800
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "08:00 AM - 12:00 AM",
+                    "price": 1800
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 1800
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#26a879"
       }
     },
     {
@@ -7483,7 +7548,7 @@
         "address": "23/2, Sonnenahalli, Whitefield, Bengaluru, Karnataka 560048",
         "city": "Bengaluru",
         "slug": "v-play-sports-kundalahalli-whitefield-bengaluru",
-        "rating": 3.8,
+        "rating": 3.7,
         "bookable": true,
         "minPrice": 1300,
         "charts": [
@@ -10572,24 +10637,6 @@
         "minPrice": 1300,
         "charts": [
           {
-            "name": "Football 6 a side \n(Applicable: 10th Oct - 20th Oct)",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 06:00 PM",
-                    "price": 1300
-                  },
-                  {
-                    "time": "06:00 PM - 12:00 AM",
-                    "price": 1500
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Football 6 a side",
             "days": [
               {
@@ -13571,7 +13618,7 @@
         "address": "Beside Apollo National Public School, 7 Block, Kathreguppe, Banashankari 3rd Stage, Banashankari, Bengaluru, Karnataka 560085",
         "city": "Bengaluru",
         "slug": "auk-sports-zone-banagiri-nagara-bengaluru",
-        "rating": 3.2,
+        "rating": 3.1,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
@@ -15435,7 +15482,7 @@
         "address": "Hebron Enclave Rd, Green Woods Layout, Margondanahalli, Halehalli, Karnataka 560036",
         "city": "Bengaluru",
         "slug": "bengaluru-shooterz-sports-arena-ramamurthy-nagar-bengaluru",
-        "rating": 4.1,
+        "rating": 4,
         "bookable": true,
         "minPrice": 1200,
         "charts": [
