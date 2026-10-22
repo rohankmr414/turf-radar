@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-21T05:40:51.034Z",
+  "updatedAt": "2026-10-22T05:41:47.885Z",
   "features": [
     {
       "type": "Feature",
@@ -7711,20 +7711,6 @@
         "minPrice": 1100,
         "charts": [
           {
-            "name": "Football 6a side \n(Applicable: 19th Oct - 21st Oct)",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 10:00 PM",
-                    "price": 1100
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Football 6a side",
             "days": [
               {
@@ -8891,20 +8877,6 @@
         "minPrice": 880,
         "charts": [
           {
-            "name": "Football 5a side \n(Applicable: 19th Oct - 21st Oct)",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 10:00 PM",
-                    "price": 880
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Football 5a side",
             "days": [
               {
@@ -9118,24 +9090,6 @@
         "minPrice": 720,
         "charts": [
           {
-            "name": "Football Clay 7 a side \n(Applicable: 20th Oct - 21st Oct)",
-            "days": [
-              {
-                "day": "Tuesday - Wednesday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 06:00 PM",
-                    "price": 1300
-                  },
-                  {
-                    "time": "06:00 PM - 10:00 PM",
-                    "price": 1400
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Football Clay 7 a side",
             "days": [
               {
@@ -9182,24 +9136,6 @@
                   {
                     "time": "06:00 PM - 10:00 PM",
                     "price": 1500
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Football AstroTurf 5 a side \n(Applicable: 20th Oct - 21st Oct)",
-            "days": [
-              {
-                "day": "Tuesday - Wednesday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 06:00 PM",
-                    "price": 1300
-                  },
-                  {
-                    "time": "06:00 PM - 10:00 PM",
-                    "price": 1400
                   }
                 ]
               }
@@ -10368,7 +10304,7 @@
         "address": "27/1 Akshayanagara, Yelenahalli, Next to Axis Antara Appt, Bengaluru, Karnataka - 560068",
         "city": "Bengaluru",
         "slug": "goalpost-arena-akshaynagar-bengaluru",
-        "rating": 4.5,
+        "rating": 4.4,
         "bookable": true,
         "minPrice": 1200,
         "charts": [
@@ -13415,7 +13351,7 @@
         "address": "#31/1, Krishna Reddy Layout 2nd cross, behind Suraksha Motors, Electronic City Phase II",
         "city": "Bengaluru",
         "slug": "playon-sports-arena-electronic-city-phase-ii-bengaluru",
-        "rating": 3,
+        "rating": 2.9,
         "bookable": true,
         "minPrice": 800,
         "charts": [
@@ -15868,29 +15804,6 @@
         "bookable": true,
         "minPrice": 800,
         "charts": [
-          {
-            "name": "Football 5 a side \n(Applicable: 12th Oct - 21st Oct)",
-            "days": [
-              {
-                "day": "Monday - Friday",
-                "times": [
-                  {
-                    "time": "08:30 AM - 10:30 PM",
-                    "price": 800
-                  }
-                ]
-              },
-              {
-                "day": "Saturday - Sunday",
-                "times": [
-                  {
-                    "time": "08:30 AM - 10:30 PM",
-                    "price": 1000
-                  }
-                ]
-              }
-            ]
-          },
           {
             "name": "Football 5 a side",
             "days": [
@@ -22032,20 +21945,6 @@
         "minPrice": 1199,
         "charts": [
           {
-            "name": "Football 6 a side \n(Applicable: 10th Oct - 21st Oct)",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "05:00 AM - 11:00 PM",
-                    "price": 1199
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Football 6 a side",
             "days": [
               {
@@ -22063,20 +21962,6 @@
                   {
                     "time": "06:00 AM - 11:00 PM",
                     "price": 1199
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Football 9 a side \n(Applicable: 10th Oct - 21st Oct)",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "05:00 AM - 11:00 PM",
-                    "price": 3599
                   }
                 ]
               }
@@ -27749,20 +27634,6 @@
         "bookable": true,
         "minPrice": 1000,
         "charts": [
-          {
-            "name": "Football 6 a side \n(Applicable: 15th Oct - 21st Oct)",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "05:00 AM - 10:00 PM",
-                    "price": 1000
-                  }
-                ]
-              }
-            ]
-          },
           {
             "name": "Football 6 a side",
             "days": [
