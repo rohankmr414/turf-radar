@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-22T05:41:47.885Z",
+  "updatedAt": "2026-10-23T05:41:35.155Z",
   "features": [
     {
       "type": "Feature",
@@ -964,7 +964,7 @@
         "slug": "llab-football-turf-vimanapura-bengaluru",
         "rating": 5,
         "bookable": true,
-        "minPrice": 1800,
+        "minPrice": 1500,
         "charts": [
           {
             "name": "Football 7 a side",
@@ -974,7 +974,7 @@
                 "times": [
                   {
                     "time": "06:00 AM - 12:00 AM",
-                    "price": 3400
+                    "price": 3000
                   }
                 ]
               },
@@ -1006,7 +1006,7 @@
                 "times": [
                   {
                     "time": "06:00 AM - 12:00 AM",
-                    "price": 1800
+                    "price": 1500
                   }
                 ]
               },
@@ -2477,6 +2477,96 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          77.66770569347953,
+          12.899718121181795
+        ]
+      },
+      "properties": {
+        "id": "7e6ff9aa-8df4-423e-8b1a-3a14fc846e26",
+        "name": "Star Badminton - Rising Star Sports Arena",
+        "area": "Near Zonasha Vista",
+        "address": "No. 42, Cars24 Stock Yard, Dinne Anjaneya Swamy Temple Road, Haralur Main Road, Brigade Millennium Avenue, J R Layout, Eastwood Township, Haralur, Karnataka",
+        "city": "Bengaluru",
+        "slug": "star-badminton-rising-star-sports-arena-near-zonasha-vista-bengaluru",
+        "rating": 3.6,
+        "bookable": true,
+        "minPrice": 1400,
+        "charts": [
+          {
+            "name": "Football 5 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 01:00 AM",
+                    "price": 1400
+                  },
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 1400
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "12:00 AM - 01:00 AM",
+                    "price": 1999
+                  },
+                  {
+                    "time": "06:00 AM - 06:00 PM",
+                    "price": 1799
+                  },
+                  {
+                    "time": "06:00 PM - 12:00 AM",
+                    "price": 1999
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 7 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 01:00 AM",
+                    "price": 2500
+                  },
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 2500
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "12:00 AM - 01:00 AM",
+                    "price": 3699
+                  },
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 3699
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#e7953a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           77.699737,
           12.943254
         ]
@@ -2848,8 +2938,8 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1800
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 1500
                   }
                 ]
               }
@@ -2889,7 +2979,7 @@
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 PM",
-                    "price": 2500
+                    "price": 2000
                   }
                 ]
               },
@@ -2897,7 +2987,7 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "12:00 AM - 12:00 AM",
+                    "time": "06:00 AM - 11:00 PM",
                     "price": 2000
                   }
                 ]
@@ -2906,6 +2996,99 @@
           }
         ],
         "marker-color": "#26a879"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.60344483320864,
+          12.932795170805665
+        ]
+      },
+      "properties": {
+        "id": "7339d09a-aeb6-4b98-989e-6fdca17d7f61",
+        "name": "Tiger 5 Dairy Circle - Facility A (Elevator 29)",
+        "area": "Bannerghatta Road",
+        "address": "4/1, Bannerghatta Main Road, Bhavani Nagar, S.G. Palya, Bengaluru, Karnataka 560029",
+        "city": "Bengaluru",
+        "slug": "tiger-5-dairy-circle-facility-a-elevator-29-bannerghatta-road-bengaluru",
+        "rating": 3.9,
+        "bookable": true,
+        "minPrice": 1200,
+        "charts": [
+          {
+            "name": "Football 4 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 6 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1600
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1600
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 7 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 2800
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 2800
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#e7953a"
       }
     },
     {
@@ -3008,99 +3191,6 @@
           }
         ],
         "marker-color": "#26a879"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.60344483320864,
-          12.932795170805665
-        ]
-      },
-      "properties": {
-        "id": "7339d09a-aeb6-4b98-989e-6fdca17d7f61",
-        "name": "Tiger 5 Dairy Circle - Facility A (Elevator 29)",
-        "area": "Bannerghatta Road",
-        "address": "4/1, Bannerghatta Main Road, Bhavani Nagar, S.G. Palya, Bengaluru, Karnataka 560029",
-        "city": "Bengaluru",
-        "slug": "tiger-5-dairy-circle-facility-a-elevator-29-bannerghatta-road-bengaluru",
-        "rating": 3.9,
-        "bookable": true,
-        "minPrice": 1200,
-        "charts": [
-          {
-            "name": "Football 4 a side",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1200
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1200
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Football 6 a side",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1600
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1600
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Football 7 a side",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 2800
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 2800
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "marker-color": "#e7953a"
       }
     },
     {
@@ -11942,7 +12032,7 @@
         "address": "Pallotti Nilaya Road, Chellikere, Meganahalli, Babusabpalya, Kalyan Nagar, Bengaluru, Karnataka 560043",
         "city": "Bengaluru",
         "slug": "kickstart-fc-|-kalyan-nagar-st-vincent-pallotti-pu-college-bengaluru",
-        "rating": 3.8,
+        "rating": 3.9,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
@@ -17806,7 +17896,7 @@
         "address": "No. 28/4, House List No. 140, Off Kanakapura Main Road, Doddakallasandra, Uttarahalli Hobli, Bengaluru, Karnataka - 560062",
         "city": "Bengaluru",
         "slug": "play-mania-sports-lounge-doddakallasandra-doddakallasandra-bengaluru",
-        "rating": 5,
+        "rating": 4,
         "bookable": true,
         "minPrice": 2250,
         "charts": [
@@ -17814,10 +17904,19 @@
             "name": "Football Mud",
             "days": [
               {
-                "day": "Monday - Sunday",
+                "day": "Monday - Saturday",
                 "times": [
                   {
-                    "time": "06:00 AM - 06:00 PM",
+                    "time": "05:00 PM - 06:00 PM",
+                    "price": 2250
+                  }
+                ]
+              },
+              {
+                "day": "Sunday",
+                "times": [
+                  {
+                    "time": "07:00 AM - 06:00 PM",
                     "price": 2250
                   }
                 ]
@@ -36224,6 +36323,61 @@
           }
         ],
         "marker-color": "#e7953a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.76717088749888,
+          13.187535002710538
+        ]
+      },
+      "properties": {
+        "id": "151768bc-3a35-4662-8de6-0c3b9db4753f",
+        "name": "Master Class Cricket Academy",
+        "area": "Kannamangala",
+        "address": "Whitefield, Kannamangala, Bengaluru, Kannamangala, Karnataka - 560115",
+        "city": "Bengaluru",
+        "slug": "master-class-cricket-academy-kannamangala-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 800,
+        "charts": [
+          {
+            "name": "Football Mini",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 05:00 PM",
+                    "price": 800
+                  },
+                  {
+                    "time": "05:00 PM - 10:00 PM",
+                    "price": 950
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 05:00 PM",
+                    "price": 800
+                  },
+                  {
+                    "time": "05:00 PM - 10:00 PM",
+                    "price": 950
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#438df4"
       }
     },
     {
