@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-23T05:41:35.155Z",
+  "updatedAt": "2026-10-24T05:19:25.709Z",
   "features": [
     {
       "type": "Feature",
@@ -2484,10 +2484,10 @@
       "properties": {
         "id": "7e6ff9aa-8df4-423e-8b1a-3a14fc846e26",
         "name": "Star Badminton - Rising Star Sports Arena",
-        "area": "Near Zonasha Vista",
+        "area": "Haralur",
         "address": "No. 42, Cars24 Stock Yard, Dinne Anjaneya Swamy Temple Road, Haralur Main Road, Brigade Millennium Avenue, J R Layout, Eastwood Township, Haralur, Karnataka",
         "city": "Bengaluru",
-        "slug": "star-badminton-rising-star-sports-arena-near-zonasha-vista-bengaluru",
+        "slug": "star-badminton-rising-star-sports-arena-haralur-bengaluru",
         "rating": 3.6,
         "bookable": true,
         "minPrice": 1400,
@@ -4735,7 +4735,7 @@
         "address": "Venkateshwara Layout, Mahadevapura, Bengaluru, Karnataka 560048",
         "city": "Bengaluru",
         "slug": "mac-sports-arena-mahadevapura-bengaluru",
-        "rating": 4.3,
+        "rating": 4.4,
         "bookable": true,
         "minPrice": 1100,
         "charts": [
@@ -32187,6 +32187,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          77.81924071534338,
+          12.891513890336592
+        ]
+      },
+      "properties": {
+        "id": "22714ba2-3a03-46a4-adcb-8e8fe71e6742",
+        "name": "Wellsprings Academy Football Ground",
+        "area": "Mugalur",
+        "address": "Mugalur Village, Sarjapura - Chikka Thirupathi Main Road, Taluk, Anekal, Mugalur, Karnataka - 562125",
+        "city": "Bengaluru",
+        "slug": "wellsprings-academy-football-ground-mugalur-bengaluru",
+        "rating": 0,
+        "bookable": false,
+        "minPrice": null,
+        "charts": [],
+        "marker-color": "#8290a3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           77.4764619801004,
           12.916938990256172
         ]
@@ -32784,6 +32807,29 @@
           }
         ],
         "marker-color": "#e7953a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.73040283776963,
+          12.780695415211012
+        ]
+      },
+      "properties": {
+        "id": "6b23052a-55b9-42e1-b2f9-9f9b02578d8e",
+        "name": "The Millennium Turf",
+        "area": "Madivala",
+        "address": "Bandapura Road, Bangalore, Madivala, Karnataka - 562107",
+        "city": "Bengaluru",
+        "slug": "the-millennium-turf-madivala-bengaluru",
+        "rating": 0,
+        "bookable": false,
+        "minPrice": null,
+        "charts": [],
+        "marker-color": "#8290a3"
       }
     },
     {
