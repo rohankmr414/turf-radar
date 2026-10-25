@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-24T05:19:25.709Z",
+  "updatedAt": "2026-10-25T05:36:13.938Z",
   "features": [
     {
       "type": "Feature",
@@ -944,94 +944,6 @@
           }
         ],
         "marker-color": "#e7953a"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.67612133676752,
-          12.966686417147642
-        ]
-      },
-      "properties": {
-        "id": "2953c195-ca36-4f6e-ad49-eabbc4908668",
-        "name": "LLAB Football Turf",
-        "area": "Vimanapura",
-        "address": "4th Cross Road, LBS Nagar, Vimanapura, Bengaluru, Karnataka - 560037",
-        "city": "Bengaluru",
-        "slug": "llab-football-turf-vimanapura-bengaluru",
-        "rating": 5,
-        "bookable": true,
-        "minPrice": 1500,
-        "charts": [
-          {
-            "name": "Football 7 a side",
-            "days": [
-              {
-                "day": "Monday - Friday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 12:00 AM",
-                    "price": 3000
-                  }
-                ]
-              },
-              {
-                "day": "Saturday - Sunday",
-                "times": [
-                  {
-                    "time": "08:00 AM - 12:00 AM",
-                    "price": 3400
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "06:00 AM - 12:00 AM",
-                    "price": 3400
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Football 5 a side",
-            "days": [
-              {
-                "day": "Monday - Friday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 12:00 AM",
-                    "price": 1500
-                  }
-                ]
-              },
-              {
-                "day": "Saturday - Sunday",
-                "times": [
-                  {
-                    "time": "08:00 AM - 12:00 AM",
-                    "price": 1800
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "06:00 AM - 12:00 AM",
-                    "price": 1800
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "marker-color": "#26a879"
       }
     },
     {
@@ -3008,99 +2920,6 @@
         ]
       },
       "properties": {
-        "id": "7339d09a-aeb6-4b98-989e-6fdca17d7f61",
-        "name": "Tiger 5 Dairy Circle - Facility A (Elevator 29)",
-        "area": "Bannerghatta Road",
-        "address": "4/1, Bannerghatta Main Road, Bhavani Nagar, S.G. Palya, Bengaluru, Karnataka 560029",
-        "city": "Bengaluru",
-        "slug": "tiger-5-dairy-circle-facility-a-elevator-29-bannerghatta-road-bengaluru",
-        "rating": 3.9,
-        "bookable": true,
-        "minPrice": 1200,
-        "charts": [
-          {
-            "name": "Football 4 a side",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1200
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1200
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Football 6 a side",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1600
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1600
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Football 7 a side",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 2800
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 2800
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "marker-color": "#e7953a"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.60344483320864,
-          12.932795170805665
-        ]
-      },
-      "properties": {
         "id": "2371080a-f009-401b-9f03-98b2d36914d7",
         "name": "Tiger 5 Dairy Circle - Facility B (Elevator 30/31)",
         "area": "Bannerghatta Road",
@@ -3191,6 +3010,99 @@
           }
         ],
         "marker-color": "#26a879"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.60344483320864,
+          12.932795170805665
+        ]
+      },
+      "properties": {
+        "id": "7339d09a-aeb6-4b98-989e-6fdca17d7f61",
+        "name": "Tiger 5 Dairy Circle - Facility A (Elevator 29)",
+        "area": "Bannerghatta Road",
+        "address": "4/1, Bannerghatta Main Road, Bhavani Nagar, S.G. Palya, Bengaluru, Karnataka 560029",
+        "city": "Bengaluru",
+        "slug": "tiger-5-dairy-circle-facility-a-elevator-29-bannerghatta-road-bengaluru",
+        "rating": 3.9,
+        "bookable": true,
+        "minPrice": 1200,
+        "charts": [
+          {
+            "name": "Football 4 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 6 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1600
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1600
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 7 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 2800
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 2800
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#e7953a"
       }
     },
     {
@@ -7913,7 +7825,7 @@
         "minPrice": 600,
         "charts": [
           {
-            "name": "Football",
+            "name": "Football 5 a side",
             "days": [
               {
                 "day": "Monday - Sunday",
@@ -10701,6 +10613,57 @@
                   {
                     "time": "06:00 PM - 12:00 AM",
                     "price": 1500
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#e7953a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.66743757370494,
+          13.02560536433958
+        ]
+      },
+      "properties": {
+        "id": "fb8f5de7-206f-443f-b6e9-9f3fdf6e81da",
+        "name": "Noah Sports Centre",
+        "area": "Jayanti Nagar",
+        "address": "Jayanti Nagar Main Road, Near Vibgyor School Road, behind Noah Sports Store, Jayanti Nagar, Esther Enclave Layout, Bengaluru, Karnataka - 560016",
+        "city": "Bengaluru",
+        "slug": "noah-sports-centre-jayanti-nagar-bengaluru",
+        "rating": 4.5,
+        "bookable": true,
+        "minPrice": 1000,
+        "charts": [
+          {
+            "name": "Football Mini",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 06:00 PM",
+                    "price": 1000
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 06:00 PM",
+                    "price": 1000
+                  },
+                  {
+                    "time": "06:00 PM - 11:00 PM",
+                    "price": 1200
                   }
                 ]
               }
@@ -22542,7 +22505,7 @@
         "address": "Tashwin Arena Academy, 286/6, Next To SUGUNA UPPER CREST, Opp. Avani Hills, Gattigere, HV Halli, Bengaluru, Karnataka- 560098",
         "city": "Bengaluru",
         "slug": "machaxi-tashwin-sports-center-near-global-academy-of-technology-bengaluru",
-        "rating": 4.1,
+        "rating": 4.2,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
@@ -29836,7 +29799,7 @@
         "address": "Champion's Den, Cricket And Football Turf, Thirumenahalli Main Rd, Beside Thirumenahalli, Agrahara Badavane, Bengaluru, Thirumenahalli, Karnataka 560064",
         "city": "Bengaluru",
         "slug": "champions-den-thirumenahalli-bengaluru",
-        "rating": 4,
+        "rating": 4.2,
         "bookable": true,
         "minPrice": 1400,
         "charts": [
@@ -31110,7 +31073,7 @@
                     "price": 600
                   },
                   {
-                    "time": "05:30 PM - 07:00 PM",
+                    "time": "05:30 PM - 06:00 PM",
                     "price": 600
                   }
                 ]
@@ -31123,7 +31086,7 @@
                     "price": 800
                   },
                   {
-                    "time": "01:30 PM - 07:00 PM",
+                    "time": "01:30 PM - 06:00 PM",
                     "price": 800
                   }
                 ]
@@ -31132,7 +31095,7 @@
                 "day": "Sunday",
                 "times": [
                   {
-                    "time": "06:00 AM - 07:00 PM",
+                    "time": "06:00 AM - 06:00 PM",
                     "price": 800
                   }
                 ]
@@ -31141,7 +31104,7 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "05:30 AM - 07:00 PM",
+                    "time": "05:30 AM - 06:00 PM",
                     "price": 800
                   }
                 ]
