@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-25T05:36:13.938Z",
+  "updatedAt": "2026-10-26T05:43:58.257Z",
   "features": [
     {
       "type": "Feature",
@@ -2926,7 +2926,7 @@
         "address": "4/1, Bannerghatta Main Road, Bhavani Nagar, S.G. Palya, Bengaluru, Karnataka 560029",
         "city": "Bengaluru",
         "slug": "tiger-5-dairy-circle-facility-b-elevator-33-bannerghatta-road-bengaluru",
-        "rating": 4.3,
+        "rating": 4.1,
         "bookable": true,
         "minPrice": 1600,
         "charts": [
@@ -9581,7 +9581,7 @@
         "address": "1st Stage, 2nd Block, HBR Layout, Opp Ammas Pastries hbr, Inside Iskon Temple Complex",
         "city": "Bengaluru",
         "slug": "sama-the-soccer-turf-hbr-layout-bengaluru",
-        "rating": 2.6,
+        "rating": 2.5,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
@@ -13339,6 +13339,79 @@
           }
         ],
         "marker-color": "#438df4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5771868540068,
+          12.885505434528653
+        ]
+      },
+      "properties": {
+        "id": "e1d4ee73-2ac5-4858-b542-afd319c91b20",
+        "name": "RD Sports Arena",
+        "area": "JP Nagar",
+        "address": "SLV Symphony, Chunchaghatta Main Rd, Kothnur, Gaurav Nagar, JP Nagar 7th Phase, J. P. Nagar, Bengaluru, Karnataka 560078",
+        "city": "Bengaluru",
+        "slug": "rd-sports-arena-jp-nagar-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 1699,
+        "charts": [
+          {
+            "name": "Football 7 a side",
+            "days": [
+              {
+                "day": "Monday - Thursday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1699
+                  }
+                ]
+              },
+              {
+                "day": "Friday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 06:00 AM",
+                    "price": 2299
+                  },
+                  {
+                    "time": "06:00 AM - 06:00 PM",
+                    "price": 1699
+                  },
+                  {
+                    "time": "06:00 PM - 12:00 AM",
+                    "price": 2299
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 2299
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 2299
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#26a879"
       }
     },
     {
@@ -29602,7 +29675,7 @@
         "slug": "densparq-multi-sports-centre-bidarahalli-hobli-bengaluru",
         "rating": 5,
         "bookable": true,
-        "minPrice": 1600,
+        "minPrice": 99,
         "charts": [
           {
             "name": "Football 7 a side",
@@ -29611,7 +29684,15 @@
                 "day": "Monday - Friday",
                 "times": [
                   {
-                    "time": "06:00 AM - 12:00 AM",
+                    "time": "06:00 AM - 10:00 AM",
+                    "price": 1600
+                  },
+                  {
+                    "time": "10:00 AM - 05:00 PM",
+                    "price": 99
+                  },
+                  {
+                    "time": "05:00 PM - 12:00 AM",
                     "price": 1600
                   }
                 ]
@@ -29621,7 +29702,7 @@
                 "times": [
                   {
                     "time": "06:00 AM - 12:00 AM",
-                    "price": 1800
+                    "price": 1600
                   }
                 ]
               },
@@ -29630,7 +29711,7 @@
                 "times": [
                   {
                     "time": "06:00 AM - 12:00 AM",
-                    "price": 1800
+                    "price": 1600
                   }
                 ]
               }
@@ -29669,7 +29750,7 @@
             ]
           }
         ],
-        "marker-color": "#26a879"
+        "marker-color": "#438df4"
       }
     },
     {
@@ -32942,7 +33023,7 @@
         "address": "Sy No 194/3, Swami Muneshwara Complex Bagalur Main Rd, Kattigenahalli, Bengaluru, Karnataka - 560063",
         "city": "Bengaluru",
         "slug": "machaxi-spark7-sports-health-fitness-club-kattigenahalli-bengaluru",
-        "rating": 4.5,
+        "rating": 4.6,
         "bookable": true,
         "minPrice": 900,
         "charts": [
@@ -33738,6 +33819,61 @@
                   {
                     "time": "12:00 AM - 12:00 AM",
                     "price": 1400
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#e7953a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.78258911534337,
+          13.080523309174323
+        ]
+      },
+      "properties": {
+        "id": "9637d290-bde0-47b2-8f46-ae17462db01c",
+        "name": "Kick And Hit Sports Hub",
+        "area": "Hoskote",
+        "address": "Sulibele, Main Road, Beside New Alankar Cinemas, Hoskote, Bangalore, Karnataka - 562114",
+        "city": "Bengaluru",
+        "slug": "kick-and-hit-sports-hub-hoskote-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 1000,
+        "charts": [
+          {
+            "name": "Football 6 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 05:00 PM",
+                    "price": 1000
+                  },
+                  {
+                    "time": "05:00 PM - 11:00 PM",
+                    "price": 1200
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 05:00 PM",
+                    "price": 1000
+                  },
+                  {
+                    "time": "05:00 PM - 11:00 PM",
+                    "price": 1200
                   }
                 ]
               }
