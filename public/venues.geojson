@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-26T05:43:58.257Z",
+  "updatedAt": "2026-10-27T05:54:30.598Z",
   "features": [
     {
       "type": "Feature",
@@ -10942,8 +10942,16 @@
                 "day": "Friday - Sunday",
                 "times": [
                   {
-                    "time": "06:00 AM - 12:00 AM",
-                    "price": 3000
+                    "time": "06:00 AM - 11:00 AM",
+                    "price": 2600
+                  },
+                  {
+                    "time": "11:00 AM - 03:00 PM",
+                    "price": 2300
+                  },
+                  {
+                    "time": "03:00 PM - 12:00 AM",
+                    "price": 2600
                   }
                 ]
               },
@@ -24808,6 +24816,61 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          77.56914245972993,
+          12.836813585050512
+        ]
+      },
+      "properties": {
+        "id": "009ac1ed-9805-4b09-b387-d2c39c80e410",
+        "name": "Turf 83",
+        "area": "Bilwaradahalli",
+        "address": "Bilwaradahalli, Karnataka - 560083",
+        "city": "Bengaluru",
+        "slug": "turf-83-bilwaradahalli-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 699,
+        "charts": [
+          {
+            "name": "Football 6 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 02:00 AM",
+                    "price": 699
+                  },
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 699
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "12:00 AM - 02:00 AM",
+                    "price": 699
+                  },
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 699
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#438df4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           77.62630433997872,
           12.811668748100018
         ]
@@ -32581,6 +32644,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          77.65549735923211,
+          13.120610465368271
+        ]
+      },
+      "properties": {
+        "id": "d06c62df-b51b-402e-9cf5-d4c4fb89de1a",
+        "name": "One8 Turf & Cafe",
+        "area": "Chagalahatti",
+        "address": "One 8 Turf, Mitganahalli, Srinivasa Nagar, Chagalahatti, Karnataka 562149",
+        "city": "Bengaluru",
+        "slug": "one8-turf-cafe-chagalahatti-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 799,
+        "charts": [
+          {
+            "name": "Football 6 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 799
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 799
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#438df4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           77.47242700761768,
           12.905749283485545
         ]
@@ -32851,29 +32961,6 @@
           }
         ],
         "marker-color": "#e7953a"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.73040283776963,
-          12.780695415211012
-        ]
-      },
-      "properties": {
-        "id": "6b23052a-55b9-42e1-b2f9-9f9b02578d8e",
-        "name": "The Millennium Turf",
-        "area": "Madivala",
-        "address": "Bandapura Road, Bangalore, Madivala, Karnataka - 562107",
-        "city": "Bengaluru",
-        "slug": "the-millennium-turf-madivala-bengaluru",
-        "rating": 0,
-        "bookable": false,
-        "minPrice": null,
-        "charts": [],
-        "marker-color": "#8290a3"
       }
     },
     {
@@ -34024,6 +34111,153 @@
           }
         ],
         "marker-color": "#438df4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4675064954432,
+          12.884709602643646
+        ]
+      },
+      "properties": {
+        "id": "38baa531-65a6-4933-8c49-bbc6d7d69188",
+        "name": "EPOF Sports",
+        "area": "Kengeri",
+        "address": "Anchepalya, Kambipura, Bengaluru, Karnataka - 560074",
+        "city": "Bengaluru",
+        "slug": "epof-sports-kengeri-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 1000,
+        "charts": [
+          {
+            "name": "Football 5 a side",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "05:00 PM - 12:00 AM",
+                    "price": 1000
+                  }
+                ]
+              },
+              {
+                "day": "Saturday",
+                "times": [
+                  {
+                    "time": "01:00 PM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              },
+              {
+                "day": "Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "05:00 PM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 7 a side",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "05:00 PM - 12:00 AM",
+                    "price": 1800
+                  }
+                ]
+              },
+              {
+                "day": "Saturday",
+                "times": [
+                  {
+                    "time": "01:00 PM - 12:00 AM",
+                    "price": 2000
+                  }
+                ]
+              },
+              {
+                "day": "Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 2000
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "05:00 PM - 12:00 AM",
+                    "price": 2000
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 9 a side",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "05:00 PM - 12:00 AM",
+                    "price": 3000
+                  }
+                ]
+              },
+              {
+                "day": "Saturday",
+                "times": [
+                  {
+                    "time": "01:00 PM - 12:00 AM",
+                    "price": 3000
+                  }
+                ]
+              },
+              {
+                "day": "Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 3000
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "05:00 PM - 12:00 AM",
+                    "price": 3000
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#e7953a"
       }
     },
     {
