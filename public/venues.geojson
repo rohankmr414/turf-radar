@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-27T05:54:30.598Z",
+  "updatedAt": "2026-10-28T06:33:42.325Z",
   "features": [
     {
       "type": "Feature",
@@ -2299,96 +2299,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.66736578444934,
-          12.899647411681013
-        ]
-      },
-      "properties": {
-        "id": "4f82c02f-0b4b-4bfb-a7da-07d2b2192698",
-        "name": "Rising Star Sports Arena (Star Badminton)",
-        "area": "Haralur",
-        "address": "Eastwood Township, Haralur, Karnataka - 560103",
-        "city": "Bengaluru",
-        "slug": "rising-star-sports-arena-star-badminton-haralur-bengaluru",
-        "rating": 2.9,
-        "bookable": true,
-        "minPrice": 1400,
-        "charts": [
-          {
-            "name": "Football 5a side",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 01:00 AM",
-                    "price": 1400
-                  },
-                  {
-                    "time": "06:00 AM - 12:00 AM",
-                    "price": 1400
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "12:00 AM - 01:00 AM",
-                    "price": 1999
-                  },
-                  {
-                    "time": "06:00 AM - 06:00 PM",
-                    "price": 1799
-                  },
-                  {
-                    "time": "06:00 PM - 12:00 AM",
-                    "price": 1999
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Football 7 a side",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 01:00 AM",
-                    "price": 2500
-                  },
-                  {
-                    "time": "06:00 AM - 12:00 AM",
-                    "price": 2500
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "12:00 AM - 01:00 AM",
-                    "price": 3699
-                  },
-                  {
-                    "time": "06:00 AM - 12:00 AM",
-                    "price": 3699
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "marker-color": "#e7953a"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           77.66770569347953,
           12.899718121181795
         ]
@@ -2610,7 +2520,7 @@
         "address": "Innovative Multiplex, No.90/1A (135), Outer Ring Road, Marathahalli, Bangalore - 560037",
         "city": "Bengaluru",
         "slug": "i-sports-marathahalli-bengaluru",
-        "rating": 3.6,
+        "rating": 3.7,
         "bookable": true,
         "minPrice": 500,
         "charts": [
@@ -2920,6 +2830,99 @@
         ]
       },
       "properties": {
+        "id": "7339d09a-aeb6-4b98-989e-6fdca17d7f61",
+        "name": "Tiger 5 Dairy Circle - Facility A (Elevator 29)",
+        "area": "Bannerghatta Road",
+        "address": "4/1, Bannerghatta Main Road, Bhavani Nagar, S.G. Palya, Bengaluru, Karnataka 560029",
+        "city": "Bengaluru",
+        "slug": "tiger-5-dairy-circle-facility-a-elevator-29-bannerghatta-road-bengaluru",
+        "rating": 3.9,
+        "bookable": true,
+        "minPrice": 1200,
+        "charts": [
+          {
+            "name": "Football 4 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 6 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1600
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1600
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 7 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 2800
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 2800
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#e7953a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.60344483320864,
+          12.932795170805665
+        ]
+      },
+      "properties": {
         "id": "2371080a-f009-401b-9f03-98b2d36914d7",
         "name": "Tiger 5 Dairy Circle - Facility B (Elevator 30/31)",
         "area": "Bannerghatta Road",
@@ -3010,99 +3013,6 @@
           }
         ],
         "marker-color": "#26a879"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.60344483320864,
-          12.932795170805665
-        ]
-      },
-      "properties": {
-        "id": "7339d09a-aeb6-4b98-989e-6fdca17d7f61",
-        "name": "Tiger 5 Dairy Circle - Facility A (Elevator 29)",
-        "area": "Bannerghatta Road",
-        "address": "4/1, Bannerghatta Main Road, Bhavani Nagar, S.G. Palya, Bengaluru, Karnataka 560029",
-        "city": "Bengaluru",
-        "slug": "tiger-5-dairy-circle-facility-a-elevator-29-bannerghatta-road-bengaluru",
-        "rating": 3.9,
-        "bookable": true,
-        "minPrice": 1200,
-        "charts": [
-          {
-            "name": "Football 4 a side",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1200
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1200
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Football 6 a side",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1600
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1600
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Football 7 a side",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 2800
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 2800
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "marker-color": "#e7953a"
       }
     },
     {
@@ -5435,7 +5345,7 @@
         "address": "Sy No 251/6, CS Rd, near Vagdevi Vilas School, Laxminarayana Layout, Munnekolala, Marathahalli, Bengaluru, Karnataka 560037",
         "city": "Bengaluru",
         "slug": "play-squaree-marathahalli-bengaluru",
-        "rating": 3.7,
+        "rating": 3.6,
         "bookable": true,
         "minPrice": 1100,
         "charts": [
@@ -7550,7 +7460,7 @@
         "address": "23/2, Sonnenahalli, Whitefield, Bengaluru, Karnataka 560048",
         "city": "Bengaluru",
         "slug": "v-play-sports-kundalahalli-whitefield-bengaluru",
-        "rating": 3.7,
+        "rating": 3.6,
         "bookable": true,
         "minPrice": 1300,
         "charts": [
@@ -11088,7 +10998,7 @@
         "slug": "sportsdrome-jp-nagar-7th-phase-bengaluru",
         "rating": 4.1,
         "bookable": true,
-        "minPrice": 1400,
+        "minPrice": 1500,
         "charts": [
           {
             "name": "Football 5 a side",
@@ -11098,15 +11008,15 @@
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 AM",
-                    "price": 1600
+                    "price": 1700
                   },
                   {
                     "time": "11:00 AM - 03:00 PM",
-                    "price": 1400
+                    "price": 1500
                   },
                   {
                     "time": "03:00 PM - 10:30 PM",
-                    "price": 1600
+                    "price": 1700
                   }
                 ]
               },
@@ -11115,15 +11025,15 @@
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 AM",
-                    "price": 1600
+                    "price": 1700
                   },
                   {
                     "time": "11:00 AM - 03:00 PM",
-                    "price": 1600
+                    "price": 1700
                   },
                   {
                     "time": "03:00 PM - 10:30 PM",
-                    "price": 1600
+                    "price": 1700
                   }
                 ]
               },
@@ -11199,7 +11109,7 @@
             ]
           }
         ],
-        "marker-color": "#e7953a"
+        "marker-color": "#26a879"
       }
     },
     {
@@ -32476,7 +32386,7 @@
         "address": "Near lumbini international public school, Kattigenahalli 52/1 anjaneya temple street kattigenahalli, Yelahanka, Bengaluru, Karnataka 560064",
         "city": "Bengaluru",
         "slug": "lumbini-sports-club-kattigenahalli-bengaluru",
-        "rating": 3.2,
+        "rating": 3.3,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
