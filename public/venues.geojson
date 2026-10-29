@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-28T06:33:42.325Z",
+  "updatedAt": "2026-10-29T06:43:11.592Z",
   "features": [
     {
       "type": "Feature",
@@ -2718,7 +2718,7 @@
         "address": "Backdoor of Geetanjali Olympiad School, Kaverappa Layout, Kadubeesanahalli, Bengaluru, Karnataka - 560103",
         "city": "Bengaluru",
         "slug": "geetanjali-olympiad-sports-arena-kadubeesanahalli-bengaluru",
-        "rating": 3.9,
+        "rating": 4,
         "bookable": true,
         "minPrice": 1500,
         "charts": [
@@ -7224,7 +7224,7 @@
                   },
                   {
                     "time": "06:00 AM - 03:00 PM",
-                    "price": 975
+                    "price": 9750
                   },
                   {
                     "time": "03:00 PM - 10:00 PM",
@@ -9311,7 +9311,7 @@
                     "price": 1000
                   },
                   {
-                    "time": "03:00 PM - 12:00 AM",
+                    "time": "03:00 PM - 11:00 PM",
                     "price": 1300
                   }
                 ]
@@ -9328,7 +9328,7 @@
                     "price": 1000
                   },
                   {
-                    "time": "03:00 PM - 12:00 AM",
+                    "time": "03:00 PM - 11:00 PM",
                     "price": 1400
                   }
                 ]
@@ -9337,7 +9337,7 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "06:00 AM - 12:00 AM",
+                    "time": "06:00 AM - 11:00 PM",
                     "price": 1300
                   }
                 ]
@@ -9359,7 +9359,7 @@
                     "price": 2100
                   },
                   {
-                    "time": "04:00 PM - 12:00 AM",
+                    "time": "04:00 PM - 11:00 PM",
                     "price": 2400
                   }
                 ]
@@ -9376,7 +9376,7 @@
                     "price": 2100
                   },
                   {
-                    "time": "03:00 PM - 12:00 AM",
+                    "time": "03:00 PM - 11:00 PM",
                     "price": 2500
                   }
                 ]
@@ -9385,7 +9385,7 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "06:00 AM - 12:00 AM",
+                    "time": "06:00 AM - 11:00 PM",
                     "price": 2300
                   }
                 ]
@@ -13598,7 +13598,7 @@
         "address": "Beside Apollo National Public School, 7 Block, Kathreguppe, Banashankari 3rd Stage, Banashankari, Bengaluru, Karnataka 560085",
         "city": "Bengaluru",
         "slug": "auk-sports-zone-banagiri-nagara-bengaluru",
-        "rating": 3.1,
+        "rating": 3,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
@@ -17906,7 +17906,7 @@
         "address": "22, 6th Cross Road, kakathiya Nagar, Banashankari 3rd Stage, Chikkalasandra, Bengaluru, Karnataka - 560085",
         "city": "Bengaluru",
         "slug": "top-game-chikkalasandra-bengaluru",
-        "rating": 3.5,
+        "rating": 3.6,
         "bookable": true,
         "minPrice": 700,
         "charts": [
@@ -25352,7 +25352,7 @@
         "address": "102/1, Kenchena Halli Rd, Durga Parameshwari Layout, Pattanagere, Rajarajeshwari Nagar, Bengaluru, Karnataka 560098",
         "city": "Bengaluru",
         "slug": "hometurf-rajarajeshwari-nagar-bengaluru",
-        "rating": 3,
+        "rating": 2.7,
         "bookable": true,
         "minPrice": 600,
         "charts": [
