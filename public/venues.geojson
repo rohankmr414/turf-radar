@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-29T06:43:11.592Z",
+  "updatedAt": "2026-10-30T06:44:16.696Z",
   "features": [
     {
       "type": "Feature",
@@ -2520,7 +2520,7 @@
         "address": "Innovative Multiplex, No.90/1A (135), Outer Ring Road, Marathahalli, Bangalore - 560037",
         "city": "Bengaluru",
         "slug": "i-sports-marathahalli-bengaluru",
-        "rating": 3.7,
+        "rating": 3.6,
         "bookable": true,
         "minPrice": 500,
         "charts": [
@@ -14920,10 +14920,10 @@
         "minPrice": 600,
         "charts": [
           {
-            "name": "Football Medium \n(Applicable: 5th Oct - 31st Oct)",
+            "name": "Football Medium \n(Applicable: 5th Oct - 30th Nov)",
             "days": [
               {
-                "day": "Monday - Thursday",
+                "day": "Monday",
                 "times": [
                   {
                     "time": "05:00 AM - 05:00 PM",
@@ -14935,6 +14935,65 @@
                   },
                   {
                     "time": "06:00 PM - 10:00 PM",
+                    "price": 800
+                  }
+                ]
+              },
+              {
+                "day": "Tuesday",
+                "times": [
+                  {
+                    "time": "05:00 AM - 05:00 PM",
+                    "price": 600
+                  },
+                  {
+                    "time": "05:00 PM - 06:00 PM",
+                    "price": 1000
+                  },
+                  {
+                    "time": "06:00 PM - 07:00 PM",
+                    "price": 1100
+                  },
+                  {
+                    "time": "07:00 PM - 10:00 PM",
+                    "price": 800
+                  }
+                ]
+              },
+              {
+                "day": "Wednesday",
+                "times": [
+                  {
+                    "time": "05:00 AM - 05:00 PM",
+                    "price": 600
+                  },
+                  {
+                    "time": "05:00 PM - 06:00 PM",
+                    "price": 1000
+                  },
+                  {
+                    "time": "06:00 PM - 10:00 PM",
+                    "price": 800
+                  }
+                ]
+              },
+              {
+                "day": "Thursday",
+                "times": [
+                  {
+                    "time": "05:00 AM - 05:00 PM",
+                    "price": 600
+                  },
+                  {
+                    "time": "05:00 PM - 06:00 PM",
+                    "price": 1000
+                  },
+                  {
+                    "time": "06:00 PM - 07:00 PM",
+                    "price": 1100
+                  },
+                  {
+                    "time": "07:00 PM - 10:00 PM",
                     "price": 800
                   }
                 ]
@@ -14971,7 +15030,7 @@
             "name": "Football Medium",
             "days": [
               {
-                "day": "Monday - Thursday",
+                "day": "Monday - Friday",
                 "times": [
                   {
                     "time": "05:00 AM - 05:00 PM",
@@ -14988,7 +15047,7 @@
                 ]
               },
               {
-                "day": "Friday - Sunday",
+                "day": "Saturday - Sunday",
                 "times": [
                   {
                     "time": "05:00 AM - 10:00 PM",
@@ -22999,7 +23058,7 @@
         "address": "102, Tulasipura main road, Anjanapura, Bangalore 560062",
         "city": "Bengaluru",
         "slug": "joras-natural-grass-anjanapura-bengaluru",
-        "rating": 5,
+        "rating": 4.3,
         "bookable": true,
         "minPrice": 1200,
         "charts": [
@@ -34383,7 +34442,7 @@
         "slug": "neon-sports-academy-bagaluru-bengaluru",
         "rating": 5,
         "bookable": true,
-        "minPrice": 1500,
+        "minPrice": 299,
         "charts": [
           {
             "name": "Football 7 a side",
@@ -34393,7 +34452,7 @@
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 PM",
-                    "price": 3000
+                    "price": 599
                   }
                 ]
               },
@@ -34416,7 +34475,7 @@
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 PM",
-                    "price": 1500
+                    "price": 299
                   }
                 ]
               },
@@ -34432,7 +34491,7 @@
             ]
           }
         ],
-        "marker-color": "#26a879"
+        "marker-color": "#438df4"
       }
     },
     {
