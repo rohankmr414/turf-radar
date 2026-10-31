@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-30T06:44:16.696Z",
+  "updatedAt": "2026-10-31T06:34:37.561Z",
   "features": [
     {
       "type": "Feature",
@@ -1456,7 +1456,7 @@
         "address": "ETV Sports Garden New Sports Zone, Parcel 5, Embassy Tech Village Rd, Devarabisanahalli, Bellandur, Bengaluru, Karnataka 560103",
         "city": "Bengaluru",
         "slug": "etv-sports-garden-bellandur-bengaluru",
-        "rating": 3.6,
+        "rating": 3.7,
         "bookable": true,
         "minPrice": 2200,
         "charts": [
@@ -9303,7 +9303,7 @@
                 "day": "Monday - Thursday",
                 "times": [
                   {
-                    "time": "06:00 AM - 11:00 AM",
+                    "time": "05:00 AM - 11:00 AM",
                     "price": 1300
                   },
                   {
@@ -9311,7 +9311,7 @@
                     "price": 1000
                   },
                   {
-                    "time": "03:00 PM - 11:00 PM",
+                    "time": "03:00 PM - 11:30 PM",
                     "price": 1300
                   }
                 ]
@@ -9320,7 +9320,7 @@
                 "day": "Friday - Sunday",
                 "times": [
                   {
-                    "time": "06:00 AM - 11:00 AM",
+                    "time": "05:00 AM - 11:00 AM",
                     "price": 1400
                   },
                   {
@@ -9328,7 +9328,7 @@
                     "price": 1000
                   },
                   {
-                    "time": "03:00 PM - 11:00 PM",
+                    "time": "03:00 PM - 11:30 PM",
                     "price": 1400
                   }
                 ]
@@ -9337,7 +9337,7 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "06:00 AM - 11:00 PM",
+                    "time": "05:00 AM - 11:30 PM",
                     "price": 1300
                   }
                 ]
@@ -9351,7 +9351,7 @@
                 "day": "Monday - Thursday",
                 "times": [
                   {
-                    "time": "06:00 AM - 10:00 AM",
+                    "time": "05:00 AM - 10:00 AM",
                     "price": 2400
                   },
                   {
@@ -9359,7 +9359,7 @@
                     "price": 2100
                   },
                   {
-                    "time": "04:00 PM - 11:00 PM",
+                    "time": "04:00 PM - 11:30 PM",
                     "price": 2400
                   }
                 ]
@@ -9368,7 +9368,7 @@
                 "day": "Friday - Sunday",
                 "times": [
                   {
-                    "time": "06:00 AM - 11:00 AM",
+                    "time": "05:00 AM - 11:00 AM",
                     "price": 2500
                   },
                   {
@@ -9376,7 +9376,7 @@
                     "price": 2100
                   },
                   {
-                    "time": "03:00 PM - 11:00 PM",
+                    "time": "03:00 PM - 11:30 PM",
                     "price": 2500
                   }
                 ]
@@ -9385,7 +9385,7 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "06:00 AM - 11:00 PM",
+                    "time": "05:00 AM - 11:30 PM",
                     "price": 2300
                   }
                 ]
@@ -10559,7 +10559,7 @@
                 "day": "Monday - Friday",
                 "times": [
                   {
-                    "time": "06:00 AM - 06:00 PM",
+                    "time": "06:00 AM - 11:00 PM",
                     "price": 1000
                   }
                 ]
@@ -11042,15 +11042,15 @@
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 AM",
-                    "price": 1600
+                    "price": 1700
                   },
                   {
                     "time": "11:00 AM - 03:00 PM",
-                    "price": 1600
+                    "price": 1700
                   },
                   {
                     "time": "03:00 PM - 10:30 PM",
-                    "price": 1600
+                    "price": 1700
                   }
                 ]
               }
@@ -11064,15 +11064,15 @@
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 AM",
-                    "price": 2700
+                    "price": 2800
                   },
                   {
                     "time": "11:00 AM - 03:00 PM",
-                    "price": 2400
+                    "price": 2600
                   },
                   {
                     "time": "03:00 PM - 10:30 PM",
-                    "price": 2700
+                    "price": 2800
                   }
                 ]
               },
@@ -11081,15 +11081,15 @@
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 AM",
-                    "price": 2700
+                    "price": 2800
                   },
                   {
                     "time": "11:00 AM - 03:00 PM",
-                    "price": 2700
+                    "price": 2800
                   },
                   {
                     "time": "03:00 PM - 10:30 PM",
-                    "price": 2700
+                    "price": 2800
                   }
                 ]
               },
@@ -11098,11 +11098,11 @@
                 "times": [
                   {
                     "time": "06:00 AM - 06:00 PM",
-                    "price": 2700
+                    "price": 2800
                   },
                   {
                     "time": "06:00 PM - 10:30 PM",
-                    "price": 2700
+                    "price": 2800
                   }
                 ]
               }
@@ -12626,7 +12626,7 @@
         "address": "M.G. Railway Colony, Okalipuram, Bengaluru, Karnataka - 560023",
         "city": "Bengaluru",
         "slug": "terra-arena-railways-colony-bengaluru",
-        "rating": 4.1,
+        "rating": 4.2,
         "bookable": true,
         "minPrice": 1250,
         "charts": [
@@ -29734,7 +29734,7 @@
                 "times": [
                   {
                     "time": "06:00 AM - 12:00 AM",
-                    "price": 1600
+                    "price": 1400
                   }
                 ]
               },
@@ -29743,7 +29743,7 @@
                 "times": [
                   {
                     "time": "06:00 AM - 12:00 AM",
-                    "price": 1600
+                    "price": 1400
                   }
                 ]
               }
@@ -29766,7 +29766,7 @@
                 "times": [
                   {
                     "time": "06:00 AM - 12:00 AM",
-                    "price": 5400
+                    "price": 4200
                   }
                 ]
               },
@@ -29775,7 +29775,7 @@
                 "times": [
                   {
                     "time": "06:00 AM - 12:00 AM",
-                    "price": 5400
+                    "price": 4200
                   }
                 ]
               }
@@ -32253,6 +32253,29 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Football 11 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "05:00 AM - 11:00 PM",
+                    "price": 3500
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "05:00 AM - 11:00 PM",
+                    "price": 3500
+                  }
+                ]
+              }
+            ]
           }
         ],
         "marker-color": "#438df4"
@@ -32308,7 +32331,11 @@
                 "day": "Monday - Friday",
                 "times": [
                   {
-                    "time": "07:00 AM - 09:00 PM",
+                    "time": "08:30 AM - 04:30 PM",
+                    "price": 1000
+                  },
+                  {
+                    "time": "08:30 PM - 10:30 PM",
                     "price": 1000
                   }
                 ]
@@ -32330,7 +32357,7 @@
                 "day": "Sunday",
                 "times": [
                   {
-                    "time": "07:00 AM - 09:00 PM",
+                    "time": "10:00 AM - 10:30 PM",
                     "price": 1000
                   }
                 ]
@@ -36917,34 +36944,25 @@
         "slug": "goal-googly-turf-punugandoddi-hosur",
         "rating": 5,
         "bookable": true,
-        "minPrice": 500,
+        "minPrice": 399,
         "charts": [
           {
             "name": "Football 6 a side",
             "days": [
               {
-                "day": "Monday - Friday",
+                "day": "Monday - Sunday",
                 "times": [
                   {
-                    "time": "12:00 AM - 09:00 AM",
-                    "price": 700
+                    "time": "12:00 AM - 06:00 AM",
+                    "price": 599
                   },
                   {
-                    "time": "09:00 AM - 04:00 PM",
-                    "price": 500
+                    "time": "06:00 AM - 06:00 PM",
+                    "price": 399
                   },
                   {
-                    "time": "04:00 PM - 12:00 AM",
-                    "price": 700
-                  }
-                ]
-              },
-              {
-                "day": "Saturday - Sunday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1100
+                    "time": "06:00 PM - 12:00 AM",
+                    "price": 599
                   }
                 ]
               },
@@ -36953,7 +36971,7 @@
                 "times": [
                   {
                     "time": "12:00 AM - 12:00 AM",
-                    "price": 1100
+                    "price": 599
                   }
                 ]
               }
