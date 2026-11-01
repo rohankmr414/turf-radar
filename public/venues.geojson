@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-10-31T06:34:37.561Z",
+  "updatedAt": "2026-11-01T07:05:32.785Z",
   "features": [
     {
       "type": "Feature",
@@ -2801,7 +2801,7 @@
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 PM",
-                    "price": 2000
+                    "price": 2500
                   }
                 ]
               },
@@ -2809,8 +2809,8 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "06:00 AM - 11:00 PM",
-                    "price": 2000
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 2500
                   }
                 ]
               }
@@ -7855,7 +7855,7 @@
         "address": "Sy No. 364/2, Begur - Hulimavu Rd, behind government hospital, Classic Paradise Layout, Begur, Bengaluru, Karnataka 560068",
         "city": "Bengaluru",
         "slug": "aurawin-sports-begur-bengaluru",
-        "rating": 5,
+        "rating": 4.8,
         "bookable": true,
         "minPrice": 1500,
         "charts": [
@@ -18056,6 +18056,38 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Football 11 a side",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 10:00 PM",
+                    "price": 2100
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 10:00 PM",
+                    "price": 2700
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 10:00 PM",
+                    "price": 2700
+                  }
+                ]
+              }
+            ]
           }
         ],
         "marker-color": "#438df4"
@@ -21560,7 +21592,7 @@
         "address": "Shri Ram Global School, Hennur, Elu's Road, Opposite Purva Palm Beach, Bangalore, Karnataka - 560077",
         "city": "Bengaluru",
         "slug": "shri-sports-academy-hennur-bengaluru",
-        "rating": 2.5,
+        "rating": 3.3,
         "bookable": true,
         "minPrice": 1700,
         "charts": [
@@ -29663,7 +29695,7 @@
         "address": "Judicial Layout, Allalasandra, Yelahanka, Bangalore - 560065",
         "city": "Bengaluru",
         "slug": "rio-football-and-cricket-turf-yelahanka-allalasandra-bengaluru",
-        "rating": 5,
+        "rating": 3.7,
         "bookable": true,
         "minPrice": 1200,
         "charts": [
@@ -33982,7 +34014,7 @@
         "address": "142/2, near Maramma Temple, Vaderahalli, Vidyaranyapura, Bengaluru, Karnataka - 560097",
         "city": "Bengaluru",
         "slug": "sportify-sports-academy-vidyaranyapura-bengaluru",
-        "rating": 4.5,
+        "rating": 4.4,
         "bookable": true,
         "minPrice": 1200,
         "charts": [
@@ -34537,7 +34569,7 @@
         "address": "Sy .No. 38/2, Kengeri Hobli, Sulikere, Bengaluru, Karnataka - 560060",
         "city": "Bengaluru",
         "slug": "avin-international-school-kengeri-bengaluru",
-        "rating": 5,
+        "rating": 2.5,
         "bookable": true,
         "minPrice": 1700,
         "charts": [
