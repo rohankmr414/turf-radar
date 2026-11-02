@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-11-01T07:05:32.785Z",
+  "updatedAt": "2026-11-02T07:06:34.923Z",
   "features": [
     {
       "type": "Feature",
@@ -18,7 +18,7 @@
         "address": "Koramangala 4th Block, Site 6, Shanthi Nagar Society, Behind BDA Park No. 9",
         "city": "Bengaluru",
         "slug": "social-grid-turfpark-coolulu-jakkasandra-bengaluru",
-        "rating": 4.5,
+        "rating": 4.4,
         "bookable": true,
         "minPrice": 1850,
         "charts": [
@@ -7224,7 +7224,7 @@
                   },
                   {
                     "time": "06:00 AM - 03:00 PM",
-                    "price": 9750
+                    "price": 975
                   },
                   {
                     "time": "03:00 PM - 10:00 PM",
@@ -16664,20 +16664,7 @@
             "name": "Football 5 a side",
             "days": [
               {
-                "day": "Monday",
-                "times": [
-                  {
-                    "time": "05:00 AM - 08:00 AM",
-                    "price": 1200
-                  },
-                  {
-                    "time": "04:00 PM - 11:00 PM",
-                    "price": 1200
-                  }
-                ]
-              },
-              {
-                "day": "Tuesday - Friday",
+                "day": "Monday - Friday",
                 "times": [
                   {
                     "time": "05:00 AM - 08:00 AM",
@@ -16729,20 +16716,7 @@
             "name": "Football 7 a side",
             "days": [
               {
-                "day": "Monday",
-                "times": [
-                  {
-                    "time": "05:00 AM - 08:00 AM",
-                    "price": 1950
-                  },
-                  {
-                    "time": "04:00 PM - 11:00 PM",
-                    "price": 1950
-                  }
-                ]
-              },
-              {
-                "day": "Tuesday - Friday",
+                "day": "Monday - Friday",
                 "times": [
                   {
                     "time": "05:00 AM - 08:00 AM",
@@ -16794,20 +16768,7 @@
             "name": "Football 11 a side",
             "days": [
               {
-                "day": "Monday",
-                "times": [
-                  {
-                    "time": "05:00 AM - 08:00 AM",
-                    "price": 3950
-                  },
-                  {
-                    "time": "04:00 PM - 11:00 PM",
-                    "price": 3950
-                  }
-                ]
-              },
-              {
-                "day": "Tuesday - Friday",
+                "day": "Monday - Friday",
                 "times": [
                   {
                     "time": "05:00 AM - 08:00 AM",
@@ -17325,174 +17286,6 @@
           }
         ],
         "marker-color": "#438df4"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.74711115306708,
-          12.896379750692766
-        ]
-      },
-      "properties": {
-        "id": "a61e95e3-7196-42c3-bf2d-545ddff73270",
-        "name": "BFC Blue Arena",
-        "area": "United World Academy",
-        "address": "United World Academy Sarjapur Campus, Sy No. 1/1 And 62, Chikkavaderapura Sarjapur Hobali, Anekal, Taluk, Bengaluru, Karnataka - 560087",
-        "city": "Bengaluru",
-        "slug": "bfc-blue-arena-united-world-academy-bengaluru",
-        "rating": 4.9,
-        "bookable": true,
-        "minPrice": 2000,
-        "charts": [
-          {
-            "name": "Football 11 a side",
-            "days": [
-              {
-                "day": "Monday - Friday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 01:00 AM",
-                    "price": 6000
-                  },
-                  {
-                    "time": "06:00 PM - 12:00 AM",
-                    "price": 6000
-                  }
-                ]
-              },
-              {
-                "day": "Saturday - Sunday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 01:00 AM",
-                    "price": 6500
-                  },
-                  {
-                    "time": "05:00 AM - 12:00 AM",
-                    "price": 6500
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "12:00 AM - 01:00 AM",
-                    "price": 4200
-                  },
-                  {
-                    "time": "06:00 PM - 12:00 AM",
-                    "price": 4200
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Football 9 a side",
-            "days": [
-              {
-                "day": "Monday - Friday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 01:00 AM",
-                    "price": 3500
-                  },
-                  {
-                    "time": "06:00 PM - 12:00 AM",
-                    "price": 3500
-                  }
-                ]
-              },
-              {
-                "day": "Saturday - Sunday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 01:00 AM",
-                    "price": 4000
-                  },
-                  {
-                    "time": "05:00 AM - 09:00 AM",
-                    "price": 4000
-                  },
-                  {
-                    "time": "09:00 AM - 04:00 PM",
-                    "price": 3000
-                  },
-                  {
-                    "time": "04:00 PM - 06:00 PM",
-                    "price": 3500
-                  },
-                  {
-                    "time": "06:00 PM - 12:00 AM",
-                    "price": 4000
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "12:00 AM - 01:00 AM",
-                    "price": 3000
-                  },
-                  {
-                    "time": "06:00 PM - 12:00 AM",
-                    "price": 3000
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Football 7 a side",
-            "days": [
-              {
-                "day": "Monday - Friday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 01:00 AM",
-                    "price": 2000
-                  },
-                  {
-                    "time": "06:00 PM - 12:00 AM",
-                    "price": 2000
-                  }
-                ]
-              },
-              {
-                "day": "Saturday - Sunday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 01:00 AM",
-                    "price": 2500
-                  },
-                  {
-                    "time": "05:00 AM - 12:00 AM",
-                    "price": 2500
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "12:00 AM - 01:00 AM",
-                    "price": 2000
-                  },
-                  {
-                    "time": "06:00 PM - 12:00 AM",
-                    "price": 2000
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "marker-color": "#26a879"
       }
     },
     {
@@ -23959,7 +23752,7 @@
         "address": "# 47, New BEL Road, RMV 2nd Stage, Opp ICICI Bank, Bangalore - 560094",
         "city": "Bengaluru",
         "slug": "matchday-new-bel-road-bengaluru",
-        "rating": 3.9,
+        "rating": 3.8,
         "bookable": true,
         "minPrice": 1800,
         "charts": [
@@ -25432,104 +25225,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.51305176605396,
-          12.919947944619478
-        ]
-      },
-      "properties": {
-        "id": "44ecc3d2-a200-4b6e-a3b7-fb55a9079ef5",
-        "name": "HomeTurf",
-        "area": "Rajarajeshwari Nagar",
-        "address": "102/1, Kenchena Halli Rd, Durga Parameshwari Layout, Pattanagere, Rajarajeshwari Nagar, Bengaluru, Karnataka 560098",
-        "city": "Bengaluru",
-        "slug": "hometurf-rajarajeshwari-nagar-bengaluru",
-        "rating": 2.7,
-        "bookable": true,
-        "minPrice": 600,
-        "charts": [
-          {
-            "name": "Football 6 a side",
-            "days": [
-              {
-                "day": "Monday - Thursday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 08:00 AM",
-                    "price": 600
-                  },
-                  {
-                    "time": "04:00 PM - 10:00 PM",
-                    "price": 800
-                  }
-                ]
-              },
-              {
-                "day": "Friday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 08:00 AM",
-                    "price": 600
-                  },
-                  {
-                    "time": "04:00 PM - 10:00 PM",
-                    "price": 1000
-                  }
-                ]
-              },
-              {
-                "day": "Saturday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 08:00 AM",
-                    "price": 800
-                  },
-                  {
-                    "time": "04:00 PM - 10:00 PM",
-                    "price": 1000
-                  }
-                ]
-              },
-              {
-                "day": "Sunday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 08:00 AM",
-                    "price": 800
-                  },
-                  {
-                    "time": "08:00 AM - 04:00 PM",
-                    "price": 800
-                  },
-                  {
-                    "time": "04:00 PM - 10:00 PM",
-                    "price": 1000
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "06:00 AM - 08:00 AM",
-                    "price": 800
-                  },
-                  {
-                    "time": "04:00 PM - 10:00 PM",
-                    "price": 1200
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "marker-color": "#438df4"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           77.60838883068264,
           13.073842055776856
         ]
@@ -25676,7 +25371,7 @@
         "address": "39, Service Road, Malagala, Krishnananda Nagar, Naagarabhaavi, Bengaluru, Karnataka 560072",
         "city": "Bengaluru",
         "slug": "ab-sports-turf-krishnananda-nagar-bengaluru",
-        "rating": 4.2,
+        "rating": 3.7,
         "bookable": true,
         "minPrice": 950,
         "charts": [
