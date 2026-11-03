@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-11-02T07:06:34.923Z",
+  "updatedAt": "2026-11-03T07:30:03.957Z",
   "features": [
     {
       "type": "Feature",
@@ -11478,7 +11478,7 @@
         "address": "Sy no 52 Next to Valmark Apas Apartment , Lake road Hulimavu, BTM 6th stage Bannerghatta Road Bengaluru - 560076",
         "city": "Bengaluru",
         "slug": "spectra-sports-arena-hulimavu-bengaluru",
-        "rating": 4.7,
+        "rating": 4.6,
         "bookable": true,
         "minPrice": 2000,
         "charts": [
@@ -20861,7 +20861,7 @@
         "address": "Sy. No: 13/3, Behind Golden Palms Rd, Narayanapura, Kothnur Narayanapura, Bengaluru, Karnataka - 560077",
         "city": "Bengaluru",
         "slug": "machaxi-hermes-global-sports-centre-narayanapura-bengaluru",
-        "rating": 4.6,
+        "rating": 4.5,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
@@ -24117,6 +24117,62 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          77.67338035383172,
+          12.816978321002265
+        ]
+      },
+      "properties": {
+        "id": "84833df3-c26e-4742-8b74-6d4c7b88dcc2",
+        "name": "Sports Turf 99",
+        "area": "Bommasandra Industrial Area",
+        "address": "Sports Turf 99, Plot no. 99B, Near Suprajit Engineering Limited , Bommasandra Industrial Area, Hebbagodi Village, Anekal Takuk, Bengaluru - 560099",
+        "city": "Bengaluru",
+        "slug": "sports-turf-99-bommasandra-industrial-area-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 1000,
+        "charts": [
+          {
+            "name": "Football Mini",
+            "days": [
+              {
+                "day": "Monday - Thursday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 1000
+                  }
+                ]
+              },
+              {
+                "day": "Friday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 1500
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 1500
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#e7953a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           77.76494071349269,
           13.00821805621972
         ]
@@ -26365,7 +26421,7 @@
         "address": "sy no 16/2A Bannerghatta Main Road next to Ryan International School Bangalore",
         "city": "Bengaluru",
         "slug": "footsol-sports-club-bannerghatta-main-road-bengaluru",
-        "rating": 4.1,
+        "rating": 4.2,
         "bookable": true,
         "minPrice": 900,
         "charts": [
@@ -35136,7 +35192,7 @@
         "address": "Avalahalli Doddaballapura Main Road, Behind Bmsit College, Beside Skill X Cricket Academy, Avalahalli, Yelahanka, Bangalore - 560064",
         "city": "Bengaluru",
         "slug": "pro-x-arena-yelahanka-bengaluru",
-        "rating": 5,
+        "rating": 4.8,
         "bookable": true,
         "minPrice": 1100,
         "charts": [
