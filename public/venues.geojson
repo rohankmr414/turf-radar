@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-11-03T07:30:03.957Z",
+  "updatedAt": "2026-11-04T07:12:01.483Z",
   "features": [
     {
       "type": "Feature",
@@ -2742,7 +2742,7 @@
                     "price": 1800
                   },
                   {
-                    "time": "03:30 PM - 11:00 PM",
+                    "time": "03:00 PM - 11:00 PM",
                     "price": 1800
                   }
                 ]
@@ -2791,7 +2791,7 @@
                     "price": 2500
                   },
                   {
-                    "time": "03:30 PM - 11:00 PM",
+                    "time": "03:00 PM - 11:00 PM",
                     "price": 2500
                   }
                 ]
@@ -7460,7 +7460,7 @@
         "address": "23/2, Sonnenahalli, Whitefield, Bengaluru, Karnataka 560048",
         "city": "Bengaluru",
         "slug": "v-play-sports-kundalahalli-whitefield-bengaluru",
-        "rating": 3.6,
+        "rating": 3.7,
         "bookable": true,
         "minPrice": 1300,
         "charts": [
@@ -13280,13 +13280,27 @@
         "minPrice": 1699,
         "charts": [
           {
+            "name": "Football 7 a side \n(Applicable: 3rd Nov - 4th Nov)",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1699
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Football 7 a side",
             "days": [
               {
                 "day": "Monday - Thursday",
                 "times": [
                   {
-                    "time": "12:00 AM - 12:00 AM",
+                    "time": "05:00 AM - 11:00 PM",
                     "price": 1699
                   }
                 ]
@@ -13295,15 +13309,11 @@
                 "day": "Friday",
                 "times": [
                   {
-                    "time": "12:00 AM - 06:00 AM",
-                    "price": 2299
-                  },
-                  {
-                    "time": "06:00 AM - 06:00 PM",
+                    "time": "05:00 AM - 06:00 PM",
                     "price": 1699
                   },
                   {
-                    "time": "06:00 PM - 12:00 AM",
+                    "time": "06:00 PM - 11:00 PM",
                     "price": 2299
                   }
                 ]
@@ -13312,7 +13322,7 @@
                 "day": "Saturday - Sunday",
                 "times": [
                   {
-                    "time": "12:00 AM - 12:00 AM",
+                    "time": "05:00 AM - 11:00 PM",
                     "price": 2299
                   }
                 ]
@@ -15142,7 +15152,7 @@
         "address": "Ground Floor, Bannerghatta Rd, near Brickwork, Kalena Agrahara, Bengaluru, Kothnur, Karnataka - 560083",
         "city": "Bengaluru",
         "slug": "decathlon-bannerghatta-kothnur-bengaluru",
-        "rating": 4.3,
+        "rating": 4.4,
         "bookable": true,
         "minPrice": 1299,
         "charts": [
@@ -22369,6 +22379,62 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          77.67732131010048,
+          12.822423030198673
+        ]
+      },
+      "properties": {
+        "id": "84833df3-c26e-4742-8b74-6d4c7b88dcc2",
+        "name": "Sports Turf 99",
+        "area": "Bommasandra Industrial Area",
+        "address": "Sports Turf 99, Plot no. 99B, Near Suprajit Engineering Limited , Bommasandra Industrial Area, Hebbagodi Village, Anekal Takuk, Bengaluru - 560099",
+        "city": "Bengaluru",
+        "slug": "sports-turf-99-bommasandra-industrial-area-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 1000,
+        "charts": [
+          {
+            "name": "Football 7 a side",
+            "days": [
+              {
+                "day": "Monday - Thursday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 1000
+                  }
+                ]
+              },
+              {
+                "day": "Friday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 1500
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 1500
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#e7953a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           77.5262035476257,
           12.922239012990145
         ]
@@ -24090,62 +24156,6 @@
               },
               {
                 "day": "Saturday - Sunday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 11:00 PM",
-                    "price": 1500
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "06:00 AM - 11:00 PM",
-                    "price": 1500
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "marker-color": "#e7953a"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.67338035383172,
-          12.816978321002265
-        ]
-      },
-      "properties": {
-        "id": "84833df3-c26e-4742-8b74-6d4c7b88dcc2",
-        "name": "Sports Turf 99",
-        "area": "Bommasandra Industrial Area",
-        "address": "Sports Turf 99, Plot no. 99B, Near Suprajit Engineering Limited , Bommasandra Industrial Area, Hebbagodi Village, Anekal Takuk, Bengaluru - 560099",
-        "city": "Bengaluru",
-        "slug": "sports-turf-99-bommasandra-industrial-area-bengaluru",
-        "rating": 5,
-        "bookable": true,
-        "minPrice": 1000,
-        "charts": [
-          {
-            "name": "Football Mini",
-            "days": [
-              {
-                "day": "Monday - Thursday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 11:00 PM",
-                    "price": 1000
-                  }
-                ]
-              },
-              {
-                "day": "Friday - Sunday",
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 PM",
@@ -29902,13 +29912,34 @@
         "slug": "the-playground-kannuru-kannuru-bengaluru",
         "rating": 5,
         "bookable": true,
-        "minPrice": 1200,
+        "minPrice": 1000,
         "charts": [
           {
             "name": "Football 6 a side",
             "days": [
               {
                 "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 02:00 AM",
+                    "price": 1000
+                  },
+                  {
+                    "time": "06:00 AM - 12:00 PM",
+                    "price": 1200
+                  },
+                  {
+                    "time": "12:00 PM - 05:00 PM",
+                    "price": 1000
+                  },
+                  {
+                    "time": "05:00 PM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
                 "times": [
                   {
                     "time": "12:00 AM - 02:00 AM",
@@ -29929,28 +29960,23 @@
                 ]
               },
               {
-                "day": "Saturday - Sunday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 02:00 AM",
-                    "price": 1800
-                  },
-                  {
-                    "time": "06:00 AM - 12:00 AM",
-                    "price": 1800
-                  }
-                ]
-              },
-              {
                 "day": "Holiday(s)",
                 "times": [
                   {
                     "time": "12:00 AM - 02:00 AM",
-                    "price": 1800
+                    "price": 1200
                   },
                   {
-                    "time": "06:00 AM - 12:00 AM",
-                    "price": 1800
+                    "time": "06:00 AM - 12:00 PM",
+                    "price": 1500
+                  },
+                  {
+                    "time": "12:00 PM - 05:00 PM",
+                    "price": 1200
+                  },
+                  {
+                    "time": "05:00 PM - 12:00 AM",
+                    "price": 1500
                   }
                 ]
               }
