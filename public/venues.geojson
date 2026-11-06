@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-11-05T07:39:33.684Z",
+  "updatedAt": "2026-11-06T07:35:33.044Z",
   "features": [
     {
       "type": "Feature",
@@ -13720,7 +13720,7 @@
         "address": "20/4, 4th Cross Rd, Ganesha Block, Sultanpalya, Hebbal, Bengaluru, Karnataka - 560032",
         "city": "Bengaluru",
         "slug": "s8-sports-arena-hebbal-bengaluru",
-        "rating": 4.4,
+        "rating": 4.5,
         "bookable": true,
         "minPrice": 800,
         "charts": [
