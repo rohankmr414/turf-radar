@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-11-06T07:35:33.044Z",
+  "updatedAt": "2026-11-07T06:47:43.914Z",
   "features": [
     {
       "type": "Feature",
@@ -7672,6 +7672,110 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          77.6956393054721,
+          12.888568200474497
+        ]
+      },
+      "properties": {
+        "id": "6136bc1a-ab60-4f10-8ade-0b6a0398df87",
+        "name": "Energia Sports Arena",
+        "area": "Chikkanayakanahalli",
+        "address": "Energia, Opposite Prakriya Green Wisdom School, Chikanayakahalli, Kodathi Jhc, Chikkanayakanahalli, Karnataka - 560035",
+        "city": "Bengaluru",
+        "slug": "energia-sports-arena-chikkanayakanahalli-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 1000,
+        "charts": [
+          {
+            "name": "Football 7 a side",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "04:00 AM - 09:00 AM",
+                    "price": 2100
+                  },
+                  {
+                    "time": "09:00 AM - 05:00 PM",
+                    "price": 1200
+                  },
+                  {
+                    "time": "05:00 PM - 12:00 AM",
+                    "price": 2100
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "04:00 AM - 12:00 AM",
+                    "price": 2100
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "04:00 AM - 12:00 AM",
+                    "price": 2100
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 5 a side",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "04:00 AM - 09:00 AM",
+                    "price": 1200
+                  },
+                  {
+                    "time": "09:00 AM - 05:00 PM",
+                    "price": 1000
+                  },
+                  {
+                    "time": "05:00 PM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "04:00 AM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "04:00 AM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#e7953a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           77.64070871519279,
           12.874169257516382
         ]
@@ -8397,7 +8501,7 @@
         "address": "3rd Floor 7A, 12th Cross, 1st Cross Road, next to Siddhartha PU College, Lingarajapuram, Bengaluru, Karnataka - 560084",
         "city": "Bengaluru",
         "slug": "oxygen-powerplay-arena-lingarajapuram-bengaluru",
-        "rating": 4.5,
+        "rating": 4.1,
         "bookable": true,
         "minPrice": 499,
         "charts": [
@@ -11562,10 +11666,6 @@
                 "day": "Friday - Sunday",
                 "times": [
                   {
-                    "time": "12:00 AM - 01:00 AM",
-                    "price": 2498
-                  },
-                  {
                     "time": "05:00 AM - 07:00 AM",
                     "price": 2498
                   },
@@ -11618,12 +11718,8 @@
                 "day": "Friday - Sunday",
                 "times": [
                   {
-                    "time": "12:00 AM - 01:00 AM",
-                    "price": 1248
-                  },
-                  {
                     "time": "05:00 AM - 06:00 PM",
-                    "price": 998
+                    "price": 1248
                   },
                   {
                     "time": "06:00 PM - 12:00 AM",
@@ -18346,6 +18442,20 @@
             ]
           },
           {
+            "name": "Football 7a side \n(Applicable: 8th Nov - 10th Nov)",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1050
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Football 5a side",
             "days": [
               {
@@ -21428,7 +21538,7 @@
         "address": "Shri Ram Global School, Hennur, Elu's Road, Opposite Purva Palm Beach, Bangalore, Karnataka - 560077",
         "city": "Bengaluru",
         "slug": "shri-sports-academy-hennur-bengaluru",
-        "rating": 3.3,
+        "rating": 3.2,
         "bookable": true,
         "minPrice": 1700,
         "charts": [
@@ -24568,6 +24678,29 @@
           }
         ],
         "marker-color": "#438df4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.63856428195402,
+          13.07450055224702
+        ]
+      },
+      "properties": {
+        "id": "0c350c93-665d-47da-b3f2-e66245b8a883",
+        "name": "S J Sports Arena",
+        "area": "Rk Hegde Nagar",
+        "address": "S J Sports Arena, Next To Masjid E Ali, Nagareshwara Nagenahalli, Police Quarters, Rk Hegde Nagar, Bengaluru, Karnataka - 560077",
+        "city": "Bengaluru",
+        "slug": "s-j-sports-arena-rk-hegde-nagar-bengaluru",
+        "rating": 0,
+        "bookable": false,
+        "minPrice": null,
+        "charts": [],
+        "marker-color": "#8290a3"
       }
     },
     {
@@ -30847,7 +30980,7 @@
         "address": "Agrahara Layout Main Road, Agrahara Badavane, Kogilu, opp. to DS Max Synergy Apartments, North Bangalore, Bengaluru, Karnataka 560064",
         "city": "Bengaluru",
         "slug": "tsg-turf-sports-arena-agrahara-layout-kogilu-bengaluru",
-        "rating": 3.4,
+        "rating": 3.6,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
