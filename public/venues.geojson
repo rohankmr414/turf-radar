@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-11-07T06:47:43.914Z",
+  "updatedAt": "2026-11-08T06:54:33.147Z",
   "features": [
     {
       "type": "Feature",
@@ -4850,6 +4850,61 @@
         "minPrice": null,
         "charts": [],
         "marker-color": "#8290a3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.60660938983624,
+          12.90512058952688
+        ]
+      },
+      "properties": {
+        "id": "3c76bc62-6e5a-4200-9913-7ed014f0f575",
+        "name": "ArenaZ @ Ekya BTM",
+        "area": "Bilekahalli",
+        "address": "3rd Main, NS Palya Main Road, 2nd Stage, 2nd Cross Rd, Munivenkatppa Layout, Bilekahalli, Bengaluru, Karnataka 560076",
+        "city": "Bengaluru",
+        "slug": "arenaz-@-ekya-btm-bilekahalli-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 1200,
+        "charts": [
+          {
+            "name": "Football 5 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 07:00 AM",
+                    "price": 1200
+                  },
+                  {
+                    "time": "04:30 PM - 10:00 PM",
+                    "price": 1200
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 07:00 AM",
+                    "price": 1200
+                  },
+                  {
+                    "time": "04:30 PM - 10:00 PM",
+                    "price": 1200
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#e7953a"
       }
     },
     {
@@ -13690,7 +13745,7 @@
         "address": "Beside Apollo National Public School, 7 Block, Kathreguppe, Banashankari 3rd Stage, Banashankari, Bengaluru, Karnataka 560085",
         "city": "Bengaluru",
         "slug": "auk-sports-zone-banagiri-nagara-bengaluru",
-        "rating": 3,
+        "rating": 2.9,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
@@ -18393,6 +18448,20 @@
         "minPrice": 600,
         "charts": [
           {
+            "name": "Football 7a side \n(Applicable: 8th Nov - 10th Nov)",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1050
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Football 7a side",
             "days": [
               {
@@ -18436,20 +18505,6 @@
                   {
                     "time": "12:00 AM - 12:00 AM",
                     "price": 1500
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Football 7a side \n(Applicable: 8th Nov - 10th Nov)",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1050
                   }
                 ]
               }
@@ -18993,7 +19048,7 @@
         "address": "#10/5, Kembathalli Road, Opp Bayalu Anjaneya Temple, Gottigere",
         "city": "Bengaluru",
         "slug": "tenzee-gottigere-previously-fiton-gottigere-bengaluru",
-        "rating": 3,
+        "rating": 2.7,
         "bookable": true,
         "minPrice": 1200,
         "charts": [
@@ -22879,7 +22934,7 @@
         "address": "Sy No. 30/28, Behind Balaji Pharma, Opps: Smondo 2.0 , Thirupalya Road, Neotown, Electronic City Phase-1, Bengaluru, Karnataka 560100",
         "city": "Bengaluru",
         "slug": "3s-sports-arena-electronic-city-phase-bengaluru",
-        "rating": 3.9,
+        "rating": 3.7,
         "bookable": true,
         "minPrice": 600,
         "charts": [
@@ -32447,7 +32502,7 @@
         "address": "Near lumbini international public school, Kattigenahalli 52/1 anjaneya temple street kattigenahalli, Yelahanka, Bengaluru, Karnataka 560064",
         "city": "Bengaluru",
         "slug": "lumbini-sports-club-kattigenahalli-bengaluru",
-        "rating": 3.3,
+        "rating": 3.2,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
@@ -34089,8 +34144,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.4675064954432,
-          12.884709602643646
+          77.46747431349246,
+          12.884678239143732
         ]
       },
       "properties": {
@@ -37045,6 +37100,61 @@
         "minPrice": null,
         "charts": [],
         "marker-color": "#8290a3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.38044262265967,
+          12.799776954071799
+        ]
+      },
+      "properties": {
+        "id": "0fc3bc3b-68b3-4191-ae81-7da853155c19",
+        "name": "Power Play",
+        "area": "Bidadi",
+        "address": "Kenchunguppe Gate, Next To Sri Manjunatha Convention Hall, Bidadi, Karnataka - 562109",
+        "city": "Bengaluru",
+        "slug": "power-play-bidadi-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 1200,
+        "charts": [
+          {
+            "name": "Football 8 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 01:00 AM",
+                    "price": 1200
+                  },
+                  {
+                    "time": "07:00 AM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "12:00 AM - 01:00 AM",
+                    "price": 1200
+                  },
+                  {
+                    "time": "07:00 AM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#e7953a"
       }
     },
     {
