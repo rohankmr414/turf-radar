@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-11-09T07:34:46.227Z",
+  "updatedAt": "2026-11-10T07:58:57.586Z",
   "features": [
     {
       "type": "Feature",
@@ -12781,7 +12781,7 @@
         "address": "M.G. Railway Colony, Okalipuram, Bengaluru, Karnataka - 560023",
         "city": "Bengaluru",
         "slug": "terra-arena-railways-colony-bengaluru",
-        "rating": 4.2,
+        "rating": 4,
         "bookable": true,
         "minPrice": 1250,
         "charts": [
@@ -15171,7 +15171,7 @@
                 "times": [
                   {
                     "time": "05:00 AM - 10:00 PM",
-                    "price": 1100
+                    "price": 1000
                   }
                 ]
               }
@@ -15211,7 +15211,7 @@
                 "times": [
                   {
                     "time": "05:00 AM - 10:00 PM",
-                    "price": 1100
+                    "price": 1000
                   }
                 ]
               }
@@ -22594,8 +22594,22 @@
         "slug": "sports-turf-99-bommasandra-industrial-area-bengaluru",
         "rating": 5,
         "bookable": true,
-        "minPrice": 1000,
+        "minPrice": 750,
         "charts": [
+          {
+            "name": "Football 7 a side \n(Applicable: 10th Nov - 15th Nov)",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 750
+                  }
+                ]
+              }
+            ]
+          },
           {
             "name": "Football 7 a side",
             "days": [
@@ -22629,7 +22643,7 @@
             ]
           }
         ],
-        "marker-color": "#e7953a"
+        "marker-color": "#438df4"
       }
     },
     {
@@ -30229,7 +30243,7 @@
         "slug": "turf-adda-d-group-layout-bengaluru",
         "rating": 5,
         "bookable": true,
-        "minPrice": 800,
+        "minPrice": 1100,
         "charts": [
           {
             "name": "Football 6 a side",
@@ -30243,7 +30257,7 @@
                   },
                   {
                     "time": "10:00 AM - 04:00 PM",
-                    "price": 800
+                    "price": 1100
                   },
                   {
                     "time": "04:00 PM - 10:00 PM",
@@ -30272,7 +30286,7 @@
             ]
           }
         ],
-        "marker-color": "#438df4"
+        "marker-color": "#e7953a"
       }
     },
     {
@@ -33140,7 +33154,7 @@
         "address": "Sy No 194/3, Swami Muneshwara Complex Bagalur Main Rd, Kattigenahalli, Bengaluru, Karnataka - 560063",
         "city": "Bengaluru",
         "slug": "machaxi-spark7-sports-health-fitness-club-kattigenahalli-bengaluru",
-        "rating": 4.6,
+        "rating": 4.5,
         "bookable": true,
         "minPrice": 900,
         "charts": [
@@ -36071,8 +36085,8 @@
                 "day": "Monday - Friday",
                 "times": [
                   {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 999
+                    "time": "12:00 AM - 04:00 AM",
+                    "price": 2000
                   },
                   {
                     "time": "04:00 AM - 10:00 AM",
@@ -36096,8 +36110,8 @@
                 "day": "Saturday - Sunday",
                 "times": [
                   {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1199
+                    "time": "12:00 AM - 04:00 AM",
+                    "price": 2000
                   },
                   {
                     "time": "04:00 AM - 10:00 AM",
@@ -36121,8 +36135,8 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1199
+                    "time": "12:00 AM - 04:00 AM",
+                    "price": 2000
                   },
                   {
                     "time": "04:00 AM - 10:00 AM",
