@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-11-11T07:28:43.160Z",
+  "updatedAt": "2026-11-12T07:56:09.210Z",
   "features": [
     {
       "type": "Feature",
@@ -20899,7 +20899,7 @@
         "address": "Ascalife, #01, Sy No 21/4, Kyalasanahalli, Post, Kothanur, Bengaluru, Karnataka 560077",
         "city": "Bengaluru",
         "slug": "ace-football-club-ascalife-kothanur-bengaluru",
-        "rating": 4.4,
+        "rating": 4,
         "bookable": true,
         "minPrice": 1100,
         "charts": [
@@ -26981,6 +26981,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          77.62452116934067,
+          12.805273295723905
+        ]
+      },
+      "properties": {
+        "id": "37d440d3-3240-43fb-aa79-bb8822fb35f1",
+        "name": "South Bangalore Sports Academy",
+        "area": "Nirman Layout",
+        "address": "SBSA ground, Nirman Layout, Begur-Koppa road, Bangalore - 560068",
+        "city": "Bengaluru",
+        "slug": "south-bangalore-sports-academy-nirman-layout-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 1000,
+        "charts": [
+          {
+            "name": "Football 6 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "10:00 AM - 05:00 PM",
+                    "price": 1000
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "10:00 AM - 05:00 PM",
+                    "price": 1000
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#e7953a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           77.668393,
           13.082947
         ]
@@ -27091,6 +27138,29 @@
           }
         ],
         "marker-color": "#26a879"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.53584025445481,
+          12.85676034778096
+        ]
+      },
+      "properties": {
+        "id": "d2a8b194-e824-4db2-8351-6ce22b62f106",
+        "name": "Vibhinna Fitness Club",
+        "area": "Kanakapura Main Road",
+        "address": "Pillar #291, Through, Vakil Garden City, Kanakapura Main Road, Talaghattapura, Uttarahalli -Manavarthekaval, Karnataka - 560109",
+        "city": "Bengaluru",
+        "slug": "vibhinna-fitness-club-kanakapura-main-road-bengaluru",
+        "rating": 0,
+        "bookable": false,
+        "minPrice": null,
+        "charts": [],
+        "marker-color": "#8290a3"
       }
     },
     {
@@ -36648,7 +36718,7 @@
         "address": "Govindaiah Farm House, Arishinakunte, Nelamangala, Bengaluru 562123",
         "city": "Bengaluru",
         "slug": "aatadamane-sports-hub-nelamangala-bengaluru",
-        "rating": 3.4,
+        "rating": 3.6,
         "bookable": true,
         "minPrice": 700,
         "charts": [
