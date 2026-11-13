@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-11-12T07:56:09.210Z",
+  "updatedAt": "2026-11-13T07:33:57.645Z",
   "features": [
     {
       "type": "Feature",
@@ -8052,7 +8052,16 @@
             "name": "Football 7 a side",
             "days": [
               {
-                "day": "Monday - Sunday",
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "05:00 AM - 12:00 AM",
+                    "price": 1800
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
                 "times": [
                   {
                     "time": "05:00 AM - 12:00 AM",
@@ -12770,11 +12779,11 @@
       },
       "properties": {
         "id": "c47f2f60-c1c8-4142-9538-ce7d4911fd15",
-        "name": "ESSOS - The 24 Yards",
+        "name": "Proplay - ESSOS The 24 Yards",
         "area": "Varthur",
         "address": "Gunjur Road, Near Sri Sri Ravishankar Vidya Mandir School",
         "city": "Bengaluru",
-        "slug": "essos-the-24-yards-varthur-bengaluru",
+        "slug": "proplay-essos-the-24-yards-varthur-bengaluru",
         "rating": 5,
         "bookable": true,
         "minPrice": 1000,
@@ -14623,6 +14632,29 @@
           }
         ],
         "marker-color": "#438df4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.72814912428123,
+          13.004313360897298
+        ]
+      },
+      "properties": {
+        "id": "d7621235-f292-4e8a-8a47-569214aa006e",
+        "name": "Goal Poachers Turf",
+        "area": "Kodigehalli",
+        "address": "Sadaramangala - Krishnarajapuram, Road, Kodigehalli, Kadugodi, Bengaluru, Karnataka - 560067",
+        "city": "Bengaluru",
+        "slug": "goal-poachers-turf-kodigehalli-bengaluru",
+        "rating": 0,
+        "bookable": false,
+        "minPrice": null,
+        "charts": [],
+        "marker-color": "#8290a3"
       }
     },
     {
@@ -24283,7 +24315,7 @@
         "slug": "3lok-football-fitness-hub-whitefield-bengaluru",
         "rating": 4.8,
         "bookable": true,
-        "minPrice": 1400,
+        "minPrice": 1200,
         "charts": [
           {
             "name": "Football 11 a side",
@@ -24292,12 +24324,8 @@
                 "day": "Monday - Friday",
                 "times": [
                   {
-                    "time": "12:00 AM - 01:00 AM",
-                    "price": 5000
-                  },
-                  {
                     "time": "05:00 AM - 12:00 AM",
-                    "price": 5000
+                    "price": 3750
                   }
                 ]
               },
@@ -24305,16 +24333,8 @@
                 "day": "Saturday - Sunday",
                 "times": [
                   {
-                    "time": "12:00 AM - 01:00 AM",
-                    "price": 5400
-                  },
-                  {
-                    "time": "05:00 AM - 06:00 PM",
-                    "price": 5400
-                  },
-                  {
-                    "time": "06:00 PM - 12:00 AM",
-                    "price": 5400
+                    "time": "05:00 AM - 12:00 AM",
+                    "price": 4050
                   }
                 ]
               },
@@ -24322,12 +24342,8 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "12:00 AM - 01:00 AM",
-                    "price": 6000
-                  },
-                  {
                     "time": "05:00 AM - 12:00 AM",
-                    "price": 6000
+                    "price": 4050
                   }
                 ]
               }
@@ -24340,20 +24356,8 @@
                 "day": "Monday - Friday",
                 "times": [
                   {
-                    "time": "12:00 AM - 01:00 AM",
-                    "price": 3000
-                  },
-                  {
-                    "time": "05:00 AM - 10:00 AM",
-                    "price": 3000
-                  },
-                  {
-                    "time": "10:00 AM - 06:00 PM",
-                    "price": 2400
-                  },
-                  {
-                    "time": "06:00 PM - 12:00 AM",
-                    "price": 3000
+                    "time": "05:00 AM - 12:00 AM",
+                    "price": 2250
                   }
                 ]
               },
@@ -24361,12 +24365,8 @@
                 "day": "Saturday - Sunday",
                 "times": [
                   {
-                    "time": "12:00 AM - 01:00 AM",
-                    "price": 3000
-                  },
-                  {
                     "time": "05:00 AM - 12:00 AM",
-                    "price": 3000
+                    "price": 2400
                   }
                 ]
               },
@@ -24374,12 +24374,8 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "12:00 AM - 01:00 AM",
-                    "price": 3000
-                  },
-                  {
                     "time": "05:00 AM - 12:00 AM",
-                    "price": 3000
+                    "price": 2400
                   }
                 ]
               }
@@ -24389,15 +24385,20 @@
             "name": "Football 6 a side",
             "days": [
               {
-                "day": "Monday - Sunday",
+                "day": "Monday - Friday",
                 "times": [
                   {
-                    "time": "12:00 AM - 01:00 AM",
-                    "price": 1800
-                  },
+                    "time": "05:00 AM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
                   {
                     "time": "05:00 AM - 12:00 AM",
-                    "price": 1800
+                    "price": 1500
                   }
                 ]
               },
@@ -25432,7 +25433,7 @@
         "address": "Holiday Village Road, Vajarahalli Village, Mallasandra, Off Kanakapura Rd, Bengaluru, Karnataka - 560109",
         "city": "Bengaluru",
         "slug": "machaxi-playmax-sports-health-fitness-club-off-kanakapura-road-bengaluru",
-        "rating": 4.6,
+        "rating": 4.5,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
@@ -34886,7 +34887,7 @@
         "address": "Gangondanahalli Village, Gangondanahalli, Bangalore, Karnataka - 562162",
         "city": "Bengaluru",
         "slug": "proplay-playpoint-sports-arena-gangondanahalli-bengaluru",
-        "rating": 5,
+        "rating": 3.5,
         "bookable": true,
         "minPrice": 600,
         "charts": [
