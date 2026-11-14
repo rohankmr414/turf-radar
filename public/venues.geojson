@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-11-13T07:33:57.645Z",
+  "updatedAt": "2026-11-14T07:18:18.729Z",
   "features": [
     {
       "type": "Feature",
@@ -8669,6 +8669,20 @@
         "bookable": true,
         "minPrice": 499,
         "charts": [
+          {
+            "name": "Football 7 a side \n(Applicable: 14th Nov - 30th Nov)",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 499
+                  }
+                ]
+              }
+            ]
+          },
           {
             "name": "Football 7 a side",
             "days": [
@@ -25566,6 +25580,94 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          77.55530342376397,
+          13.041929545758016
+        ]
+      },
+      "properties": {
+        "id": "f2346a18-9ec6-499c-bfb3-d8d5dd1378e4",
+        "name": "TSG Sports Arena @ Navkis Education Center - Mathikere",
+        "area": "MS Ramaiah Road",
+        "address": "Behind MS Ramanth Memorial Hall, MS Ramaiah Road, HMR Layout, Gokula Extension, Mathikere, Bengaluru, Karnataka - 560054",
+        "city": "Bengaluru",
+        "slug": "tsg-sports-arena-@-navkis-education-center-mathikere-ms-ramaiah-road-bengaluru",
+        "rating": 2.4,
+        "bookable": true,
+        "minPrice": 900,
+        "charts": [
+          {
+            "name": "Football 7 a side",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "05:00 PM - 12:00 AM",
+                    "price": 1400
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 1400
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "04:00 PM - 12:00 AM",
+                    "price": 1400
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 5 a side",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "05:00 PM - 12:00 AM",
+                    "price": 900
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 900
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "04:00 PM - 12:00 AM",
+                    "price": 900
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#438df4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           77.63356019573845,
           13.078239734086965
         ]
@@ -31195,62 +31297,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.62144560794285,
-          13.099390573130412
-        ]
-      },
-      "properties": {
-        "id": "3e4b0498-7e54-4d08-82be-8cdab1a09a94",
-        "name": "TSG Turf Sports Arena",
-        "area": "Agrahara Layout, Kogilu",
-        "address": "Agrahara Layout Main Road, Agrahara Badavane, Kogilu, opp. to DS Max Synergy Apartments, North Bangalore, Bengaluru, Karnataka 560064",
-        "city": "Bengaluru",
-        "slug": "tsg-turf-sports-arena-agrahara-layout-kogilu-bengaluru",
-        "rating": 3.6,
-        "bookable": true,
-        "minPrice": 1000,
-        "charts": [
-          {
-            "name": "Football 6 a side",
-            "days": [
-              {
-                "day": "Monday - Friday",
-                "times": [
-                  {
-                    "time": "04:00 PM - 10:00 PM",
-                    "price": 1000
-                  }
-                ]
-              },
-              {
-                "day": "Saturday - Sunday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 11:00 PM",
-                    "price": 1200
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "06:00 AM - 11:00 PM",
-                    "price": 1200
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "marker-color": "#e7953a"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           77.73367750344173,
           12.806454013607384
         ]
@@ -32655,6 +32701,102 @@
           }
         ],
         "marker-color": "#438df4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8199590576717,
+          12.891402351489456
+        ]
+      },
+      "properties": {
+        "id": "d920aa25-7a0a-4618-9d7c-125da08599d2",
+        "name": "Wellsprings Academy Sarjapura",
+        "area": "Sarjapura",
+        "address": "Mugalur Village, Sarjapura - Chikka Thirupathi Main Road, Anekal Taluk, Bengaluru, Karnataka - 562125",
+        "city": "Bengaluru",
+        "slug": "wellsprings-academy-sarjapura-sarjapura-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 2500,
+        "charts": [
+          {
+            "name": "Football 11 a side",
+            "days": [
+              {
+                "day": "Monday - Saturday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 07:00 AM",
+                    "price": 5000
+                  },
+                  {
+                    "time": "06:00 PM - 12:00 AM",
+                    "price": 5000
+                  }
+                ]
+              },
+              {
+                "day": "Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 5000
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 5000
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 7 a side",
+            "days": [
+              {
+                "day": "Monday - Saturday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 07:00 AM",
+                    "price": 2500
+                  },
+                  {
+                    "time": "06:00 PM - 12:00 AM",
+                    "price": 2500
+                  }
+                ]
+              },
+              {
+                "day": "Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 2500
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 2500
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#26a879"
       }
     },
     {
