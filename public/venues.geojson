@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-11-14T07:18:18.729Z",
+  "updatedAt": "2026-11-15T07:28:20.208Z",
   "features": [
     {
       "type": "Feature",
@@ -7827,110 +7827,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.6956393054721,
-          12.888568200474497
-        ]
-      },
-      "properties": {
-        "id": "6136bc1a-ab60-4f10-8ade-0b6a0398df87",
-        "name": "Energia Sports Arena",
-        "area": "Chikkanayakanahalli",
-        "address": "Energia, Opposite Prakriya Green Wisdom School, Chikanayakahalli, Kodathi Jhc, Chikkanayakanahalli, Karnataka - 560035",
-        "city": "Bengaluru",
-        "slug": "energia-sports-arena-chikkanayakanahalli-bengaluru",
-        "rating": 5,
-        "bookable": true,
-        "minPrice": 1000,
-        "charts": [
-          {
-            "name": "Football 7 a side",
-            "days": [
-              {
-                "day": "Monday - Friday",
-                "times": [
-                  {
-                    "time": "04:00 AM - 09:00 AM",
-                    "price": 2100
-                  },
-                  {
-                    "time": "09:00 AM - 05:00 PM",
-                    "price": 1200
-                  },
-                  {
-                    "time": "05:00 PM - 12:00 AM",
-                    "price": 2100
-                  }
-                ]
-              },
-              {
-                "day": "Saturday - Sunday",
-                "times": [
-                  {
-                    "time": "04:00 AM - 12:00 AM",
-                    "price": 2100
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "04:00 AM - 12:00 AM",
-                    "price": 2100
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Football 5 a side",
-            "days": [
-              {
-                "day": "Monday - Friday",
-                "times": [
-                  {
-                    "time": "04:00 AM - 09:00 AM",
-                    "price": 1200
-                  },
-                  {
-                    "time": "09:00 AM - 05:00 PM",
-                    "price": 1000
-                  },
-                  {
-                    "time": "05:00 PM - 12:00 AM",
-                    "price": 1200
-                  }
-                ]
-              },
-              {
-                "day": "Saturday - Sunday",
-                "times": [
-                  {
-                    "time": "04:00 AM - 12:00 AM",
-                    "price": 1200
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "04:00 AM - 12:00 AM",
-                    "price": 1200
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "marker-color": "#e7953a"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           77.64070871519279,
           12.874169257516382
         ]
@@ -8575,6 +8471,110 @@
           }
         ],
         "marker-color": "#438df4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.69594446686614,
+          12.885454344292691
+        ]
+      },
+      "properties": {
+        "id": "6136bc1a-ab60-4f10-8ade-0b6a0398df87",
+        "name": "Energia Sports Arena",
+        "area": "Chikkanayakanahalli",
+        "address": "In front of Prakriya Green Wisdom School, Chikkanayakanahalli, Off Sarjapur Road, Bengaluru",
+        "city": "Bengaluru",
+        "slug": "energia-sports-arena-chikkanayakanahalli-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 1000,
+        "charts": [
+          {
+            "name": "Football 7 a side",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "04:00 AM - 09:00 AM",
+                    "price": 2100
+                  },
+                  {
+                    "time": "09:00 AM - 05:00 PM",
+                    "price": 1200
+                  },
+                  {
+                    "time": "05:00 PM - 12:00 AM",
+                    "price": 2100
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "04:00 AM - 12:00 AM",
+                    "price": 2100
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "04:00 AM - 12:00 AM",
+                    "price": 2100
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 5 a side",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "04:00 AM - 09:00 AM",
+                    "price": 1200
+                  },
+                  {
+                    "time": "09:00 AM - 05:00 PM",
+                    "price": 1000
+                  },
+                  {
+                    "time": "05:00 PM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "04:00 AM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "04:00 AM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#e7953a"
       }
     },
     {
@@ -15749,6 +15749,53 @@
           }
         ],
         "marker-color": "#e7953a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.75306238384682,
+          12.948381268487903
+        ]
+      },
+      "properties": {
+        "id": "418ccf9c-9003-4bfb-a64e-80d69499f9d6",
+        "name": "Jaidev Sports Academy",
+        "area": "Varthur Hobli",
+        "address": "Sy. No. 61/1, Sorahunase, Varthur Hobli, Bangalore East Taluk, Bangalore - 560087",
+        "city": "Bengaluru",
+        "slug": "jaidev-sports-academy-varthur-hobli-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 2500,
+        "charts": [
+          {
+            "name": "Football 7 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 2500
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 2500
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#26a879"
       }
     },
     {
@@ -25361,11 +25408,11 @@
                 "times": [
                   {
                     "time": "06:00 AM - 04:00 PM",
-                    "price": 799
+                    "price": 850
                   },
                   {
                     "time": "04:00 PM - 10:00 PM",
-                    "price": 799
+                    "price": 875
                   }
                 ]
               },
@@ -34468,7 +34515,7 @@
         "address": "Anchepalya, Kambipura, Bengaluru, Karnataka - 560074",
         "city": "Bengaluru",
         "slug": "epof-sports-kengeri-bengaluru",
-        "rating": 5,
+        "rating": 3.5,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
