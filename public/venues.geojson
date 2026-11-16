@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-11-15T07:28:20.208Z",
+  "updatedAt": "2026-11-16T07:34:22.482Z",
   "features": [
     {
       "type": "Feature",
@@ -15435,7 +15435,7 @@
         "address": "Ground Floor, Bannerghatta Rd, near Brickwork, Kalena Agrahara, Bengaluru, Kothnur, Karnataka - 560083",
         "city": "Bengaluru",
         "slug": "decathlon-bannerghatta-kothnur-bengaluru",
-        "rating": 4.4,
+        "rating": 4.3,
         "bookable": true,
         "minPrice": 1299,
         "charts": [
@@ -16576,7 +16576,7 @@
         "address": "Chamundi Nagar, Hebbal, Bengaluru, Karnataka - 560032",
         "city": "Bengaluru",
         "slug": "subhash-school-turf-hebbal-bengaluru",
-        "rating": 2.6,
+        "rating": 2.5,
         "bookable": true,
         "minPrice": 800,
         "charts": [
@@ -22769,22 +22769,8 @@
         "slug": "sports-turf-99-bommasandra-industrial-area-bengaluru",
         "rating": 5,
         "bookable": true,
-        "minPrice": 750,
+        "minPrice": 1000,
         "charts": [
-          {
-            "name": "Football 7 a side \n(Applicable: 10th Nov - 15th Nov)",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 11:00 PM",
-                    "price": 750
-                  }
-                ]
-              }
-            ]
-          },
           {
             "name": "Football 7 a side",
             "days": [
@@ -22818,7 +22804,7 @@
             ]
           }
         ],
-        "marker-color": "#438df4"
+        "marker-color": "#e7953a"
       }
     },
     {
