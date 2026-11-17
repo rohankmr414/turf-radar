@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-11-16T07:34:22.482Z",
+  "updatedAt": "2026-11-17T08:46:13.380Z",
   "features": [
     {
       "type": "Feature",
@@ -4199,6 +4199,53 @@
           }
         ],
         "marker-color": "#e7953a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.66707255397142,
+          12.891684686104426
+        ]
+      },
+      "properties": {
+        "id": "3ea2d531-9a48-4d16-980c-288271e3783d",
+        "name": "Wally Sports",
+        "area": "Haralur",
+        "address": "No 82, BBMP Khata, 144-147, Sarjapura Road, Hobli, Kudlu, Sarjapura, Haralur, Bengaluru, Karnataka 560068",
+        "city": "Bengaluru",
+        "slug": "wally-sports-haralur-bengaluru",
+        "rating": 4.3,
+        "bookable": true,
+        "minPrice": 800,
+        "charts": [
+          {
+            "name": "Football 5 a side Outdoor",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 800
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 800
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#438df4"
       }
     },
     {
@@ -18797,7 +18844,7 @@
         "address": "16/17, Dattatreya Nagar, Banashankari 3rd Stage, Hosakerehalli, Bengaluru, Karnataka - 560085",
         "city": "Bengaluru",
         "slug": "sprintplay-sports-arena-hosakerehalli-bengaluru",
-        "rating": 4.6,
+        "rating": 4.5,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
@@ -25371,7 +25418,7 @@
         "slug": "the-sports-villa-wave-zone-rajarajeshwari-nagar-bengaluru",
         "rating": 4.3,
         "bookable": true,
-        "minPrice": 759,
+        "minPrice": 799,
         "charts": [
           {
             "name": "Football 5 a side",
@@ -25381,7 +25428,7 @@
                 "times": [
                   {
                     "time": "06:00 AM - 04:00 PM",
-                    "price": 759
+                    "price": 799
                   },
                   {
                     "time": "04:00 PM - 10:00 PM",
@@ -31370,6 +31417,62 @@
           }
         ],
         "marker-color": "#438df4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.48695801162854,
+          12.929493351217424
+        ]
+      },
+      "properties": {
+        "id": "81b041e4-14e9-4faa-8a15-00e2be0a87dd",
+        "name": "Dink And Drive",
+        "area": "Kengeri Satellite Town, Bengaluru",
+        "address": "Outer Ring Rd, opposite Church Bus Stop, Valagerahalli, Shirke Layout, Kengeri Satellite Town, Bengaluru, Karnataka 560060",
+        "city": "Bengaluru",
+        "slug": "dink-and-drive-kengeri-satellite-town-bengaluru-bengaluru",
+        "rating": 0,
+        "bookable": true,
+        "minPrice": 1100,
+        "charts": [
+          {
+            "name": "Football 7 a side",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 1100
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 1200
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 1200
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#e7953a"
       }
     },
     {
