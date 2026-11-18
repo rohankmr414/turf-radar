@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-11-17T08:46:13.380Z",
+  "updatedAt": "2026-11-18T08:11:44.384Z",
   "features": [
     {
       "type": "Feature",
@@ -9456,7 +9456,7 @@
         "slug": "apex-sports-academy-electronic-city-bengaluru",
         "rating": 5,
         "bookable": true,
-        "minPrice": 500,
+        "minPrice": 600,
         "charts": [
           {
             "name": "Football 5 a side",
@@ -9465,8 +9465,12 @@
                 "day": "Monday - Friday",
                 "times": [
                   {
-                    "time": "06:00 AM - 03:00 PM",
-                    "price": 500
+                    "time": "06:00 AM - 04:00 PM",
+                    "price": 600
+                  },
+                  {
+                    "time": "06:00 PM - 09:00 PM",
+                    "price": 600
                   }
                 ]
               },
@@ -9474,8 +9478,8 @@
                 "day": "Saturday - Sunday",
                 "times": [
                   {
-                    "time": "06:00 AM - 06:00 PM",
-                    "price": 500
+                    "time": "06:00 AM - 09:00 PM",
+                    "price": 600
                   }
                 ]
               },
@@ -9483,8 +9487,8 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "06:00 AM - 03:00 PM",
-                    "price": 500
+                    "time": "06:00 AM - 09:00 PM",
+                    "price": 600
                   }
                 ]
               }
@@ -27904,25 +27908,67 @@
         "slug": "the-bigbox-turf-pattanagere-bengaluru",
         "rating": 5,
         "bookable": true,
-        "minPrice": 1199,
+        "minPrice": 899,
         "charts": [
           {
             "name": "Football 5 a side",
             "days": [
               {
-                "day": "Monday - Sunday",
+                "day": "Monday - Thursday",
                 "times": [
                   {
-                    "time": "04:00 AM - 10:00 AM",
-                    "price": 1299
+                    "time": "04:00 AM - 07:00 AM",
+                    "price": 899
+                  },
+                  {
+                    "time": "07:00 AM - 10:00 AM",
+                    "price": 999
                   },
                   {
                     "time": "10:00 AM - 04:00 PM",
-                    "price": 1199
+                    "price": 899
                   },
                   {
                     "time": "04:00 PM - 12:00 AM",
-                    "price": 1299
+                    "price": 1349
+                  }
+                ]
+              },
+              {
+                "day": "Friday",
+                "times": [
+                  {
+                    "time": "04:00 AM - 07:00 AM",
+                    "price": 899
+                  },
+                  {
+                    "time": "07:00 AM - 10:00 AM",
+                    "price": 999
+                  },
+                  {
+                    "time": "10:00 AM - 04:00 PM",
+                    "price": 899
+                  },
+                  {
+                    "time": "04:00 PM - 07:00 PM",
+                    "price": 1349
+                  },
+                  {
+                    "time": "07:00 PM - 12:00 AM",
+                    "price": 1449
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "04:00 AM - 04:00 PM",
+                    "price": 1249
+                  },
+                  {
+                    "time": "04:00 PM - 12:00 AM",
+                    "price": 1449
                   }
                 ]
               },
@@ -27941,19 +27987,61 @@
             "name": "Football 7 a side",
             "days": [
               {
-                "day": "Monday - Sunday",
+                "day": "Monday - Thursday",
                 "times": [
                   {
-                    "time": "04:00 AM - 10:00 AM",
-                    "price": 2499
+                    "time": "04:00 AM - 07:00 AM",
+                    "price": 1549
+                  },
+                  {
+                    "time": "07:00 AM - 10:00 AM",
+                    "price": 1799
                   },
                   {
                     "time": "10:00 AM - 04:00 PM",
-                    "price": 2299
+                    "price": 1549
                   },
                   {
                     "time": "04:00 PM - 12:00 AM",
-                    "price": 2499
+                    "price": 2249
+                  }
+                ]
+              },
+              {
+                "day": "Friday",
+                "times": [
+                  {
+                    "time": "04:00 AM - 07:00 AM",
+                    "price": 1549
+                  },
+                  {
+                    "time": "07:00 AM - 10:00 AM",
+                    "price": 1799
+                  },
+                  {
+                    "time": "10:00 AM - 04:00 PM",
+                    "price": 1549
+                  },
+                  {
+                    "time": "04:00 PM - 07:00 PM",
+                    "price": 2249
+                  },
+                  {
+                    "time": "07:00 PM - 12:00 AM",
+                    "price": 2449
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "04:00 AM - 04:00 PM",
+                    "price": 2099
+                  },
+                  {
+                    "time": "04:00 PM - 12:00 AM",
+                    "price": 2449
                   }
                 ]
               },
@@ -27969,7 +28057,7 @@
             ]
           }
         ],
-        "marker-color": "#e7953a"
+        "marker-color": "#438df4"
       }
     },
     {
@@ -29039,7 +29127,7 @@
                 "day": "Monday - Sunday",
                 "times": [
                   {
-                    "time": "06:00 AM - 10:00 PM",
+                    "time": "06:00 AM - 11:00 PM",
                     "price": 800
                   }
                 ]
@@ -29048,8 +29136,8 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "06:00 AM - 10:00 PM",
-                    "price": 900
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 800
                   }
                 ]
               }
@@ -31417,62 +31505,6 @@
           }
         ],
         "marker-color": "#438df4"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.48695801162854,
-          12.929493351217424
-        ]
-      },
-      "properties": {
-        "id": "81b041e4-14e9-4faa-8a15-00e2be0a87dd",
-        "name": "Dink And Drive",
-        "area": "Kengeri Satellite Town, Bengaluru",
-        "address": "Outer Ring Rd, opposite Church Bus Stop, Valagerahalli, Shirke Layout, Kengeri Satellite Town, Bengaluru, Karnataka 560060",
-        "city": "Bengaluru",
-        "slug": "dink-and-drive-kengeri-satellite-town-bengaluru-bengaluru",
-        "rating": 0,
-        "bookable": true,
-        "minPrice": 1100,
-        "charts": [
-          {
-            "name": "Football 7 a side",
-            "days": [
-              {
-                "day": "Monday - Friday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 11:00 PM",
-                    "price": 1100
-                  }
-                ]
-              },
-              {
-                "day": "Saturday - Sunday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 11:00 PM",
-                    "price": 1200
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "06:00 AM - 11:00 PM",
-                    "price": 1200
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "marker-color": "#e7953a"
       }
     },
     {
