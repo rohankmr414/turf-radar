@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-11-18T08:11:44.384Z",
+  "updatedAt": "2026-11-19T08:19:58.430Z",
   "features": [
     {
       "type": "Feature",
@@ -1895,7 +1895,7 @@
         "address": "8th Cross, 20th Main road, BTM Layout 1st stage, Near Gangothri Circle, Bangalore - 560068",
         "city": "Bengaluru",
         "slug": "urban-vibes-gangothri-circle-bengaluru",
-        "rating": 2.4,
+        "rating": 2.3,
         "bookable": true,
         "minPrice": 1200,
         "charts": [
@@ -8787,6 +8787,79 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          77.72344607299802,
+          12.964824196726504
+        ]
+      },
+      "properties": {
+        "id": "a47298ac-80b0-4275-8950-6e42220af839",
+        "name": "TSG Sports Arena Brookefield",
+        "area": "Ryan International School",
+        "address": "Ryan International School, Behind Hindustan Lever Ltd, M.h.colony, Kundalahalli, Brookefield, Bengaluru, Karnataka - 560037",
+        "city": "Bengaluru",
+        "slug": "tsg-sports-arena-brookefield-ryan-international-school-bengaluru",
+        "rating": 4.4,
+        "bookable": true,
+        "minPrice": 1500,
+        "charts": [
+          {
+            "name": "Football 6 a side",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "06:00 PM - 10:00 PM",
+                    "price": 2000
+                  }
+                ]
+              },
+              {
+                "day": "Saturday",
+                "times": [
+                  {
+                    "time": "02:00 PM - 04:00 PM",
+                    "price": 1500
+                  },
+                  {
+                    "time": "06:00 PM - 10:00 PM",
+                    "price": 2000
+                  }
+                ]
+              },
+              {
+                "day": "Sunday",
+                "times": [
+                  {
+                    "time": "09:00 AM - 04:00 PM",
+                    "price": 1500
+                  },
+                  {
+                    "time": "06:00 PM - 10:00 PM",
+                    "price": 2000
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 PM - 10:00 PM",
+                    "price": 2000
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#26a879"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           77.57403420503336,
           12.940276696325572
         ]
@@ -14795,6 +14868,69 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          77.64669597301507,
+          13.040653051521478
+        ]
+      },
+      "properties": {
+        "id": "292cbb82-0fc3-443f-b124-2f1195ec8dba",
+        "name": "X Sports Arena",
+        "area": "Horamavu",
+        "address": "3rd Vaddarapalya Horamavu Agara Main Road, 3rd Cross Road, Bengaluru, Karnataka - 560045",
+        "city": "Bengaluru",
+        "slug": "x-sports-arena-horamavu-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 1000,
+        "charts": [
+          {
+            "name": "Football 7 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 06:00 AM",
+                    "price": 1200
+                  },
+                  {
+                    "time": "06:00 AM - 06:00 PM",
+                    "price": 1000
+                  },
+                  {
+                    "time": "06:00 PM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "12:00 AM - 06:00 AM",
+                    "price": 1200
+                  },
+                  {
+                    "time": "06:00 AM - 06:00 PM",
+                    "price": 1000
+                  },
+                  {
+                    "time": "06:00 PM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#e7953a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           77.65139560312588,
           12.845901984108735
         ]
@@ -18093,7 +18229,7 @@
         "address": "No. 28/4, House List No. 140, Off Kanakapura Main Road, Doddakallasandra, Uttarahalli Hobli, Bengaluru, Karnataka - 560062",
         "city": "Bengaluru",
         "slug": "play-mania-sports-lounge-doddakallasandra-doddakallasandra-bengaluru",
-        "rating": 4,
+        "rating": 5,
         "bookable": true,
         "minPrice": 2250,
         "charts": [
@@ -22736,7 +22872,7 @@
         "slug": "turf-klub-powered-by-9-sporting-rajarajeshwari-nagar-bengaluru",
         "rating": 5,
         "bookable": true,
-        "minPrice": 1000,
+        "minPrice": 1100,
         "charts": [
           {
             "name": "Football 6 a side",
@@ -22746,19 +22882,15 @@
                 "times": [
                   {
                     "time": "06:00 AM - 07:00 AM",
-                    "price": 1250
+                    "price": 1100
                   },
                   {
-                    "time": "09:00 AM - 12:00 PM",
-                    "price": 1250
-                  },
-                  {
-                    "time": "12:00 PM - 05:00 PM",
-                    "price": 1000
+                    "time": "09:00 AM - 05:00 PM",
+                    "price": 1100
                   },
                   {
                     "time": "08:00 PM - 11:00 PM",
-                    "price": 1250
+                    "price": 1100
                   }
                 ]
               },
@@ -22767,15 +22899,15 @@
                 "times": [
                   {
                     "time": "06:00 AM - 07:00 AM",
-                    "price": 1400
+                    "price": 1300
                   },
                   {
                     "time": "09:00 AM - 05:00 PM",
-                    "price": 1400
+                    "price": 1300
                   },
                   {
                     "time": "08:00 PM - 11:00 PM",
-                    "price": 1400
+                    "price": 1300
                   }
                 ]
               },
@@ -22784,15 +22916,15 @@
                 "times": [
                   {
                     "time": "06:00 AM - 07:00 AM",
-                    "price": 1400
+                    "price": 1300
                   },
                   {
                     "time": "09:00 AM - 05:00 PM",
-                    "price": 1400
+                    "price": 1300
                   },
                   {
                     "time": "08:00 PM - 11:00 PM",
-                    "price": 1400
+                    "price": 1300
                   }
                 ]
               }
@@ -27332,29 +27464,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.53584025445481,
-          12.85676034778096
-        ]
-      },
-      "properties": {
-        "id": "d2a8b194-e824-4db2-8351-6ce22b62f106",
-        "name": "Vibhinna Fitness Club",
-        "area": "Kanakapura Main Road",
-        "address": "Pillar #291, Through, Vakil Garden City, Kanakapura Main Road, Talaghattapura, Uttarahalli -Manavarthekaval, Karnataka - 560109",
-        "city": "Bengaluru",
-        "slug": "vibhinna-fitness-club-kanakapura-main-road-bengaluru",
-        "rating": 0,
-        "bookable": false,
-        "minPrice": null,
-        "charts": [],
-        "marker-color": "#8290a3"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           77.79029590733606,
           12.900742563941346
         ]
@@ -28164,7 +28273,7 @@
         "address": "Soukya Road, Thirumalashettyhally, Koralur, Karnataka 560117",
         "city": "Bengaluru",
         "slug": "bgr-sportzz-thirumalashettyhally-bengaluru",
-        "rating": 2.9,
+        "rating": 3,
         "bookable": true,
         "minPrice": 900,
         "charts": [
