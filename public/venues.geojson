@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-11-19T08:19:58.430Z",
+  "updatedAt": "2026-11-20T08:00:09.355Z",
   "features": [
     {
       "type": "Feature",
@@ -3257,7 +3257,7 @@
             ]
           },
           {
-            "name": "Football 11 a side",
+            "name": "Football 9 a side",
             "days": [
               {
                 "day": "Monday - Friday",
@@ -18517,7 +18517,7 @@
         "address": "No 34/1, 14th Cross Road, Ittamadu, Banashankari 3rd Stage, Banashankari, Bengaluru, Karnataka - 560085",
         "city": "Bengaluru",
         "slug": "sri-vision-sports-club-ittamadu-bengaluru",
-        "rating": 4.3,
+        "rating": 4.4,
         "bookable": true,
         "minPrice": 699,
         "charts": [
@@ -18664,6 +18664,74 @@
           }
         ],
         "marker-color": "#26a879"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.62363551078573,
+          12.837982685536845
+        ]
+      },
+      "properties": {
+        "id": "898178b2-daf9-4e9c-88a1-70cd6ded2d39",
+        "name": "Elephants Youth Cricket Academy - EYCA",
+        "area": "Mylasandra",
+        "address": "Begur - Koppa Road, Ramesh Reddy Layout, Bettadasanapura, Mylasandra, Bengaluru, Karnataka - 560068",
+        "city": "Bengaluru",
+        "slug": "elephants-youth-cricket-academy-eyca-mylasandra-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 500,
+        "charts": [
+          {
+            "name": "Football",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "05:30 AM - 05:30 PM",
+                    "price": 500
+                  },
+                  {
+                    "time": "05:30 PM - 11:30 PM",
+                    "price": 800
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "05:30 AM - 05:30 PM",
+                    "price": 700
+                  },
+                  {
+                    "time": "05:30 PM - 11:30 PM",
+                    "price": 1000
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "05:30 AM - 05:30 PM",
+                    "price": 700
+                  },
+                  {
+                    "time": "05:30 PM - 11:30 PM",
+                    "price": 1000
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#438df4"
       }
     },
     {
@@ -22584,11 +22652,11 @@
             "name": "Football 7 a side",
             "days": [
               {
-                "day": "Monday - Friday",
+                "day": "Monday - Sunday",
                 "times": [
                   {
                     "time": "05:00 AM - 09:00 AM",
-                    "price": 1500
+                    "price": 1800
                   },
                   {
                     "time": "09:00 AM - 05:00 PM",
@@ -22596,16 +22664,7 @@
                   },
                   {
                     "time": "05:00 PM - 12:00 AM",
-                    "price": 1500
-                  }
-                ]
-              },
-              {
-                "day": "Saturday - Sunday",
-                "times": [
-                  {
-                    "time": "05:00 AM - 12:00 AM",
-                    "price": 1500
+                    "price": 1800
                   }
                 ]
               },
@@ -22613,8 +22672,16 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "05:00 AM - 12:00 AM",
+                    "time": "05:00 AM - 09:00 AM",
+                    "price": 1800
+                  },
+                  {
+                    "time": "09:00 AM - 05:00 PM",
                     "price": 1500
+                  },
+                  {
+                    "time": "05:00 PM - 12:00 AM",
+                    "price": 1800
                   }
                 ]
               }
@@ -31621,6 +31688,62 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          77.48695801162854,
+          12.929493351217424
+        ]
+      },
+      "properties": {
+        "id": "81b041e4-14e9-4faa-8a15-00e2be0a87dd",
+        "name": "Dink And Drive",
+        "area": "Kengeri Satellite Town",
+        "address": "Outer Ring Road, opposite Church Bus Stop, Valagerahalli, Shirke Layout, Kengeri Satellite Town, Bengaluru, Karnataka - 560060",
+        "city": "Bengaluru",
+        "slug": "dink-and-drive-kengeri-satellite-town-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 1100,
+        "charts": [
+          {
+            "name": "Football 7 a side",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 1100
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 1200
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 1200
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#e7953a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           77.81297996615709,
           12.975713070561765
         ]
@@ -34949,7 +35072,7 @@
         "slug": "bagalur-sports-arena-bagalur-bengaluru",
         "rating": 5,
         "bookable": true,
-        "minPrice": 1100,
+        "minPrice": 1700,
         "charts": [
           {
             "name": "Football 11 a side",
@@ -34998,14 +35121,14 @@
             ]
           },
           {
-            "name": "Football 6 a side",
+            "name": "Football 7 a side",
             "days": [
               {
                 "day": "Monday - Sunday",
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 PM",
-                    "price": 1100
+                    "price": 1700
                   }
                 ]
               },
@@ -35014,14 +35137,14 @@
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 PM",
-                    "price": 1100
+                    "price": 1700
                   }
                 ]
               }
             ]
           }
         ],
-        "marker-color": "#e7953a"
+        "marker-color": "#26a879"
       }
     },
     {
