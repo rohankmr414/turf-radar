@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-11-20T08:00:09.355Z",
+  "updatedAt": "2026-11-21T07:57:28.266Z",
   "features": [
     {
       "type": "Feature",
@@ -27531,6 +27531,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          77.53584025445481,
+          12.85676034778096
+        ]
+      },
+      "properties": {
+        "id": "d2a8b194-e824-4db2-8351-6ce22b62f106",
+        "name": "Vibhinna Fitness Club",
+        "area": "Talaghattapura",
+        "address": "Pillar #291, Through, Vakil Garden City, Kanakapura Main Road, Talaghattapura, Uttarahalli -Manavarthekaval, Karnataka - 560109",
+        "city": "Bengaluru",
+        "slug": "vibhinna-fitness-club-talaghattapura-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 1200,
+        "charts": [
+          {
+            "name": "Football 5 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "12:00 AM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#e7953a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           77.79029590733606,
           12.900742563941346
         ]
@@ -35429,7 +35476,7 @@
         "address": "Gangondanahalli Village, Gangondanahalli, Bangalore, Karnataka - 562162",
         "city": "Bengaluru",
         "slug": "proplay-playpoint-sports-arena-gangondanahalli-bengaluru",
-        "rating": 3.5,
+        "rating": 3,
         "bookable": true,
         "minPrice": 600,
         "charts": [
