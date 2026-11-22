@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-11-21T07:57:28.266Z",
+  "updatedAt": "2026-11-22T07:42:52.875Z",
   "features": [
     {
       "type": "Feature",
@@ -18996,7 +18996,7 @@
         "address": "20, Vinay Guruji Ashram Road, Uttarahalli Hobli, Bengaluru, Karnataka 560061",
         "city": "Bengaluru",
         "slug": "elite-sports-academy-hk-international-school-bengaluru",
-        "rating": 3.9,
+        "rating": 3.6,
         "bookable": true,
         "minPrice": 800,
         "charts": [
@@ -31673,6 +31673,62 @@
                 "times": [
                   {
                     "time": "04:00 AM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#e7953a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.62144560794285,
+          13.099390573130412
+        ]
+      },
+      "properties": {
+        "id": "3e4b0498-7e54-4d08-82be-8cdab1a09a94",
+        "name": "TSG Turf Sports Arena",
+        "area": "Agrahara Layout, Kogilu",
+        "address": "Agrahara Layout Main Road, Agrahara Badavane, Kogilu, opp. to DS Max Synergy Apartments, North Bangalore, Bengaluru, Karnataka 560064",
+        "city": "Bengaluru",
+        "slug": "tsg-turf-sports-arena-agrahara-layout-kogilu-bengaluru",
+        "rating": 3.6,
+        "bookable": true,
+        "minPrice": 1000,
+        "charts": [
+          {
+            "name": "Football 6 a side",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "04:00 PM - 10:00 PM",
+                    "price": 1000
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 1200
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
                     "price": 1200
                   }
                 ]
