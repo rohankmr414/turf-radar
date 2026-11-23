@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-11-22T07:42:52.875Z",
+  "updatedAt": "2026-11-23T08:32:34.717Z",
   "features": [
     {
       "type": "Feature",
@@ -11614,7 +11614,7 @@
         "address": "Sy.No 303, Kachamaranahalli, Gunjur Road, Bangalore - 560087",
         "city": "Bengaluru",
         "slug": "sport-z-gunjur-bengaluru",
-        "rating": 4.2,
+        "rating": 4.3,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
@@ -13939,7 +13939,7 @@
                     "price": 700
                   },
                   {
-                    "time": "05:00 PM - 11:00 PM",
+                    "time": "05:00 PM - 10:30 PM",
                     "price": 1100
                   }
                 ]
@@ -13952,7 +13952,7 @@
                     "price": 900
                   },
                   {
-                    "time": "05:00 PM - 11:00 PM",
+                    "time": "05:00 PM - 10:30 PM",
                     "price": 1200
                   }
                 ]
@@ -13965,7 +13965,7 @@
                     "price": 900
                   },
                   {
-                    "time": "05:00 PM - 11:00 PM",
+                    "time": "05:00 PM - 10:30 PM",
                     "price": 1200
                   }
                 ]
@@ -15414,7 +15414,7 @@
                     "price": 1000
                   },
                   {
-                    "time": "06:00 PM - 10:00 PM",
+                    "time": "06:00 PM - 10:30 PM",
                     "price": 800
                   }
                 ]
@@ -15435,7 +15435,7 @@
                     "price": 1100
                   },
                   {
-                    "time": "07:00 PM - 10:00 PM",
+                    "time": "07:00 PM - 10:30 PM",
                     "price": 800
                   }
                 ]
@@ -15452,7 +15452,7 @@
                     "price": 1000
                   },
                   {
-                    "time": "06:00 PM - 10:00 PM",
+                    "time": "06:00 PM - 10:30 PM",
                     "price": 800
                   }
                 ]
@@ -15473,7 +15473,7 @@
                     "price": 1100
                   },
                   {
-                    "time": "07:00 PM - 10:00 PM",
+                    "time": "07:00 PM - 10:30 PM",
                     "price": 800
                   }
                 ]
@@ -15490,7 +15490,7 @@
                     "price": 1600
                   },
                   {
-                    "time": "06:00 PM - 10:00 PM",
+                    "time": "06:00 PM - 10:30 PM",
                     "price": 1100
                   }
                 ]
@@ -15521,7 +15521,7 @@
                     "price": 800
                   },
                   {
-                    "time": "06:00 PM - 10:00 PM",
+                    "time": "06:00 PM - 10:30 PM",
                     "price": 800
                   }
                 ]
@@ -15530,7 +15530,7 @@
                 "day": "Saturday - Sunday",
                 "times": [
                   {
-                    "time": "05:00 AM - 10:00 PM",
+                    "time": "05:00 AM - 10:30 PM",
                     "price": 1100
                   }
                 ]
@@ -15539,8 +15539,8 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "05:00 AM - 10:00 PM",
-                    "price": 1000
+                    "time": "05:00 AM - 10:30 PM",
+                    "price": 1100
                   }
                 ]
               }
@@ -20823,7 +20823,7 @@
         "address": "228/4, S. Bingipura, Electronic City Phase 1, Electronic City, Bengaluru, Karnataka 560105",
         "city": "Bengaluru",
         "slug": "bs-sports-school-electronic-city-bengaluru",
-        "rating": 4.2,
+        "rating": 3.7,
         "bookable": true,
         "minPrice": 1200,
         "charts": [
@@ -25506,7 +25506,7 @@
         "slug": "playvolt-formerly-playvue-yeshwanthpur-bengaluru",
         "rating": 5,
         "bookable": true,
-        "minPrice": 1800,
+        "minPrice": 1399,
         "charts": [
           {
             "name": "Football 5 a side",
@@ -25515,8 +25515,16 @@
                 "day": "Monday - Sunday",
                 "times": [
                   {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1800
+                    "time": "12:00 AM - 06:00 AM",
+                    "price": 1699
+                  },
+                  {
+                    "time": "06:00 AM - 05:00 PM",
+                    "price": 1399
+                  },
+                  {
+                    "time": "05:00 PM - 12:00 AM",
+                    "price": 1699
                   }
                 ]
               },
@@ -25524,15 +25532,23 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "12:00 AM - 12:00 AM",
-                    "price": 1800
+                    "time": "12:00 AM - 06:00 AM",
+                    "price": 1699
+                  },
+                  {
+                    "time": "06:00 AM - 05:00 PM",
+                    "price": 1399
+                  },
+                  {
+                    "time": "05:00 PM - 12:00 AM",
+                    "price": 1699
                   }
                 ]
               }
             ]
           }
         ],
-        "marker-color": "#26a879"
+        "marker-color": "#e7953a"
       }
     },
     {
