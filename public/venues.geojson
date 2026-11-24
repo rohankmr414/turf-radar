@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-11-23T08:32:34.717Z",
+  "updatedAt": "2026-11-24T10:39:25.416Z",
   "features": [
     {
       "type": "Feature",
@@ -4897,6 +4897,53 @@
         "minPrice": null,
         "charts": [],
         "marker-color": "#8290a3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.62476548902168,
+          12.891774462051549
+        ]
+      },
+      "properties": {
+        "id": "508d407f-d271-4f84-8104-91d246b1b66b",
+        "name": "CMR Sports Hub",
+        "area": "Hongasandra",
+        "address": "90/2, 11th Main, 2nd Cross, CMR Layout, Begur Road, Hongasandra, Bangalore 560068",
+        "city": "Bengaluru",
+        "slug": "cmr-sports-hub-hongasandra-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 2500,
+        "charts": [
+          {
+            "name": "Football 7 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "05:00 AM - 11:00 PM",
+                    "price": 2500
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "05:00 AM - 11:00 PM",
+                    "price": 2500
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#26a879"
       }
     },
     {
@@ -14266,7 +14313,7 @@
         "address": "37/4, Lecaprio Road, Near OM Residency Layout, Kodigehalli, K R Puram Bangalore 560049",
         "city": "Bengaluru",
         "slug": "lecaprio-arena-kr-puram-bengaluru",
-        "rating": 4.5,
+        "rating": 4.4,
         "bookable": true,
         "minPrice": 500,
         "charts": [
@@ -17487,7 +17534,7 @@
         "address": "Sports X - No. 91/4, Veeranna Palya, Nagawara Ring Road, Near Manyata Tech Park,Opposite BEL Corporate Office, Nagavara",
         "city": "Bengaluru",
         "slug": "x-arena-nagavara-bengaluru",
-        "rating": 3.6,
+        "rating": 3.5,
         "bookable": true,
         "minPrice": 600,
         "charts": [
@@ -36590,6 +36637,126 @@
           }
         ],
         "marker-color": "#26a879"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.52494677348055,
+          13.122612135500239
+        ]
+      },
+      "properties": {
+        "id": "f220a7f8-07dd-498e-a16f-07af18666219",
+        "name": "Proplay - Skillzcraft Sports Arena",
+        "area": "Mavallipura",
+        "address": "Proplay - skillzcraft sports arena ,Mavallipura, Karnataka 560089",
+        "city": "Bengaluru",
+        "slug": "proplay-skillzcraft-sports-arena-mavallipura-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 800,
+        "charts": [
+          {
+            "name": "Football 11 a side",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 2000
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 2400
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 2400
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 7 a side",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 1400
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 1800
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 1800
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 5 a side",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 800
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 AM",
+                    "price": 1200
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#438df4"
       }
     },
     {
