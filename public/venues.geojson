@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-11-24T10:39:25.416Z",
+  "updatedAt": "2026-11-25T09:29:44.484Z",
   "features": [
     {
       "type": "Feature",
@@ -13778,6 +13778,70 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          77.70261015727381,
+          13.021872963263455
+        ]
+      },
+      "properties": {
+        "id": "f23b7f17-95c8-4224-9853-872b28146f2b",
+        "name": "Agniputhra Multisports Academy",
+        "area": "KR Puram",
+        "address": "Agniputhra multisports academy, Don Bosco college Campus, TC palya main road, KR Puram, Bangalore - 560036",
+        "city": "Bengaluru",
+        "slug": "agniputhra-multisports-academy-kr-puram-bengaluru",
+        "rating": 5,
+        "bookable": true,
+        "minPrice": 6000,
+        "charts": [
+          {
+            "name": "Football 9 a side",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 PM",
+                    "price": 6000
+                  },
+                  {
+                    "time": "01:30 PM - 04:30 PM",
+                    "price": 6000
+                  },
+                  {
+                    "time": "06:00 PM - 11:00 PM",
+                    "price": 6000
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 6000
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 6000
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#26a879"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           77.59813583815607,
           13.021197458197644
         ]
@@ -14926,7 +14990,7 @@
         "address": "3rd Vaddarapalya Horamavu Agara Main Road, 3rd Cross Road, Bengaluru, Karnataka - 560045",
         "city": "Bengaluru",
         "slug": "x-sports-arena-horamavu-bengaluru",
-        "rating": 5,
+        "rating": 3.7,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
@@ -25185,29 +25249,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.63856428195402,
-          13.07450055224702
-        ]
-      },
-      "properties": {
-        "id": "0c350c93-665d-47da-b3f2-e66245b8a883",
-        "name": "S J Sports Arena",
-        "area": "Rk Hegde Nagar",
-        "address": "S J Sports Arena, Next To Masjid E Ali, Nagareshwara Nagenahalli, Police Quarters, Rk Hegde Nagar, Bengaluru, Karnataka - 560077",
-        "city": "Bengaluru",
-        "slug": "s-j-sports-arena-rk-hegde-nagar-bengaluru",
-        "rating": 0,
-        "bookable": false,
-        "minPrice": null,
-        "charts": [],
-        "marker-color": "#8290a3"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           77.54076682407411,
           12.866557404821636
         ]
@@ -28586,53 +28627,6 @@
                   {
                     "time": "05:00 AM - 10:00 PM",
                     "price": 1000
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "marker-color": "#e7953a"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.7430501063538,
-          13.058074711406986
-        ]
-      },
-      "properties": {
-        "id": "472698a8-43da-44d5-b494-0040ff0f1837",
-        "name": "FerroHub Sports | Budigere",
-        "area": "Old Madras Road",
-        "address": "112 Cheemsandra Village, Old Madras Road, Road (Airport Link Road, beside SKB, Budigere Cross, Bengaluru, Karnataka - 560049",
-        "city": "Bengaluru",
-        "slug": "ferrohub-sports-|-budigere-old-madras-road-bengaluru",
-        "rating": 4.6,
-        "bookable": true,
-        "minPrice": 1200,
-        "charts": [
-          {
-            "name": "Football Indoor 5 a side",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "06:00 AM - 11:00 PM",
-                    "price": 1200
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "06:00 AM - 11:00 PM",
-                    "price": 1200
                   }
                 ]
               }
