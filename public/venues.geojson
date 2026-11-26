@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-11-25T09:29:44.484Z",
+  "updatedAt": "2026-11-26T09:07:38.106Z",
   "features": [
     {
       "type": "Feature",
@@ -5345,7 +5345,7 @@
         "address": "ITPL Simba, Dodda Nekkundi Extension, Doddanekkundi, Bengaluru, Karnataka 560037",
         "city": "Bengaluru",
         "slug": "ekya-itpl-simba-sports-doddanekkundi-bengaluru",
-        "rating": 5,
+        "rating": 4.8,
         "bookable": true,
         "minPrice": 1200,
         "charts": [
@@ -13791,7 +13791,7 @@
         "slug": "agniputhra-multisports-academy-kr-puram-bengaluru",
         "rating": 5,
         "bookable": true,
-        "minPrice": 6000,
+        "minPrice": 4720,
         "charts": [
           {
             "name": "Football 9 a side",
@@ -13801,15 +13801,15 @@
                 "times": [
                   {
                     "time": "06:00 AM - 12:00 PM",
-                    "price": 6000
+                    "price": 7080
                   },
                   {
                     "time": "01:30 PM - 04:30 PM",
-                    "price": 6000
+                    "price": 7080
                   },
                   {
                     "time": "06:00 PM - 11:00 PM",
-                    "price": 6000
+                    "price": 7080
                   }
                 ]
               },
@@ -13818,7 +13818,7 @@
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 PM",
-                    "price": 6000
+                    "price": 7080
                   }
                 ]
               },
@@ -13827,7 +13827,47 @@
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 PM",
-                    "price": 6000
+                    "price": 7080
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 5 a side",
+            "days": [
+              {
+                "day": "Monday - Friday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 12:00 PM",
+                    "price": 4720
+                  },
+                  {
+                    "time": "03:30 PM - 04:30 PM",
+                    "price": 4720
+                  },
+                  {
+                    "time": "06:00 PM - 11:00 PM",
+                    "price": 4720
+                  }
+                ]
+              },
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 4720
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 4720
                   }
                 ]
               }
@@ -16067,7 +16107,7 @@
         "slug": "jaidev-sports-academy-varthur-hobli-bengaluru",
         "rating": 5,
         "bookable": true,
-        "minPrice": 2500,
+        "minPrice": 1600,
         "charts": [
           {
             "name": "Football 7 a side",
@@ -16077,7 +16117,7 @@
                 "times": [
                   {
                     "time": "12:00 AM - 12:00 AM",
-                    "price": 2500
+                    "price": 1600
                   }
                 ]
               },
@@ -16086,7 +16126,7 @@
                 "times": [
                   {
                     "time": "12:00 AM - 12:00 AM",
-                    "price": 2500
+                    "price": 1600
                   }
                 ]
               }
@@ -16874,7 +16914,7 @@
         "address": "Chamundi Nagar, Hebbal, Bengaluru, Karnataka - 560032",
         "city": "Bengaluru",
         "slug": "subhash-school-turf-hebbal-bengaluru",
-        "rating": 2.5,
+        "rating": 2.4,
         "bookable": true,
         "minPrice": 800,
         "charts": [
@@ -24561,7 +24601,7 @@
         "minPrice": 1800,
         "charts": [
           {
-            "name": "Football 6 a side",
+            "name": "Football",
             "days": [
               {
                 "day": "Monday - Sunday",
@@ -24584,7 +24624,7 @@
             ]
           },
           {
-            "name": "Football 9 a side",
+            "name": "Football",
             "days": [
               {
                 "day": "Monday - Sunday",
@@ -24607,7 +24647,7 @@
             ]
           },
           {
-            "name": "Football 7 a side",
+            "name": "Football",
             "days": [
               {
                 "day": "Monday - Sunday",
@@ -25723,7 +25763,7 @@
         "address": "#9/1, Kalegowda layout, Bemel layout, Rajarajeshwari nagar, Bangalore 560098",
         "city": "Bengaluru",
         "slug": "the-sports-villa-wave-zone-rajarajeshwari-nagar-bengaluru",
-        "rating": 4.3,
+        "rating": 4.4,
         "bookable": true,
         "minPrice": 799,
         "charts": [
@@ -29861,7 +29901,7 @@
         "address": "Nagarbhavi, Vidya Vahini School, RHCS Layout, Bangalore 560091",
         "city": "Bengaluru",
         "slug": "siuuu-7-sports-arena-nagarabhavi-rhcs-layout-bengaluru",
-        "rating": 4.3,
+        "rating": 4.4,
         "bookable": true,
         "minPrice": 1200,
         "charts": [
