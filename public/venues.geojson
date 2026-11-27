@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-11-26T09:07:38.106Z",
+  "updatedAt": "2026-11-27T09:23:17.816Z",
   "features": [
     {
       "type": "Feature",
@@ -1310,7 +1310,7 @@
         "slug": "play-arena-off-sarjapur-road-bengaluru",
         "rating": 3.9,
         "bookable": true,
-        "minPrice": 3000,
+        "minPrice": 3500,
         "charts": [
           {
             "name": "Football Pavilion Turf",
@@ -1338,29 +1338,6 @@
                   {
                     "time": "05:00 AM - 12:00 AM",
                     "price": 3500
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Football 8 a side - Turf 2",
-            "days": [
-              {
-                "day": "Monday - Sunday",
-                "times": [
-                  {
-                    "time": "05:00 AM - 11:00 PM",
-                    "price": 3000
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "05:00 AM - 11:00 PM",
-                    "price": 3000
                   }
                 ]
               }
@@ -5360,7 +5337,7 @@
                     "price": 1200
                   },
                   {
-                    "time": "04:30 PM - 11:00 PM",
+                    "time": "04:30 PM - 10:30 PM",
                     "price": 1200
                   }
                 ]
@@ -5369,7 +5346,7 @@
                 "day": "Saturday - Sunday",
                 "times": [
                   {
-                    "time": "05:00 AM - 11:00 PM",
+                    "time": "05:00 AM - 10:30 PM",
                     "price": 1200
                   }
                 ]
@@ -5378,7 +5355,7 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "05:00 AM - 11:00 PM",
+                    "time": "05:00 AM - 10:30 PM",
                     "price": 1200
                   }
                 ]
@@ -5396,7 +5373,7 @@
                     "price": 1800
                   },
                   {
-                    "time": "04:30 PM - 11:00 PM",
+                    "time": "04:30 PM - 10:30 PM",
                     "price": 1800
                   }
                 ]
@@ -5405,7 +5382,7 @@
                 "day": "Saturday - Sunday",
                 "times": [
                   {
-                    "time": "05:00 AM - 11:00 PM",
+                    "time": "05:00 AM - 10:30 PM",
                     "price": 1800
                   }
                 ]
@@ -5414,7 +5391,7 @@
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "05:00 AM - 11:00 PM",
+                    "time": "05:00 AM - 10:30 PM",
                     "price": 1800
                   }
                 ]
@@ -10894,7 +10871,7 @@
             "name": "Football 5 a side",
             "days": [
               {
-                "day": "Monday - Sunday",
+                "day": "Monday - Friday",
                 "times": [
                   {
                     "time": "03:00 PM - 06:00 PM",
@@ -10903,10 +10880,19 @@
                 ]
               },
               {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 1500
+                  }
+                ]
+              },
+              {
                 "day": "Holiday(s)",
                 "times": [
                   {
-                    "time": "03:00 PM - 06:00 PM",
+                    "time": "06:00 AM - 11:00 PM",
                     "price": 1500
                   }
                 ]
@@ -28667,6 +28653,53 @@
                   {
                     "time": "05:00 AM - 10:00 PM",
                     "price": 1000
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marker-color": "#e7953a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7430501063538,
+          13.058074711406986
+        ]
+      },
+      "properties": {
+        "id": "472698a8-43da-44d5-b494-0040ff0f1837",
+        "name": "FerroHub Sports | Budigere",
+        "area": "Old Madras Road",
+        "address": "112 Cheemsandra Village, Old Madras Road, Road (Airport Link Road, beside SKB, Budigere Cross, Bengaluru, Karnataka - 560049",
+        "city": "Bengaluru",
+        "slug": "ferrohub-sports-|-budigere-old-madras-road-bengaluru",
+        "rating": 4.6,
+        "bookable": true,
+        "minPrice": 1200,
+        "charts": [
+          {
+            "name": "Football Indoor 5 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 1200
+                  }
+                ]
+              },
+              {
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 1200
                   }
                 ]
               }
