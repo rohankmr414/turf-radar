@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updatedAt": "2026-11-27T09:23:17.816Z",
+  "updatedAt": "2026-11-28T08:39:46.837Z",
   "features": [
     {
       "type": "Feature",
@@ -17499,7 +17499,7 @@
         "area": "KR Puram",
         "address": "Kodigehalli Main Rd, Shakti Layout, Sadaramangala, Krishnarajapuram, Bengaluru, Karnataka 560067",
         "city": "Bengaluru",
-        "slug": "1bfc-turf-arena-kr-puram-bengaluru",
+        "slug": "bfc-turf-arena-kr-puram-bengaluru",
         "rating": 2.4,
         "bookable": true,
         "minPrice": 999,
@@ -18422,7 +18422,7 @@
         "address": "22, 6th Cross Road, kakathiya Nagar, Banashankari 3rd Stage, Chikkalasandra, Bengaluru, Karnataka - 560085",
         "city": "Bengaluru",
         "slug": "top-game-chikkalasandra-bengaluru",
-        "rating": 3.6,
+        "rating": 3.4,
         "bookable": true,
         "minPrice": 700,
         "charts": [
@@ -19189,7 +19189,7 @@
         "address": "16/17, Dattatreya Nagar, Banashankari 3rd Stage, Hosakerehalli, Bengaluru, Karnataka - 560085",
         "city": "Bengaluru",
         "slug": "sprintplay-sports-arena-hosakerehalli-bengaluru",
-        "rating": 4.5,
+        "rating": 4.6,
         "bookable": true,
         "minPrice": 1000,
         "charts": [
@@ -20872,7 +20872,7 @@
         "address": "Hanumagiri Hills Road, AGS Layout, Srinivas Nagar, Hosakerehalli, Bengaluru, Karnataka - 560061",
         "city": "Bengaluru",
         "slug": "sports-aura-hosakerehalli-bengaluru",
-        "rating": 5,
+        "rating": 4.8,
         "bookable": true,
         "minPrice": 900,
         "charts": [
@@ -31934,8 +31934,22 @@
         "slug": "dink-and-drive-kengeri-satellite-town-bengaluru",
         "rating": 5,
         "bookable": true,
-        "minPrice": 1100,
+        "minPrice": 1,
         "charts": [
+          {
+            "name": "Football 7 a side \n(Applicable: 28th Nov - 29th Nov)",
+            "days": [
+              {
+                "day": "Saturday - Sunday",
+                "times": [
+                  {
+                    "time": "06:00 AM - 11:00 PM",
+                    "price": 1
+                  }
+                ]
+              }
+            ]
+          },
           {
             "name": "Football 7 a side",
             "days": [
@@ -31969,7 +31983,7 @@
             ]
           }
         ],
-        "marker-color": "#e7953a"
+        "marker-color": "#438df4"
       }
     },
     {
@@ -33068,22 +33082,36 @@
         "slug": "bangalore-super-strikers-fc-residential-club-marsur-bengaluru",
         "rating": 5,
         "bookable": true,
-        "minPrice": 550,
+        "minPrice": 1200,
         "charts": [
           {
             "name": "Football 8 a side",
             "days": [
               {
-                "day": "Monday - Thursday",
+                "day": "Monday - Sunday",
                 "times": [
                   {
                     "time": "05:00 AM - 11:00 PM",
-                    "price": 1100
+                    "price": 2400
                   }
                 ]
               },
               {
-                "day": "Friday - Sunday",
+                "day": "Holiday(s)",
+                "times": [
+                  {
+                    "time": "05:00 AM - 11:00 PM",
+                    "price": 2400
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Football 5 a side",
+            "days": [
+              {
+                "day": "Monday - Sunday",
                 "times": [
                   {
                     "time": "05:00 AM - 11:00 PM",
@@ -33096,39 +33124,7 @@
                 "times": [
                   {
                     "time": "05:00 AM - 11:00 PM",
-                    "price": 1100
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Football 5 a side",
-            "days": [
-              {
-                "day": "Monday - Thursday",
-                "times": [
-                  {
-                    "time": "05:00 AM - 11:00 PM",
-                    "price": 550
-                  }
-                ]
-              },
-              {
-                "day": "Friday - Sunday",
-                "times": [
-                  {
-                    "time": "05:00 AM - 11:00 PM",
-                    "price": 600
-                  }
-                ]
-              },
-              {
-                "day": "Holiday(s)",
-                "times": [
-                  {
-                    "time": "05:00 AM - 11:00 PM",
-                    "price": 550
+                    "price": 1200
                   }
                 ]
               }
@@ -33158,7 +33154,7 @@
             ]
           }
         ],
-        "marker-color": "#438df4"
+        "marker-color": "#e7953a"
       }
     },
     {
@@ -33893,7 +33889,7 @@
         "slug": "g-krishna-legacy-sports-arena-yelahanka-bengaluru",
         "rating": 5,
         "bookable": true,
-        "minPrice": 1180,
+        "minPrice": 1400,
         "charts": [
           {
             "name": "Football 8 a side",
@@ -33902,11 +33898,7 @@
                 "day": "Monday - Friday",
                 "times": [
                   {
-                    "time": "06:00 AM - 05:00 PM",
-                    "price": 1180
-                  },
-                  {
-                    "time": "05:00 PM - 11:00 PM",
+                    "time": "06:00 AM - 11:00 PM",
                     "price": 1400
                   }
                 ]
@@ -33916,7 +33908,7 @@
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 PM",
-                    "price": 1510
+                    "price": 1600
                   }
                 ]
               },
@@ -33925,7 +33917,7 @@
                 "times": [
                   {
                     "time": "06:00 AM - 11:00 PM",
-                    "price": 1510
+                    "price": 1600
                   }
                 ]
               }
